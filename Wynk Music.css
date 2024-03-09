@@ -4088,7 +4088,7 @@ body {
     height: 40px;
     cursor: pointer;
     background-size: cover;
-    background-image: url(newspotify/backward-step-solid.svg);
+    background-image: url(backward-step-solid.svg);
 }
 
 .playCircleOnly {
@@ -4097,7 +4097,7 @@ body {
     cursor: pointer;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(newspotify/play-solid.svg);
+    background-image: url(play-solid.svg);
 }
 
 .ForWordPlay {
@@ -4106,7 +4106,7 @@ body {
     cursor: pointer;
     background-size: cover;
     /* background-color: chartreuse; */
-    background-image: url(newspotify/forward-step-solid.svg);
+    background-image: url(forward-step-solid.svg);
 }
 
 
@@ -4115,7 +4115,7 @@ body {
     height: 40px;
     cursor: pointer;
     background-size: cover;
-    background-image: url(newspotify/backward-step-solid.svg);
+    background-image: url(backward-step-solid.svg);
 }
 
 .playCircleOnlyMain {
@@ -4124,7 +4124,7 @@ body {
     cursor: pointer;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(newspotify/play-solid.svg);
+    background-image: url(play-solid.svg);
 }
 
 .pauseCircleOnlyMain {
@@ -4133,7 +4133,7 @@ body {
     cursor: pointer;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(newspotify/pause-solid.svg);
+    background-image: url(pause-solid.svg);
 }
 
 .ForWordPlayMain {
@@ -4141,7 +4141,7 @@ body {
     height: 40px;
     cursor: pointer;
     background-size: cover;
-    background-image: url(newspotify/forward-step-solid.svg);
+    background-image: url(forward-step-solid.svg);
 }
 
 .infoSongs {
