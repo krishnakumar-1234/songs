@@ -4,7 +4,7 @@ console.log("Hello world");
 // This is  one song of js and ------------------
 const player = document.getElementById('player');
 const playcircle = document.getElementById('playcircle');
-let audio1 = new Audio('dukan images/Unstoppable Sia 128 Kbps.mp3')
+let audio1 = new Audio('Unstoppable Sia 128 Kbps.mp3')
 
 player.addEventListener('click', () => {
     if (audio1.paused || audio1.currentTime <= 0) {
@@ -53,7 +53,7 @@ playcirclePause.addEventListener('click', () => {
 const player2 = document.getElementById('player2');
 const playcircle2 = document.getElementById('playcircle2');
 const playcirclePause2 = document.getElementById('playcirclePause2');
-let audio2 = new Audio('dukan images/Shape-of-You-(Lofi)(PagalWorldl).mp3')
+let audio2 = new Audio('Shape-of-You-(Lofi)(PagalWorldl).mp3')
 player2.addEventListener('click', () => {
     console.log("This is two song foe you")
     if (audio2.paused || audio2.currentTime <= 0) {
@@ -96,7 +96,7 @@ playcirclePause2.addEventListener('click', () => {
 const player3 = document.getElementById('player3');
 const playcircle3 = document.getElementById('playcircle3');
 const playcirclePause3 = document.getElementById('playcirclePause3');
-let audio3 = new Audio('dukan images/Let-Me-Down-Slowly(PagalWorldl).mp3');
+let audio3 = new Audio('Let-Me-Down-Slowly(PagalWorldl).mp3');
 
 player3.addEventListener('click', () => {
     console.log("This is three sonsg for you")
@@ -144,7 +144,7 @@ playcirclePause3.addEventListener('click', () => {
 const player4 = document.getElementById('player4');
 const playcircle4 = document.getElementById('playcircle4');
 const playcirclePause4 = document.getElementById('playcirclePause4');
-let audio4 = new Audio('dukan images/Unholy-(Slowed-and-Reverb)(PagalWorldl).mp3');
+let audio4 = new Audio('Unholy-(Slowed-and-Reverb)(PagalWorldl).mp3');
 
 player4.addEventListener('click', () => {
     if (audio4.paused || audio4.currentTime <= 0) {
@@ -182,7 +182,7 @@ playcirclePause4.addEventListener('click', () => {
 const player5 = document.getElementById('player5');
 const playcircle5 = document.getElementById('playcircle5');
 const playcirclePause5 = document.getElementById('playcirclePause5');
-let audio5 = new Audio('dukan images/Senorita---Camila-Cabello(PagalWorldl).mp3');
+let audio5 = new Audio('Senorita---Camila-Cabello(PagalWorldl).mp3');
 
 player5.addEventListener('click', () => {
     if (audio5.paused || audio5.currentTime <= 0) {
@@ -216,7 +216,7 @@ playcirclePause5.addEventListener('click', () => {
 
 
 const player6 = document.getElementById('player6');
-let audio6 = new Audio('dukan images/baila conmingo.mp3')
+let audio6 = new Audio('baila conmingo.mp3')
 const playcircle6 = document.getElementById('playcircle6');
 const playcirclePause6 = document.getElementById('playcirclePause6');
 
@@ -251,7 +251,7 @@ playcirclePause6.addEventListener('click', () => {
 
 
 const player7 = document.getElementById('player7');
-let audio7 = new Audio('dukan images/electric.mp3');
+let audio7 = new Audio('electric.mp3');
 const playcircle7 = document.getElementById('playcircle7');
 const playcirclePause7 = document.getElementById('playcirclePause7');
 
@@ -286,7 +286,7 @@ playcirclePause7.addEventListener('click', () => {
 
 
 const player8 = document.getElementById('player8');
-let audio8 = new Audio('dukan images/lil mama see.mp3')
+let audio8 = new Audio('lil mama see.mp3')
 const playcircle8 = document.getElementById('playcircle8');
 const playcirclePause8 = document.getElementById('playcirclePause8');
 
@@ -324,7 +324,7 @@ playcirclePause8.addEventListener('click', () => {
 const player9 = document.getElementById('player9');
 const playcircle9 = document.getElementById('playcircle9');
 const playcirclePause9 = document.getElementById('playcirclePause9');
-let audio9 = new Audio('dukan images/Saree Ke Fall Sa R... Rajkumar 128 Kbps.mp3')
+let audio9 = new Audio('Saree Ke Fall Sa R... Rajkumar 128 Kbps.mp3')
 
 player9.addEventListener('click', () => {
     if (audio9.paused || audio9.currentTime <= 0) {
@@ -361,7 +361,7 @@ playcirclePause9.addEventListener('click', () => {
 const player10 = document.getElementById('player10');
 const playcircle10 = document.getElementById('playcircle10');
 const playcirclePause10 = document.getElementById('playcirclePause10');
-let audio10 = new Audio('dukan images/Tere Mast Mast Do Nain Dabangg 128 Kbps.mp3')
+let audio10 = new Audio('Tere Mast Mast Do Nain Dabangg 128 Kbps.mp3')
 
 player10.addEventListener('click', () => {
     if (audio10.paused || audio10.currentTime <= 0) {
@@ -399,7 +399,7 @@ playcirclePause10.addEventListener('click', () => {
 const player11 = document.getElementById('player11');
 const playcircle11 = document.getElementById('playcircle11');
 const playcirclePause11 = document.getElementById('playcirclePause11');
-let audio11 = new Audio('dukan images/Deewane Hum Nahi Hote(Selfiee)(PagalWorld.com.pe).mp3')
+let audio11 = new Audio('Deewane Hum Nahi Hote(Selfiee)(PagalWorld.com.pe).mp3')
 
 player11.addEventListener('click', () => {
     if (audio11.paused || audio11.currentTime <= 0) {
@@ -436,7 +436,7 @@ playcirclePause11.addEventListener('click', () => {
 const player12 = document.getElementById('player12');
 const playcircle12 = document.getElementById('playcircle12');
 const playcirclePause12 = document.getElementById('playcirclePause12');
-let audio12 = new Audio('dukan images/Gotilo(PaglaSongs).mp3')
+let audio12 = new Audio('Gotilo(PaglaSongs).mp3')
 
 player12.addEventListener('click', () => {
     if (audio12.paused || audio12.currentTime <= 0) {
@@ -473,7 +473,7 @@ playcirclePause12.addEventListener('click', () => {
 const player13 = document.getElementById('player13');
 const playcircle13 = document.getElementById('playcircle13');
 const playcirclePause13 = document.getElementById('playcirclePause13');
-let audio13 = new Audio('dukan images/Tere Naam Alka Yagnik 128 Kbps.mp3')
+let audio13 = new Audio('Tere Naam Alka Yagnik 128 Kbps.mp3')
 
 player13.addEventListener('click', () => {
     if (audio13.paused || audio13.currentTime <= 0) {
@@ -509,7 +509,7 @@ playcirclePause13.addEventListener('click', () => {
 const player14 = document.getElementById('player14');
 const playcircle14 = document.getElementById('playcircle14');
 const playcirclePause14 = document.getElementById('playcirclePause14');
-let audio14 = new Audio('dukan images/Kyaa Dil Ne Kahaa Alka Yagnik 128 Kbps.mp3')
+let audio14 = new Audio('Kyaa Dil Ne Kahaa Alka Yagnik 128 Kbps.mp3')
 
 player14.addEventListener('click', () => {
     if (audio14.paused || audio14.currentTime <= 0) {
@@ -549,7 +549,7 @@ playcirclePause14.addEventListener('click', () => {
 const player15 = document.getElementById('player15');
 const playcircle15 = document.getElementById('playcircle15');
 const playcirclePause15 = document.getElementById('playcirclePause15');
-let audio15 = new Audio('dukan images/Milenge Milenge, Ver. 1 Alka Yagnik 128 Kbps.mp3')
+let audio15 = new Audio('Milenge Milenge, Ver. 1 Alka Yagnik 128 Kbps.mp3')
 
 player15.addEventListener('click', () => {
     if (audio15.paused || audio15.currentTime <= 0) {
@@ -587,7 +587,7 @@ playcirclePause15.addEventListener('click', () => {
 const player16 = document.getElementById('player16');
 const playcircle16 = document.getElementById('playcircle16');
 const playcirclePause16 = document.getElementById('playcirclePause16');
-let audio16 = new Audio('dukan images/Ae-Dil-Hai-Mushkil-2.0---RCR(PagalWorldl).mp3')
+let audio16 = new Audio('Ae-Dil-Hai-Mushkil-2.0---RCR(PagalWorldl).mp3')
 
 player16.addEventListener('click', () => {
     if (audio16.paused || audio16.currentTime <= 0) {
@@ -627,7 +627,7 @@ playcirclePause16.addEventListener('click', () => {
 const player17 = document.getElementById('player17');
 const playcircle17 = document.getElementById('playcircle17');
 const playcirclePause17 = document.getElementById('playcirclePause17');
-let audio17 = new Audio('dukan images/Zaroori Tha.mp3')
+let audio17 = new Audio('Zaroori Tha.mp3')
 
 player17.addEventListener('click', () => {
     if (audio17.paused || audio17.currentTime <= 0) {
@@ -665,7 +665,7 @@ playcirclePause17.addEventListener('click', () => {
 const player18 = document.getElementById('player18');
 const playcircle18 = document.getElementById('playcircle18');
 const playcirclePause18 = document.getElementById('playcirclePause18');
-let audio18 = new Audio('dukan images/Aap Ki Khatir Himesh Reshammiya 128 Kbps.mp3')
+let audio18 = new Audio('Aap Ki Khatir Himesh Reshammiya 128 Kbps.mp3')
 
 player18.addEventListener('click', () => {
     if (audio18.paused || audio18.currentTime <= 0) {
@@ -703,7 +703,7 @@ playcirclePause18.addEventListener('click', () => {
 const player19 = document.getElementById('player19');
 const playcircle19 = document.getElementById('playcircle19');
 const playcirclePause19 = document.getElementById('playcirclePause19');
-let audio19 = new Audio('dukan images/Banjaara(PaglaSongs).mp3')
+let audio19 = new Audio('Banjaara(PaglaSongs).mp3')
 
 player19.addEventListener('click', () => {
     if (audio19.paused || audio19.currentTime <= 0) {
@@ -741,7 +741,7 @@ playcirclePause19.addEventListener('click', () => {
 const player20 = document.getElementById('player20');
 const playcircle20 = document.getElementById('playcircle20');
 const playcirclePause20 = document.getElementById('playcirclePause20');
-let audio20 = new Audio('dukan images/Mohabbat Dil Ka Sakoon_192(Ghantalele.com).mp3')
+let audio20 = new Audio('Mohabbat Dil Ka Sakoon_192(Ghantalele.com).mp3')
 
 player20.addEventListener('click', () => {
     if (audio20.paused || audio20.currentTime <= 0) {
@@ -777,7 +777,7 @@ playcirclePause20.addEventListener('click', () => {
 const player21 = document.getElementById('player21');
 const playcircle21 = document.getElementById('playcircle21');
 const playcirclePause21 = document.getElementById('playcirclePause21');
-let audio21 = new Audio('dukan images/Meri Ho Ja Sachet Tandon 128 Kbps.mp3')
+let audio21 = new Audio('Meri Ho Ja Sachet Tandon 128 Kbps.mp3')
 
 player21.addEventListener('click', () => {
     if (audio21.paused || audio21.currentTime <= 0) {
@@ -813,7 +813,7 @@ playcirclePause21.addEventListener('click', () => {
 const player22 = document.getElementById('player22');
 const playcircle22 = document.getElementById('playcircle22');
 const playcirclePause22 = document.getElementById('playcirclePause22');
-let audio22 = new Audio('dukan images/Dahi-Shakkar(PaglaSongs).mp3')
+let audio22 = new Audio('Dahi-Shakkar(PaglaSongs).mp3')
 
 player22.addEventListener('click', () => {
     if (audio22.paused || audio22.currentTime <= 0) {
@@ -849,7 +849,7 @@ playcirclePause22.addEventListener('click', () => {
 const player23 = document.getElementById('player23');
 const playcircle23 = document.getElementById('playcircle23');
 const playcirclePause23 = document.getElementById('playcirclePause23');
-let audio23 = new Audio('dukan images/Tu Hi Mera Dil Hai Soumajit Biswas 128 Kbps.mp3')
+let audio23 = new Audio('Tu Hi Mera Dil Hai Soumajit Biswas 128 Kbps.mp3')
 
 player23.addEventListener('click', () => {
     if (audio23.paused || audio23.currentTime <= 0) {
@@ -885,7 +885,7 @@ playcirclePause23.addEventListener('click', () => {
 const player24 = document.getElementById('player24');
 const playcircle24 = document.getElementById('playcircle24');
 const playcirclePause24 = document.getElementById('playcirclePause24');
-let audio24 = new Audio('dukan images/Saure Ghar Yaariyan 2 128 Kbps.mp3')
+let audio24 = new Audio('Saure Ghar Yaariyan 2 128 Kbps.mp3')
 
 player24.addEventListener('click', () => {
     if (audio24.paused || audio24.currentTime <= 0) {
@@ -924,7 +924,7 @@ playcirclePause24.addEventListener('click', () => {
 const player25 = document.getElementById('player25');
 const playcircle25 = document.getElementById('playcircle25');
 const playcirclePause25 = document.getElementById('playcirclePause25');
-let audio25 = new Audio('dukan images/Teri-Yaadon-Se---Salman-Ali(PaglaSongs).mp3')
+let audio25 = new Audio('Teri-Yaadon-Se---Salman-Ali(PaglaSongs).mp3')
 
 player25.addEventListener('click', () => {
     if (audio25.paused || audio25.currentTime <= 0) {
@@ -960,7 +960,7 @@ playcirclePause25.addEventListener('click', () => {
 const player26 = document.getElementById('player26');
 const playcircle26 = document.getElementById('playcircle26');
 const playcirclePause26 = document.getElementById('playcirclePause26');
-let audio26 = new Audio('dukan images/Main-Dil-Ko-Samjha-Lunga(PaglaSongs).mp3')
+let audio26 = new Audio('Main-Dil-Ko-Samjha-Lunga(PaglaSongs).mp3')
 
 player26.addEventListener('click', () => {
     if (audio26.paused || audio26.currentTime <= 0) {
@@ -996,7 +996,7 @@ playcirclePause26.addEventListener('click', () => {
 const player27 = document.getElementById('player27');
 const playcircle27 = document.getElementById('playcircle27');
 const playcirclePause27 = document.getElementById('playcirclePause27');
-let audio27 = new Audio('dukan images/Piya Dream Girl 2 128 Kbps.mp3')
+let audio27 = new Audio('Piya Dream Girl 2 128 Kbps.mp3')
 
 player27.addEventListener('click', () => {
     if (audio27.paused || audio27.currentTime <= 0) {
@@ -1033,7 +1033,7 @@ playcirclePause27.addEventListener('click', () => {
 const player28 = document.getElementById('player28');
 const playcircle28 = document.getElementById('playcircle28');
 const playcirclePause28 = document.getElementById('playcirclePause28');
-let audio28 = new Audio('dukan images/Paagla_1.mp3')
+let audio28 = new Audio('Paagla_1.mp3')
 
 player28.addEventListener('click', () => {
     if (audio28.paused || audio28.currentTime <= 0) {
@@ -1069,7 +1069,7 @@ playcirclePause28.addEventListener('click', () => {
 const player29 = document.getElementById('player29');
 const playcircle29 = document.getElementById('playcircle29');
 const playcirclePause29 = document.getElementById('playcirclePause29');
-let audio29 = new Audio('dukan images/Jiyaa-Laage-Naa(PaglaSongs).mp3')
+let audio29 = new Audio('Jiyaa-Laage-Naa(PaglaSongs).mp3')
 
 player29.addEventListener('click', () => {
     if (audio29.paused || audio29.currentTime <= 0) {
@@ -1104,7 +1104,7 @@ playcirclePause29.addEventListener('click', () => {
 const player30 = document.getElementById('player30');
 const playcircle30 = document.getElementById('playcircle30');
 const playcirclePause30 = document.getElementById('playcirclePause30');
-let audio30 = new Audio('dukan images/Dil Hai Tumhaara Alka Yagnik 128 Kbps.mp3')
+let audio30 = new Audio('Dil Hai Tumhaara Alka Yagnik 128 Kbps.mp3')
 
 player30.addEventListener('click', () => {
     if (audio30.paused || audio30.currentTime <= 0) {
@@ -1139,7 +1139,7 @@ playcirclePause30.addEventListener('click', () => {
 const player31 = document.getElementById('player31');
 const playcircle31 = document.getElementById('playcircle31');
 const playcirclePause31 = document.getElementById('playcirclePause31');
-let audio31 = new Audio('dukan images/Kisise Tum Pyar Karo Andaaz 2003 128 Kbps.mp3')
+let audio31 = new Audio('Kisise Tum Pyar Karo Andaaz 2003 128 Kbps.mp3')
 
 player31.addEventListener('click', () => {
     if (audio31.paused || audio31.currentTime <= 0) {
@@ -1174,7 +1174,7 @@ playcirclePause31.addEventListener('click', () => {
 const player32 = document.getElementById('player32');
 const playcircle32 = document.getElementById('playcircle32');
 const playcirclePause32 = document.getElementById('playcirclePause32');
-let audio32 = new Audio('dukan images/Ae Dil Hai Mushkil Title Track Pritam 128 Kbps.mp3')
+let audio32 = new Audio('Ae Dil Hai Mushkil Title Track Pritam 128 Kbps.mp3')
 
 player32.addEventListener('click', () => {
     if (audio32.paused || audio32.currentTime <= 0) {
@@ -1549,45 +1549,45 @@ function udmy() {
     // const playersAdditional = document.querySelectorAll("#playersAdditional");
     // const playcircle0 = document.getElementById("playcircle0");
     // const playcirclePause0 = document.getElementById("playcirclePause0");
-    // const audioOne = new Audio('dukan images/Aisi Deewangi Deewana 128 Kbps.mp3');
-    // const audioTwo = new Audio('dukan images/Dard E Disco Om Shanti Om 128 Kbps.mp3');
-    // const audioThree = new Audio('dukan images/Bada Dukh Dena Ram Lakhan 128 Kbps.mp3');
-    // const audioFour = new Audio('dukan images/Mujhe Tere Jaise Raaz 128 Kbps.mp3');
-    // const audioFive = new Audio('dukan images/Anarkali Disco Chali Housefull 2 128 Kbps.mp3');
-    // const audioSix = new Audio('dukan images/Chaiyya Chaiyya Dil Se 128 Kbps.mp3');
-    // const audioSeven = new Audio('dukan images/Aye Khuda Murder 2 128 Kbps.mp3');
-    // const audioEight = new Audio('dukan images/Teri Umeed Tera Intezar Deewana 128 Kbps.mp3');
-    // const audioNine = new Audio('dukan images/Tum Mere Ho Udit Narayan 128 Kbps.mp3');
-    // const audioTen = new Audio('dukan images/Main Duniya Bhula Doonga Aashiqui 128 Kbps.mp3');
-    // const audioEleven = new Audio('dukan images/Wajah Tum Ho 1 Mithoon 128 Kbps.mp3');
-    // const audioTwoelth = new Audio('dukan images/Sultan Sukhwinder Singh 128 Kbps.mp3');
-    // const audioThirteen = new Audio('dukan images/Seene Pe Naseeb 1997 128 Kbps.mp3');
-    // const audioFourteen = new Audio('dukan images/Get Ready To Fight [128 Kbps]-(Pagalworld.gay).mp3');
-    // const audioFiveteen = new Audio('dukan images/Chak Lein De Chandni Chowk To China 128 Kbps.mp3');
-    // const audioSixteen = new Audio('dukan images/Baazigar O Baazigar Kumar Sanu 128 Kbps.mp3');
-    // const audioSeventeen = new Audio('dukan images/Tera Naam Liya Ram Lakhan 128 Kbps.mp3');
-    // const audioEightteen = new Audio('dukan images/Teri Baaton Mein Aisa Uljha Jiya(PagalWorld.com.cm).mp3');
-    // const audioNineteen = new Audio('dukan images/Senorita Zindagi Na Milegi Dobara 128 Kbps.mp3');
-    // const audioTowty = new Audio('dukan images/Dil-De-Diya-Hai(PaglaSongs).mp3');
-    // const audioTowtyone = new Audio('dukan images/Wo-Mil-Gaya-Jiski-Hame-Kabse-Talash-Thi(PagalWorldl).mp3');
-    // const audioTowtytwo = new Audio('dukan images/Jai-Ho-(Slumdog-Millionaire)(PagalWorlld.Com).mp3');
-    // const audioTowtythree = new Audio('dukan images/Aankh-Hai-Bhari-Bhari(PagalWorldl).mp3');
-    // const audioTowtyfour = new Audio('dukan images/Tu-Dharti-Pe-Chahe-Jahan(PagalWorlld.Com).mp3');
-    // const audioTowtyfive = new Audio('dukan images/Sochenge Tumhe Pyar Deewana 128 Kbps.mp3');
-    // const audioTowtysix = new Audio('dukan images/Ramta Jogi Taal 128 Kbps.mp3');
-    // const audioTowtyseven = new Audio('dukan images/Kisi-Din-Banoongi-Main(PagalWorlld.Com).mp3');
-    // const audioTowtyeight = new Audio('dukan images/Aaja-Mujhe-Leja-Teri-Dulhan-Banake(PaglaSongs).mp3');
-    // const audioTowtynine = new Audio('dukan images/saat samundar.mp3');
-    // const audioThirty = new Audio('dukan images/Lonely Khiladi 786 128 Kbps.mp3');
-    // const audioThirtyone = new Audio('dukan images/Kiya Kiya Welcome 128 Kbps.mp3');
-    // const audioThirtytwo = new Audio('dukan images/Janam Janam Dilwale 128 Kbps.mp3');
-    // const audioThirtythree = new Audio('dukan images/Hamne Tumko Dil Ye De Diya Gunaah 128 Kbps.mp3');
-    // const audioThirtyfour = new Audio('dukan images/Galat Baat Hai-(PagalWorld).mp3');
-    // const audioThirtyfive = new Audio('dukan images/Ye Kaali Kaali Aankhen Baazigar 128 Kbps.mp3');
-    // const audioThirtysix = new Audio('dukan images/Shikwa Nahin Kisi Se Naseeb 1997 128 Kbps.mp3');
-    // const audioThirtyseven = new Audio('dukan images/Ooh La La_192(Ghantalele.com).mp3');
-    // const audioThirtyeight = new Audio('dukan images/Tu-Hi-Haqeeqat-Khwab-Tu(PagalWorldl).mp3');
-    // const chekingaudio = new Audio('dukan images/Is Jahan Mein Hai Aur Na Hoga Mujhsa Koi Bhi Khush Naseebs.mp3')
+    // const audioOne = new Audio('Aisi Deewangi Deewana 128 Kbps.mp3');
+    // const audioTwo = new Audio('Dard E Disco Om Shanti Om 128 Kbps.mp3');
+    // const audioThree = new Audio('Bada Dukh Dena Ram Lakhan 128 Kbps.mp3');
+    // const audioFour = new Audio('Mujhe Tere Jaise Raaz 128 Kbps.mp3');
+    // const audioFive = new Audio('Anarkali Disco Chali Housefull 2 128 Kbps.mp3');
+    // const audioSix = new Audio('Chaiyya Chaiyya Dil Se 128 Kbps.mp3');
+    // const audioSeven = new Audio('Aye Khuda Murder 2 128 Kbps.mp3');
+    // const audioEight = new Audio('Teri Umeed Tera Intezar Deewana 128 Kbps.mp3');
+    // const audioNine = new Audio('Tum Mere Ho Udit Narayan 128 Kbps.mp3');
+    // const audioTen = new Audio('Main Duniya Bhula Doonga Aashiqui 128 Kbps.mp3');
+    // const audioEleven = new Audio('Wajah Tum Ho 1 Mithoon 128 Kbps.mp3');
+    // const audioTwoelth = new Audio('Sultan Sukhwinder Singh 128 Kbps.mp3');
+    // const audioThirteen = new Audio('Seene Pe Naseeb 1997 128 Kbps.mp3');
+    // const audioFourteen = new Audio('Get Ready To Fight [128 Kbps]-(Pagalworld.gay).mp3');
+    // const audioFiveteen = new Audio('Chak Lein De Chandni Chowk To China 128 Kbps.mp3');
+    // const audioSixteen = new Audio('Baazigar O Baazigar Kumar Sanu 128 Kbps.mp3');
+    // const audioSeventeen = new Audio('Tera Naam Liya Ram Lakhan 128 Kbps.mp3');
+    // const audioEightteen = new Audio('Teri Baaton Mein Aisa Uljha Jiya(PagalWorld.com.cm).mp3');
+    // const audioNineteen = new Audio('Senorita Zindagi Na Milegi Dobara 128 Kbps.mp3');
+    // const audioTowty = new Audio('Dil-De-Diya-Hai(PaglaSongs).mp3');
+    // const audioTowtyone = new Audio('Wo-Mil-Gaya-Jiski-Hame-Kabse-Talash-Thi(PagalWorldl).mp3');
+    // const audioTowtytwo = new Audio('Jai-Ho-(Slumdog-Millionaire)(PagalWorlld.Com).mp3');
+    // const audioTowtythree = new Audio('Aankh-Hai-Bhari-Bhari(PagalWorldl).mp3');
+    // const audioTowtyfour = new Audio('Tu-Dharti-Pe-Chahe-Jahan(PagalWorlld.Com).mp3');
+    // const audioTowtyfive = new Audio('Sochenge Tumhe Pyar Deewana 128 Kbps.mp3');
+    // const audioTowtysix = new Audio('Ramta Jogi Taal 128 Kbps.mp3');
+    // const audioTowtyseven = new Audio('Kisi-Din-Banoongi-Main(PagalWorlld.Com).mp3');
+    // const audioTowtyeight = new Audio('Aaja-Mujhe-Leja-Teri-Dulhan-Banake(PaglaSongs).mp3');
+    // const audioTowtynine = new Audio('saat samundar.mp3');
+    // const audioThirty = new Audio('Lonely Khiladi 786 128 Kbps.mp3');
+    // const audioThirtyone = new Audio('Kiya Kiya Welcome 128 Kbps.mp3');
+    // const audioThirtytwo = new Audio('Janam Janam Dilwale 128 Kbps.mp3');
+    // const audioThirtythree = new Audio('Hamne Tumko Dil Ye De Diya Gunaah 128 Kbps.mp3');
+    // const audioThirtyfour = new Audio('Galat Baat Hai-(PagalWorld).mp3');
+    // const audioThirtyfive = new Audio('Ye Kaali Kaali Aankhen Baazigar 128 Kbps.mp3');
+    // const audioThirtysix = new Audio('Shikwa Nahin Kisi Se Naseeb 1997 128 Kbps.mp3');
+    // const audioThirtyseven = new Audio('Ooh La La_192(Ghantalele.com).mp3');
+    // const audioThirtyeight = new Audio('Tu-Hi-Haqeeqat-Khwab-Tu(PagalWorldl).mp3');
+    // const chekingaudio = new Audio('Is Jahan Mein Hai Aur Na Hoga Mujhsa Koi Bhi Khush Naseebs.mp3')
 
 
 
@@ -1923,124 +1923,124 @@ function udmy() {
     //     }
     // })
 
-    // SongsImage[0].style.backgroundImage = "url('imgaes/Aisi Deewangi Deewana 128 Kbps.png')"
+    // SongsImage[0].style.backgroundImage = "url('Aisi Deewangi Deewana 128 Kbps.png')"
     HeadingNameAndSongsName[0].innerHTML = "Aisi Deewangi";
     NameforSongsName[0].innerHTML = "Aisi Deewangi Dekhi nahi";
-    // SongsImage[1].style.backgroundImage = "url('imgaes/Dard E Disco Om Shanti Om 128 Kbps.png')"
+    // SongsImage[1].style.backgroundImage = "url('Dard E Disco Om Shanti Om 128 Kbps.png')"
     HeadingNameAndSongsName[1].innerHTML = "Dard E Disco";
     NameforSongsName[1].innerHTML = "Dard E Disco Om Shanti";
-    // SongsImage[2].style.backgroundImage = "url('imgaes/Bada Dukh Dena Ram Lakhan 128 Kbps.png')"
+    // SongsImage[2].style.backgroundImage = "url('Bada Dukh Dena Ram Lakhan 128 Kbps.png')"
     HeadingNameAndSongsName[2].innerHTML = " Ram Lakhan";
     NameforSongsName[2].innerHTML = "Bada Dukh Dena Ram";
-    // SongsImage[3].style.backgroundImage = "url('imgaes/Mujhe Tere Jaise Raaz 128 Kbps.png')"
+    // SongsImage[3].style.backgroundImage = "url('Mujhe Tere Jaise Raaz 128 Kbps.png')"
     HeadingNameAndSongsName[3].innerHTML = "Raaz";
     NameforSongsName[3].innerHTML = "Mujhe Tere Jaise Raaz";
-    // SongsImage[4].style.backgroundImage = "url('imgaes/Anarkali Disco Chali Housefull 2 128 Kbps.png')"
+    // SongsImage[4].style.backgroundImage = "url('Anarkali Disco Chali Housefull 2 128 Kbps.png')"
     HeadingNameAndSongsName[4].innerHTML = " Housefull 2 ";
     NameforSongsName[4].innerHTML = "narkali Disco Chali";
-    // SongsImage[5].style.backgroundImage = "url('imgaes/Chaiyya Chaiyya Dil Se 128 Kbps.png')"
+    // SongsImage[5].style.backgroundImage = "url('Chaiyya Chaiyya Dil Se 128 Kbps.png')"
     HeadingNameAndSongsName[5].innerHTML = "Dil Se";
     NameforSongsName[5].innerHTML = "Chaiyya Chaiyya ";
-    // SongsImage[6].style.backgroundImage = "url('imgaes/Aye Khuda Murder 2 128 Kbps.png')"
+    // SongsImage[6].style.backgroundImage = "url('Aye Khuda Murder 2 128 Kbps.png')"
     HeadingNameAndSongsName[6].innerHTML = "Aye Khuda";
     NameforSongsName[6].innerHTML = "Aye Khuda Murder";
-    // SongsImage[7].style.backgroundImage = "url('imgaes/Teri Umeed Tera Intezar Deewana 128 Kbp.png')"
+    // SongsImage[7].style.backgroundImage = "url('Teri Umeed Tera Intezar Deewana 128 Kbp.png')"
     HeadingNameAndSongsName[7].innerHTML = "Deewana";
     NameforSongsName[7].innerHTML = "Teri Umeed Tera Intezar";
-    // SongsImage[8].style.backgroundImage = "url('imgaes/Tum Mere Ho Udit Narayan 128 Kbps.png')"
+    // SongsImage[8].style.backgroundImage = "url('Tum Mere Ho Udit Narayan 128 Kbps.png')"
     HeadingNameAndSongsName[8].innerHTML = "Udit Narayan";
     NameforSongsName[8].innerHTML = "Tum Mere Ho";
-    // SongsImage[9].style.backgroundImage = "url('imgaes/Main Duniya Bhula Doonga Aashiqui 128 Kbps.png')"
+    // SongsImage[9].style.backgroundImage = "url('Main Duniya Bhula Doonga Aashiqui 128 Kbps.png')"
     HeadingNameAndSongsName[9].innerHTML = "Main Duniya";
     NameforSongsName[9].innerHTML = "Main Duniya Bhula ";
-    // SongsImage[10].style.backgroundImage = "url('imgaes/Wajah Tum Ho 1 Mithoon 128 Kbps.png')"
+    // SongsImage[10].style.backgroundImage = "url('Wajah Tum Ho 1 Mithoon 128 Kbps.png')"
     HeadingNameAndSongsName[10].innerHTML = "Wajah Tum Ho";
     NameforSongsName[10].innerHTML = "Wajah Tum Ho";
-    // SongsImage[11].style.backgroundImage = "url('imgaes/Sultan Sukhwinder Singh 128 Kbps.png')"
+    // SongsImage[11].style.backgroundImage = "url('Sultan Sukhwinder Singh 128 Kbps.png')"
     HeadingNameAndSongsName[11].innerHTML = " Sukhwinder ";
     NameforSongsName[11].innerHTML = "Sultan Sukhwinder ";
-    // SongsImage[12].style.backgroundImage = "url('imgaes/Seene Pe Naseeb 1997 128 Kbps.png')"
+    // SongsImage[12].style.backgroundImage = "url('Seene Pe Naseeb 1997 128 Kbps.png')"
     HeadingNameAndSongsName[12].innerHTML = "Seene Pe";
     NameforSongsName[12].innerHTML = "Seene Pe Naseeb";
-    // SongsImage[13].style.backgroundImage = "url('imgaes/Get Ready To Fight [128 Kbps]-(Pagalworld.gay).png')"
+    // SongsImage[13].style.backgroundImage = "url('Get Ready To Fight [128 Kbps]-(Pagalworld.gay).png')"
     HeadingNameAndSongsName[13].innerHTML = "Get Ready";
     NameforSongsName[13].innerHTML = "To Fight";
-    // SongsImage[14].style.backgroundImage = "url('imgaes/Chak Lein De Chandni Chowk To China 128 Kbps.png')"
+    // SongsImage[14].style.backgroundImage = "url('Chak Lein De Chandni Chowk To China 128 Kbps.png')"
     HeadingNameAndSongsName[14].innerHTML = "Chandni Chowk";
     NameforSongsName[14].innerHTML = "Chak Lein De";
-    // SongsImage[15].style.backgroundImage = "url('imgaes/Baazigar O Baazigar Kumar Sanu 128 Kbps.png')"
+    // SongsImage[15].style.backgroundImage = "url('Baazigar O Baazigar Kumar Sanu 128 Kbps.png')"
     HeadingNameAndSongsName[15].innerHTML = "Kumar Sanu";
     NameforSongsName[15].innerHTML = "Baazigar O ";
-    // SongsImage[16].style.backgroundImage = "url('imgaes/Tera Naam Liya Ram Lakhan 128 Kbps.png')"
+    // SongsImage[16].style.backgroundImage = "url('Tera Naam Liya Ram Lakhan 128 Kbps.png')"
     HeadingNameAndSongsName[16].innerHTML = "Ram Lakhan";
     NameforSongsName[16].innerHTML = "Tera Naam Liya";
-    // SongsImage[17].style.backgroundImage = "url('imgaes/Teri Baaton Mein Aisa Uljha Jiya(PagalWorld.com.cm).png')"
+    // SongsImage[17].style.backgroundImage = "url('Teri Baaton Mein Aisa Uljha Jiya(PagalWorld.com.cm).png')"
     HeadingNameAndSongsName[17].innerHTML = "Teri Baaton";
     NameforSongsName[17].innerHTML = "Mein Aisa ";
-    // SongsImage[18].style.backgroundImage = "url('imgaes/Senorita Zindagi Na Milegi Dobara 128 Kbps.png')"
+    // SongsImage[18].style.backgroundImage = "url('Senorita Zindagi Na Milegi Dobara 128 Kbps.png')"
     HeadingNameAndSongsName[18].innerHTML = " Zindagi Na Milegi";
     NameforSongsName[18].innerHTML = "Baazigar O ";
-    // SongsImage[19].style.backgroundImage = "url('imgaes/Dil-De-Diya-Hai(PaglaSongs).png')"
+    // SongsImage[19].style.backgroundImage = "url('Dil-De-Diya-Hai(PaglaSongs).png')"
     HeadingNameAndSongsName[19].innerHTML = "Dil-De-Diya";
     NameforSongsName[19].innerHTML = "Hai ";
-    // SongsImage[20].style.backgroundImage = "url('imgaes/Wo-Mil-Gaya-Jiski-Hame-Kabse-Talash-Thi(PagalWorldl).png')"
+    // SongsImage[20].style.backgroundImage = "url('Wo-Mil-Gaya-Jiski-Hame-Kabse-Talash-Thi(PagalWorldl).png')"
     HeadingNameAndSongsName[20].innerHTML = "Wo Mil Gaya";
     NameforSongsName[20].innerHTML = "Jiski Hame";
-    // SongsImage[21].style.backgroundImage = "url('imgaes/Jai-Ho-(Slumdog-Millionaire)(PagalWorlld.Com).png')"
+    // SongsImage[21].style.backgroundImage = "url('Jai-Ho-(Slumdog-Millionaire)(PagalWorlld.Com).png')"
     HeadingNameAndSongsName[21].innerHTML = "Sukhwinder";
     NameforSongsName[21].innerHTML = "Jai-Ho";
-    // SongsImage[22].style.backgroundImage = "url('imgaes/Aankh-Hai-Bhari-Bhari(PagalWorldl).png')"
+    // SongsImage[22].style.backgroundImage = "url('Aankh-Hai-Bhari-Bhari(PagalWorldl).png')"
     HeadingNameAndSongsName[22].innerHTML = "Kumar Sanu";
     NameforSongsName[22].innerHTML = "Aankh Hai Bhari";
-    // SongsImage[23].style.backgroundImage = "url('imgaes/Tu-Dharti-Pe-Chahe-Jahan(PagalWorlld.Com).png')"
+    // SongsImage[23].style.backgroundImage = "url('Tu-Dharti-Pe-Chahe-Jahan(PagalWorlld.Com).png')"
     HeadingNameAndSongsName[23].innerHTML = "Kumar Sanu";
     NameforSongsName[23].innerHTML = "Tu Dharti Pe";
-    // SongsImage[24].style.backgroundImage = "url('imgaes/Sochenge Tumhe Pyar Deewana 128 Kbps.png')"
+    // SongsImage[24].style.backgroundImage = "url('Sochenge Tumhe Pyar Deewana 128 Kbps.png')"
     HeadingNameAndSongsName[24].innerHTML = "Deewana Sanu";
     NameforSongsName[24].innerHTML = "Sochenge Tumhe";
-    // SongsImage[25].style.backgroundImage = "url('imgaes/Ramta Jogi Taal 128 Kbps.png')"
+    // SongsImage[25].style.backgroundImage = "url('Ramta Jogi Taal 128 Kbps.png')"
     HeadingNameAndSongsName[25].innerHTML = "Sukhwinder";
     NameforSongsName[25].innerHTML = "Ramta Jogi Taal ";
-    // SongsImage[26].style.backgroundImage = "url('imgaes/Kisi-Din-Banoongi-Main(PagalWorlld.Com).png')"
+    // SongsImage[26].style.backgroundImage = "url('Kisi-Din-Banoongi-Main(PagalWorlld.Com).png')"
     HeadingNameAndSongsName[26].innerHTML = "Kisi Din";
     NameforSongsName[26].innerHTML = "Banoongi Main";
-    // SongsImage[27].style.backgroundImage = "url('imgaes/Aaja-Mujhe-Leja-Teri-Dulhan-Banake(PaglaSongs).png')"
+    // SongsImage[27].style.backgroundImage = "url('Aaja-Mujhe-Leja-Teri-Dulhan-Banake(PaglaSongs).png')"
     HeadingNameAndSongsName[27].innerHTML = "Aaja Mujhe";
     NameforSongsName[27].innerHTML = "Leja Dulhan";
-    // SongsImage[28].style.backgroundImage = "url('imgaes/saat samundar paar.png')"
+    // SongsImage[28].style.backgroundImage = "url('saat samundar paar.png')"
     HeadingNameAndSongsName[28].innerHTML = "saat samundar ";
     NameforSongsName[28].innerHTML = "paar";
-    // SongsImage[29].style.backgroundImage = "url('imgaes/Lonely Khiladi 786 128 Kbps.png')"
+    // SongsImage[29].style.backgroundImage = "url('Lonely Khiladi 786 128 Kbps.png')"
     HeadingNameAndSongsName[29].innerHTML = "Khiladi 786";
     NameforSongsName[29].innerHTML = "Lonely Khiladi";
-    // SongsImage[30].style.backgroundImage = "url('imgaes/Kiya Kiya Welcome 128 Kbps.png')"
+    // SongsImage[30].style.backgroundImage = "url('Kiya Kiya Welcome 128 Kbps.png')"
     HeadingNameAndSongsName[30].innerHTML = "Welcome";
     NameforSongsName[30].innerHTML = "Kiya Kiya";
-    // SongsImage[31].style.backgroundImage = "url('imgaes/Janam Janam Dilwale 128 Kbps.png')"
+    // SongsImage[31].style.backgroundImage = "url('Janam Janam Dilwale 128 Kbps.png')"
     HeadingNameAndSongsName[31].innerHTML = "Dilwale";
     NameforSongsName[31].innerHTML = "Janam Janam";
-    // SongsImage[32].style.backgroundImage = "url('imgaes/Hamne Tumko Dil Ye De Diya Gunaah 128 Kbps.png')"
+    // SongsImage[32].style.backgroundImage = "url('Hamne Tumko Dil Ye De Diya Gunaah 128 Kbps.png')"
     HeadingNameAndSongsName[32].innerHTML = "Hamne Tumko";
     NameforSongsName[32].innerHTML = "Dil Ye De";
-    // SongsImage[33].style.backgroundImage = "url('imgaes/Galat Baat Hai-(PagalWorld).png')"
+    // SongsImage[33].style.backgroundImage = "url('Galat Baat Hai-(PagalWorld).png')"
     HeadingNameAndSongsName[33].innerHTML = "Galat Baat";
     NameforSongsName[33].innerHTML = "Galat Baat Hai";
-    // SongsImage[34].style.backgroundImage = "url('imgaes/Ye Kaali Kaali Aankhen Baazigar 128 Kbps.png')"
+    // SongsImage[34].style.backgroundImage = "url('Ye Kaali Kaali Aankhen Baazigar 128 Kbps.png')"
     HeadingNameAndSongsName[34].innerHTML = "Ye Kaali Kaali";
     NameforSongsName[34].innerHTML = "Aankhen";
-    // SongsImage[35].style.backgroundImage = "url('imgaes/Shikwa Nahin Kisi Se Naseeb 1997 128 Kbps.png')"
+    // SongsImage[35].style.backgroundImage = "url('Shikwa Nahin Kisi Se Naseeb 1997 128 Kbps.png')"
     HeadingNameAndSongsName[35].innerHTML = "Shikwa Nahin";
     NameforSongsName[35].innerHTML = " Kisi Se ";
-    // SongsImage[36].style.backgroundImage = "url('imgaes/Ooh La La_192(Ghantalele.com).png')"
+    // SongsImage[36].style.backgroundImage = "url('Ooh La La_192(Ghantalele.com).png')"
     HeadingNameAndSongsName[36].innerHTML = "The Dirty";
     NameforSongsName[36].innerHTML = "Ooh La La";
-    // SongsImage[37].style.backgroundImage = "url('imgaes/Tu-Hi-Haqeeqat-Khwab-Tu(PagalWorldl).png')"
+    // SongsImage[37].style.backgroundImage = "url('Tu-Hi-Haqeeqat-Khwab-Tu(PagalWorldl).png')"
     HeadingNameAndSongsName[37].innerHTML = "Tu Hi";
     NameforSongsName[37].innerHTML = "Haqeeqat Khwab";
-    // SongsImage[38].style.backgroundImage = "url('imgaes/Tu-Dharti-Pe-Chahe-Jahan(PagalWorlld.Com).png')"
+    // SongsImage[38].style.backgroundImage = "url('Tu-Dharti-Pe-Chahe-Jahan(PagalWorlld.Com).png')"
     HeadingNameAndSongsName[38].innerHTML = "Kumar Sanu";
     NameforSongsName[38].innerHTML = "Tu Dharti Pe";
-    // SongsImage[39].style.backgroundImage = "url('imgaes/Tu-Dharti-Pe-Chahe-Jahan(PagalWorlld.Com).png')"
+    // SongsImage[39].style.backgroundImage = "url('Tu-Dharti-Pe-Chahe-Jahan(PagalWorlld.Com).png')"
     HeadingNameAndSongsName[39].innerHTML = "Kumar Sanu";
     NameforSongsName[39].innerHTML = "Tu Dharti Pe";
 
@@ -2052,63 +2052,63 @@ function udmy() {
 
 // This is adding addtional songs for the users with new javascript version or upadting things thing from the today
 let SongsImageAndSongsAndArtistNmaeAndSongsNameWithNewUpdate = [
-    { SongsImageUpdateMain: "imgaes/Aisi Deewangi Deewana 128 Kbps.png", SongsFilePathUpdate: "dukan images/Aisi Deewangi Deewana 128 Kbps.mp3", SongsNameUpdate: "Aisi Deewangi.", BottomNameUpdate: "Aisi Deewangi Dekhi nahi", ArtistName: "Nadeep-Shravan, Alka Yganik, Vinod Rathod" },
-    { SongsImageUpdateMain: "imgaes/Dard E Disco Om Shanti Om 128 Kbps.png", SongsFilePathUpdate: "dukan images/Dard E Disco Om Shanti Om 128 Kbps.mp3", SongsNameUpdate: "Dard E Disco ", BottomNameUpdate: "Dard E Disco Om Shanti", ArtistName: "Sukhwinder Singh, Marinne, Nisha, Caralisa Monteiro" },
-    { SongsImageUpdateMain: "imgaes/Bada Dukh Dena Ram Lakhan 128 Kbps.png", SongsFilePathUpdate: "dukan images/Bada Dukh Dena Ram Lakhan 128 Kbps.mp3", SongsNameUpdate: "Ram Lakhan", BottomNameUpdate: "Bada Dukh Dena Ram", ArtistName: "Laxmikant- Pyrelal, Lata Mangeshkar" },
-    { SongsImageUpdateMain: "imgaes/Mujhe Tere Jaise Raaz 128 Kbps.png", SongsFilePathUpdate: "dukan images/Mujhe Tere Jaise Raaz 128 Kbps.mp3", SongsNameUpdate: "Raaz", BottomNameUpdate: "Mujhe Tere Jaise Raaz", ArtistName: "Udit Naraan, Sarika Kapoor" },
-    { SongsImageUpdateMain: "imgaes/Anarkali Disco Chali Housefull 2 128 Kbps.png", SongsFilePathUpdate: "dukan images/Anarkali Disco Chali Housefull 2 128 Kbps.mp3", SongsNameUpdate: "Housefull 2", BottomNameUpdate: "narkali Disco Chali", ArtistName: "Sajid-Wajid, Mamta Sharma, Sukhwinder Singh" },
-    { SongsImageUpdateMain: "imgaes/Chaiyya Chaiyya Dil Se 128 Kbps.png", SongsFilePathUpdate: "dukan images/Chaiyya Chaiyya Dil Se 128 Kbps.mp3", SongsNameUpdate: "Dil Se", BottomNameUpdate: "Chaiyya Chaiyya", ArtistName: "Sukhwinder singh, Sapna Aswasthi" },
-    { SongsImageUpdateMain: "imgaes/Aye Khuda Murder 2 128 Kbps.png", SongsFilePathUpdate: "dukan images/Aye Khuda Murder 2 128 Kbps.mp3", SongsNameUpdate: "Aye Khuda ", BottomNameUpdate: "Aye Khuda Murder", ArtistName: "Mithoon, Kahitij Tarey, Saim Bhat" },
-    { SongsImageUpdateMain: "imgaes/Teri Umeed Tera Intezar Deewana 128 Kbp.png", SongsFilePathUpdate: "dukan images/Teri Umeed Tera Intezar Deewana 128 Kbps.mp3", SongsNameUpdate: "Deewana", BottomNameUpdate: "Teri Umeed Tera Intezar", ArtistName: "Nadeep -shravan, Sadhana Sargam, Kumar Sanu" },
-    { SongsImageUpdateMain: "imgaes/Tum Mere Ho Udit Narayan 128 Kbps.png", SongsFilePathUpdate: "dukan images/Tum Mere Ho Udit Narayan 128 Kbps.mp3", SongsNameUpdate: "Udit Narayan", BottomNameUpdate: "Tum Mere Ho", ArtistName: "Udit Narayan, Anupama Deshpande" },
-    { SongsImageUpdateMain: "imgaes/Main Duniya Bhula Doonga Aashiqui 128 Kbps.png", SongsFilePathUpdate: "dukan images/Main Duniya Bhula Doonga Aashiqui 128 Kbps.mp3", SongsNameUpdate: "Main Duniya", BottomNameUpdate: "Main Duniya Bhula", ArtistName: "Anuradha Paudwal, Kumar Sanu" },
-    { SongsImageUpdateMain: "imgaes/Wajah Tum Ho 1 Mithoon 128 Kbps.png", SongsFilePathUpdate: "dukan images/Wajah Tum Ho 1 Mithoon 128 Kbps.mp3", SongsNameUpdate: "Wajah Tum Ho", BottomNameUpdate: "Wajah Tum Ho", ArtistName: "Mithoon" },
-    { SongsImageUpdateMain: "imgaes/Sultan Sukhwinder Singh 128 Kbps.png", SongsFilePathUpdate: "dukan images/Sultan Sukhwinder Singh 128 Kbps.mp3", SongsNameUpdate: "Sukhwinder", BottomNameUpdate: "Sultan Sukhwinder", ArtistName: "Sukhwinder singh, Shadab Faridi, Irshad Kamil" },
-    { SongsImageUpdateMain: "imgaes/Seene Pe Naseeb 1997 128 Kbps.png", SongsFilePathUpdate: "dukan images/Seene Pe Naseeb 1997 128 Kbps.mp3", SongsNameUpdate: "Seene Pe", BottomNameUpdate: "Seene Pe Naseeb", ArtistName: " Kavita Krishnamurthy, Udit Narayan" },
-    { SongsImageUpdateMain: "imgaes/Get Ready To Fight [128 Kbps]-(Pagalworld.gay).png", SongsFilePathUpdate: "dukan images/Get Ready To Fight [128 Kbps]-(Pagalworld.gay).mp3", SongsNameUpdate: "Get Ready", BottomNameUpdate: " To Fight", ArtistName: "Benny Dayal, Sidharth Basrur" },
-    { SongsImageUpdateMain: "imgaes/Chak Lein De Chandni Chowk To China 128 Kbps.png", SongsFilePathUpdate: "dukan images/Chak Lein De Chandni Chowk To China 128 Kbps.mp3", SongsNameUpdate: "Chandni Chowk", BottomNameUpdate: "Chak Lein De", ArtistName: "Kalash Kher" },
-    { SongsImageUpdateMain: "imgaes/Baazigar O Baazigar Kumar Sanu 128 Kbps.png", SongsFilePathUpdate: "dukan images/Baazigar O Baazigar Kumar Sanu 128 Kbps.mp3", SongsNameUpdate: "Kumar Sanu", BottomNameUpdate: "Baazigar O", ArtistName: "Kumar Sanu, Alka Yagnik" },
-    { SongsImageUpdateMain: "imgaes/Tera Naam Liya Ram Lakhan 128 Kbps.png", SongsFilePathUpdate: "dukan images/Tera Naam Liya Ram Lakhan 128 Kbps.mp3", SongsNameUpdate: "Ram Lakhan", BottomNameUpdate: "Tera Naam Liya", ArtistName: "Anuradha Paudwal, Mahar Udhas" },
-    { SongsImageUpdateMain: "imgaes/Teri Baaton Mein Aisa Uljha Jiya(PagalWorld.com.cm).png", SongsFilePathUpdate: "dukan images/Teri Baaton Mein Aisa Uljha Jiya(PagalWorld.com.cm).mp3", SongsNameUpdate: "Teri Baaton Mein", BottomNameUpdate: "Aisa Uljha Jiya", ArtistName: "Raghav Kaur" },
-    { SongsImageUpdateMain: "imgaes/Senorita Zindagi Na Milegi Dobara 128 Kbps.png", SongsFilePathUpdate: "dukan images/Senorita Zindagi Na Milegi Dobara 128 Kbps.mp3", SongsNameUpdate: "Senorita Zindagi ", BottomNameUpdate: "Na Milegi Dobara", ArtistName: "Shankar-Ehsaan-Loy, Farhan Anktar, Harthik Roshna, Abhay Deol, " },
-    { SongsImageUpdateMain: "imgaes/Dil-De-Diya-Hai(PaglaSongs).png", SongsFilePathUpdate: "dukan images/Dil-De-Diya-Hai(PaglaSongs).mp3", SongsNameUpdate: "Dil-De-Diya-Hai", BottomNameUpdate: "Dil-De-Diya-Ha", ArtistName: "Not Found" },
-    { SongsImageUpdateMain: "imgaes/Wo-Mil-Gaya-Jiski-Hame-Kabse-Talash-Thi(PagalWorldl).png", SongsFilePathUpdate: "dukan images/Wo-Mil-Gaya-Jiski-Hame-Kabse-Talash-Thi(PagalWorldl).mp3", SongsNameUpdate: "Wo Mil Gaya", BottomNameUpdate: "Jiski Hame", ArtistName: "could not Found it" },
-    { SongsImageUpdateMain: "imgaes/Jai-Ho-(Slumdog-Millionaire)(PagalWorlld.Com).png", SongsFilePathUpdate: "dukan images/Jai-Ho-(Slumdog-Millionaire)(PagalWorlld.Com).mp3", SongsNameUpdate: "Sukhwinder", BottomNameUpdate: "Jai-Ho", ArtistName: "Sukhwinder Singh" },
-    { SongsImageUpdateMain: "imgaes/Aankh-Hai-Bhari-Bhari(PagalWorldl).png", SongsFilePathUpdate: "dukan images/Aankh-Hai-Bhari-Bhari(PagalWorldl).mp3", SongsNameUpdate: "Kumar Sanu", BottomNameUpdate: "Aankh Hai Bhari", ArtistName: "Kumar Sanu" },
-    { SongsImageUpdateMain: "imgaes/Tu-Dharti-Pe-Chahe-Jahan(PagalWorlld.Com).png", SongsFilePathUpdate: "dukan images/Tu-Dharti-Pe-Chahe-Jahan(PagalWorlld.Com).mp3", SongsNameUpdate: "Kumar Sanu", BottomNameUpdate: "Tu Dharti Pe", ArtistName: "Kumar Sanou, Alka Yagnik" },
-    { SongsImageUpdateMain: "imgaes/Sochenge Tumhe Pyar Deewana 128 Kbps.png", SongsFilePathUpdate: "dukan images/Sochenge Tumhe Pyar Deewana 128 Kbps.mp3", SongsNameUpdate: "Deewana Sanu", BottomNameUpdate: "Sochenge Tumhe", ArtistName: "Nadeep-Shravan, Kumar Sanu" },
-    { SongsImageUpdateMain: "imgaes/Ramta Jogi Taal 128 Kbps.png", SongsFilePathUpdate: "dukan images/Ramta Jogi Taal 128 Kbps.mp3", SongsNameUpdate: "Sukhwinder", BottomNameUpdate: "Ramta Jogi Taal", ArtistName: "Alka Yagnik, Sukhwinder Singh" },
-    { SongsImageUpdateMain: "imgaes/Kisi-Din-Banoongi-Main(PagalWorlld.Com).png", SongsFilePathUpdate: "dukan images/Kisi-Din-Banoongi-Main(PagalWorlld.Com).mp3", SongsNameUpdate: "Kisi Din", BottomNameUpdate: "Banoongi-Main", ArtistName: "Akla Ygnik, kumar Sanu" },
-    { SongsImageUpdateMain: "imgaes/Aaja-Mujhe-Leja-Teri-Dulhan-Banake(PaglaSongs).png", SongsFilePathUpdate: "dukan images/Aaja-Mujhe-Leja-Teri-Dulhan-Banake(PaglaSongs).mp3", SongsNameUpdate: "Aaja Mujhe Leja", BottomNameUpdate: "Teri-Dulhan Banake", ArtistName: "Sunidhi Chauhan" },
-    { SongsImageUpdateMain: "imgaes/saat samundar paar.png", SongsFilePathUpdate: "dukan images/saat samundar.mp3", SongsNameUpdate: "saat samundar", BottomNameUpdate: "saat samundar paar", ArtistName: "Vrious Artist" },
-    { SongsImageUpdateMain: "imgaes/Lonely Khiladi 786 128 Kbps.png", SongsFilePathUpdate: "dukan images/Lonely Khiladi 786 128 Kbps.mp3", SongsNameUpdate: "Lonely Khiladi", BottomNameUpdate: "Khiladi 786", ArtistName: "Himesh Reshmmiya, Yo Yo Honey Singh, Hamikalyer" },
-    { SongsImageUpdateMain: "imgaes/Kiya Kiya Welcome 128 Kbps.png", SongsFilePathUpdate: "dukan images/Kiya Kiya Welcome 128 Kbps.mp3", SongsNameUpdate: "Welcome", BottomNameUpdate: "Kiya Kiya", ArtistName: "Anand Raj Anand, Shweta Pandit " },
-    { SongsImageUpdateMain: "imgaes/Janam Janam Dilwale 128 Kbps.png", SongsFilePathUpdate: "dukan images/Janam Janam Dilwale 128 Kbps.mp3", SongsNameUpdate: "Dilwale", BottomNameUpdate: "Janam Janam Dilwale", ArtistName: "Arijit Singh, Antara Mitra" },
-    { SongsImageUpdateMain: "imgaes/Hamne Tumko Dil Ye De Diya Gunaah 128 Kbps.png", SongsFilePathUpdate: "dukan images/Hamne Tumko Dil Ye De Diya Gunaah 128 Kbps.mp3", SongsNameUpdate: "Hamne Tumko ", BottomNameUpdate: " Ye De Diya Gunaah", ArtistName: "Anand Raj Anand, Alka Yagnik, Bubul Supriyo" },
-    { SongsImageUpdateMain: "imgaes/Galat Baat Hai-(PagalWorld).png", SongsFilePathUpdate: "dukan images/Galat Baat Hai-(PagalWorld).mp3", SongsNameUpdate: "Galat Baat", BottomNameUpdate: "Galat Baat Hai", ArtistName: "Javed Ali, Neeti Mohan" },
-    { SongsImageUpdateMain: "imgaes/Ye Kaali Kaali Aankhen Baazigar 128 Kbps.png", SongsFilePathUpdate: "dukan images/Ye Kaali Kaali Aankhen Baazigar 128 Kbps.mp3", SongsNameUpdate: "Ye Kaali Kaali", BottomNameUpdate: "Aankhen", ArtistName: "Kumar Sanu, Anu Malik" },
-    { SongsImageUpdateMain: "imgaes/Shikwa Nahin Kisi Se Naseeb 1997 128 Kbps.png", SongsFilePathUpdate: "dukan images/Shikwa Nahin Kisi Se Naseeb 1997 128 Kbps.mp3", SongsNameUpdate: "Shikwa Nahin", BottomNameUpdate: "Kisi Se", ArtistName: "Kumar Snou" },
-    { SongsImageUpdateMain: "imgaes/Ooh La La_192(Ghantalele.com).png", SongsFilePathUpdate: "dukan images/Ooh La La_192(Ghantalele.com).mp3", SongsNameUpdate: "The Dirty", BottomNameUpdate: "Ooh La La", ArtistName: "Shreya Ghoshal, Bappi Lahiri" },
-    { SongsImageUpdateMain: "imgaes/Tu-Hi-Haqeeqat-Khwab-Tu(PagalWorldl).png", SongsFilePathUpdate: "dukan images/Tu-Hi-Haqeeqat-Khwab-Tu(PagalWorldl).mp3", SongsNameUpdate: "Tu Hi", BottomNameUpdate: "Haqeeqat Khwab", ArtistName: "Aartist Name Could not Found" },
-    { SongsImageUpdateMain: "imgaes/Hamari-Adhuri-Kahani-Title-Track.png", SongsFilePathUpdate: "dukan images/Hamari-Adhuri-Kahani-Title-Track(PagalWorldl).mp3", SongsNameUpdate: "Hamari Adhur", BottomNameUpdate: "Adhuri Kahani", ArtistName: "Aartist Name Could not Found" },
-    { SongsImageUpdateMain: "imgaes/Tere Mast Mast Do Nain Dabangg 128 Kbps.png", SongsFilePathUpdate: "dukan images/Tere Mast Mast Do Nain Dabangg 128 Kbps.mp3", SongsNameUpdate: "Tere Mast ", BottomNameUpdate: "Mast Do Nain", ArtistName: "Sajid-Wajid,shreya Ghoshal, Rahat Fateh Ali Khan" },
+    { SongsImageUpdateMain: "Aisi Deewangi Deewana 128 Kbps.png", SongsFilePathUpdate: "Aisi Deewangi Deewana 128 Kbps.mp3", SongsNameUpdate: "Aisi Deewangi.", BottomNameUpdate: "Aisi Deewangi Dekhi nahi", ArtistName: "Nadeep-Shravan, Alka Yganik, Vinod Rathod" },
+    { SongsImageUpdateMain: "Dard E Disco Om Shanti Om 128 Kbps.png", SongsFilePathUpdate: "Dard E Disco Om Shanti Om 128 Kbps.mp3", SongsNameUpdate: "Dard E Disco ", BottomNameUpdate: "Dard E Disco Om Shanti", ArtistName: "Sukhwinder Singh, Marinne, Nisha, Caralisa Monteiro" },
+    { SongsImageUpdateMain: "Bada Dukh Dena Ram Lakhan 128 Kbps.png", SongsFilePathUpdate: "Bada Dukh Dena Ram Lakhan 128 Kbps.mp3", SongsNameUpdate: "Ram Lakhan", BottomNameUpdate: "Bada Dukh Dena Ram", ArtistName: "Laxmikant- Pyrelal, Lata Mangeshkar" },
+    { SongsImageUpdateMain: "Mujhe Tere Jaise Raaz 128 Kbps.png", SongsFilePathUpdate: "Mujhe Tere Jaise Raaz 128 Kbps.mp3", SongsNameUpdate: "Raaz", BottomNameUpdate: "Mujhe Tere Jaise Raaz", ArtistName: "Udit Naraan, Sarika Kapoor" },
+    { SongsImageUpdateMain: "Anarkali Disco Chali Housefull 2 128 Kbps.png", SongsFilePathUpdate: "Anarkali Disco Chali Housefull 2 128 Kbps.mp3", SongsNameUpdate: "Housefull 2", BottomNameUpdate: "narkali Disco Chali", ArtistName: "Sajid-Wajid, Mamta Sharma, Sukhwinder Singh" },
+    { SongsImageUpdateMain: "Chaiyya Chaiyya Dil Se 128 Kbps.png", SongsFilePathUpdate: "Chaiyya Chaiyya Dil Se 128 Kbps.mp3", SongsNameUpdate: "Dil Se", BottomNameUpdate: "Chaiyya Chaiyya", ArtistName: "Sukhwinder singh, Sapna Aswasthi" },
+    { SongsImageUpdateMain: "Aye Khuda Murder 2 128 Kbps.png", SongsFilePathUpdate: "Aye Khuda Murder 2 128 Kbps.mp3", SongsNameUpdate: "Aye Khuda ", BottomNameUpdate: "Aye Khuda Murder", ArtistName: "Mithoon, Kahitij Tarey, Saim Bhat" },
+    { SongsImageUpdateMain: "Teri Umeed Tera Intezar Deewana 128 Kbp.png", SongsFilePathUpdate: "Teri Umeed Tera Intezar Deewana 128 Kbps.mp3", SongsNameUpdate: "Deewana", BottomNameUpdate: "Teri Umeed Tera Intezar", ArtistName: "Nadeep -shravan, Sadhana Sargam, Kumar Sanu" },
+    { SongsImageUpdateMain: "Tum Mere Ho Udit Narayan 128 Kbps.png", SongsFilePathUpdate: "Tum Mere Ho Udit Narayan 128 Kbps.mp3", SongsNameUpdate: "Udit Narayan", BottomNameUpdate: "Tum Mere Ho", ArtistName: "Udit Narayan, Anupama Deshpande" },
+    { SongsImageUpdateMain: "Main Duniya Bhula Doonga Aashiqui 128 Kbps.png", SongsFilePathUpdate: "Main Duniya Bhula Doonga Aashiqui 128 Kbps.mp3", SongsNameUpdate: "Main Duniya", BottomNameUpdate: "Main Duniya Bhula", ArtistName: "Anuradha Paudwal, Kumar Sanu" },
+    { SongsImageUpdateMain: "Wajah Tum Ho 1 Mithoon 128 Kbps.png", SongsFilePathUpdate: "Wajah Tum Ho 1 Mithoon 128 Kbps.mp3", SongsNameUpdate: "Wajah Tum Ho", BottomNameUpdate: "Wajah Tum Ho", ArtistName: "Mithoon" },
+    { SongsImageUpdateMain: "Sultan Sukhwinder Singh 128 Kbps.png", SongsFilePathUpdate: "Sultan Sukhwinder Singh 128 Kbps.mp3", SongsNameUpdate: "Sukhwinder", BottomNameUpdate: "Sultan Sukhwinder", ArtistName: "Sukhwinder singh, Shadab Faridi, Irshad Kamil" },
+    { SongsImageUpdateMain: "Seene Pe Naseeb 1997 128 Kbps.png", SongsFilePathUpdate: "Seene Pe Naseeb 1997 128 Kbps.mp3", SongsNameUpdate: "Seene Pe", BottomNameUpdate: "Seene Pe Naseeb", ArtistName: " Kavita Krishnamurthy, Udit Narayan" },
+    { SongsImageUpdateMain: "Get Ready To Fight [128 Kbps]-(Pagalworld.gay).png", SongsFilePathUpdate: "Get Ready To Fight [128 Kbps]-(Pagalworld.gay).mp3", SongsNameUpdate: "Get Ready", BottomNameUpdate: " To Fight", ArtistName: "Benny Dayal, Sidharth Basrur" },
+    { SongsImageUpdateMain: "Chak Lein De Chandni Chowk To China 128 Kbps.png", SongsFilePathUpdate: "Chak Lein De Chandni Chowk To China 128 Kbps.mp3", SongsNameUpdate: "Chandni Chowk", BottomNameUpdate: "Chak Lein De", ArtistName: "Kalash Kher" },
+    { SongsImageUpdateMain: "Baazigar O Baazigar Kumar Sanu 128 Kbps.png", SongsFilePathUpdate: "Baazigar O Baazigar Kumar Sanu 128 Kbps.mp3", SongsNameUpdate: "Kumar Sanu", BottomNameUpdate: "Baazigar O", ArtistName: "Kumar Sanu, Alka Yagnik" },
+    { SongsImageUpdateMain: "Tera Naam Liya Ram Lakhan 128 Kbps.png", SongsFilePathUpdate: "Tera Naam Liya Ram Lakhan 128 Kbps.mp3", SongsNameUpdate: "Ram Lakhan", BottomNameUpdate: "Tera Naam Liya", ArtistName: "Anuradha Paudwal, Mahar Udhas" },
+    { SongsImageUpdateMain: "Teri Baaton Mein Aisa Uljha Jiya(PagalWorld.com.cm).png", SongsFilePathUpdate: "Teri Baaton Mein Aisa Uljha Jiya(PagalWorld.com.cm).mp3", SongsNameUpdate: "Teri Baaton Mein", BottomNameUpdate: "Aisa Uljha Jiya", ArtistName: "Raghav Kaur" },
+    { SongsImageUpdateMain: "Senorita Zindagi Na Milegi Dobara 128 Kbps.png", SongsFilePathUpdate: "Senorita Zindagi Na Milegi Dobara 128 Kbps.mp3", SongsNameUpdate: "Senorita Zindagi ", BottomNameUpdate: "Na Milegi Dobara", ArtistName: "Shankar-Ehsaan-Loy, Farhan Anktar, Harthik Roshna, Abhay Deol, " },
+    { SongsImageUpdateMain: "Dil-De-Diya-Hai(PaglaSongs).png", SongsFilePathUpdate: "Dil-De-Diya-Hai(PaglaSongs).mp3", SongsNameUpdate: "Dil-De-Diya-Hai", BottomNameUpdate: "Dil-De-Diya-Ha", ArtistName: "Not Found" },
+    { SongsImageUpdateMain: "Wo-Mil-Gaya-Jiski-Hame-Kabse-Talash-Thi(PagalWorldl).png", SongsFilePathUpdate: "Wo-Mil-Gaya-Jiski-Hame-Kabse-Talash-Thi(PagalWorldl).mp3", SongsNameUpdate: "Wo Mil Gaya", BottomNameUpdate: "Jiski Hame", ArtistName: "could not Found it" },
+    { SongsImageUpdateMain: "Jai-Ho-(Slumdog-Millionaire)(PagalWorlld.Com).png", SongsFilePathUpdate: "Jai-Ho-(Slumdog-Millionaire)(PagalWorlld.Com).mp3", SongsNameUpdate: "Sukhwinder", BottomNameUpdate: "Jai-Ho", ArtistName: "Sukhwinder Singh" },
+    { SongsImageUpdateMain: "Aankh-Hai-Bhari-Bhari(PagalWorldl).png", SongsFilePathUpdate: "Aankh-Hai-Bhari-Bhari(PagalWorldl).mp3", SongsNameUpdate: "Kumar Sanu", BottomNameUpdate: "Aankh Hai Bhari", ArtistName: "Kumar Sanu" },
+    { SongsImageUpdateMain: "Tu-Dharti-Pe-Chahe-Jahan(PagalWorlld.Com).png", SongsFilePathUpdate: "Tu-Dharti-Pe-Chahe-Jahan(PagalWorlld.Com).mp3", SongsNameUpdate: "Kumar Sanu", BottomNameUpdate: "Tu Dharti Pe", ArtistName: "Kumar Sanou, Alka Yagnik" },
+    { SongsImageUpdateMain: "Sochenge Tumhe Pyar Deewana 128 Kbps.png", SongsFilePathUpdate: "Sochenge Tumhe Pyar Deewana 128 Kbps.mp3", SongsNameUpdate: "Deewana Sanu", BottomNameUpdate: "Sochenge Tumhe", ArtistName: "Nadeep-Shravan, Kumar Sanu" },
+    { SongsImageUpdateMain: "Ramta Jogi Taal 128 Kbps.png", SongsFilePathUpdate: "Ramta Jogi Taal 128 Kbps.mp3", SongsNameUpdate: "Sukhwinder", BottomNameUpdate: "Ramta Jogi Taal", ArtistName: "Alka Yagnik, Sukhwinder Singh" },
+    { SongsImageUpdateMain: "Kisi-Din-Banoongi-Main(PagalWorlld.Com).png", SongsFilePathUpdate: "Kisi-Din-Banoongi-Main(PagalWorlld.Com).mp3", SongsNameUpdate: "Kisi Din", BottomNameUpdate: "Banoongi-Main", ArtistName: "Akla Ygnik, kumar Sanu" },
+    { SongsImageUpdateMain: "Aaja-Mujhe-Leja-Teri-Dulhan-Banake(PaglaSongs).png", SongsFilePathUpdate: "Aaja-Mujhe-Leja-Teri-Dulhan-Banake(PaglaSongs).mp3", SongsNameUpdate: "Aaja Mujhe Leja", BottomNameUpdate: "Teri-Dulhan Banake", ArtistName: "Sunidhi Chauhan" },
+    { SongsImageUpdateMain: "saat samundar paar.png", SongsFilePathUpdate: "saat samundar.mp3", SongsNameUpdate: "saat samundar", BottomNameUpdate: "saat samundar paar", ArtistName: "Vrious Artist" },
+    { SongsImageUpdateMain: "Lonely Khiladi 786 128 Kbps.png", SongsFilePathUpdate: "Lonely Khiladi 786 128 Kbps.mp3", SongsNameUpdate: "Lonely Khiladi", BottomNameUpdate: "Khiladi 786", ArtistName: "Himesh Reshmmiya, Yo Yo Honey Singh, Hamikalyer" },
+    { SongsImageUpdateMain: "Kiya Kiya Welcome 128 Kbps.png", SongsFilePathUpdate: "Kiya Kiya Welcome 128 Kbps.mp3", SongsNameUpdate: "Welcome", BottomNameUpdate: "Kiya Kiya", ArtistName: "Anand Raj Anand, Shweta Pandit " },
+    { SongsImageUpdateMain: "Janam Janam Dilwale 128 Kbps.png", SongsFilePathUpdate: "Janam Janam Dilwale 128 Kbps.mp3", SongsNameUpdate: "Dilwale", BottomNameUpdate: "Janam Janam Dilwale", ArtistName: "Arijit Singh, Antara Mitra" },
+    { SongsImageUpdateMain: "Hamne Tumko Dil Ye De Diya Gunaah 128 Kbps.png", SongsFilePathUpdate: "Hamne Tumko Dil Ye De Diya Gunaah 128 Kbps.mp3", SongsNameUpdate: "Hamne Tumko ", BottomNameUpdate: " Ye De Diya Gunaah", ArtistName: "Anand Raj Anand, Alka Yagnik, Bubul Supriyo" },
+    { SongsImageUpdateMain: "Galat Baat Hai-(PagalWorld).png", SongsFilePathUpdate: "Galat Baat Hai-(PagalWorld).mp3", SongsNameUpdate: "Galat Baat", BottomNameUpdate: "Galat Baat Hai", ArtistName: "Javed Ali, Neeti Mohan" },
+    { SongsImageUpdateMain: "Ye Kaali Kaali Aankhen Baazigar 128 Kbps.png", SongsFilePathUpdate: "Ye Kaali Kaali Aankhen Baazigar 128 Kbps.mp3", SongsNameUpdate: "Ye Kaali Kaali", BottomNameUpdate: "Aankhen", ArtistName: "Kumar Sanu, Anu Malik" },
+    { SongsImageUpdateMain: "Shikwa Nahin Kisi Se Naseeb 1997 128 Kbps.png", SongsFilePathUpdate: "Shikwa Nahin Kisi Se Naseeb 1997 128 Kbps.mp3", SongsNameUpdate: "Shikwa Nahin", BottomNameUpdate: "Kisi Se", ArtistName: "Kumar Snou" },
+    { SongsImageUpdateMain: "Ooh La La_192(Ghantalele.com).png", SongsFilePathUpdate: "Ooh La La_192(Ghantalele.com).mp3", SongsNameUpdate: "The Dirty", BottomNameUpdate: "Ooh La La", ArtistName: "Shreya Ghoshal, Bappi Lahiri" },
+    { SongsImageUpdateMain: "Tu-Hi-Haqeeqat-Khwab-Tu(PagalWorldl).png", SongsFilePathUpdate: "Tu-Hi-Haqeeqat-Khwab-Tu(PagalWorldl).mp3", SongsNameUpdate: "Tu Hi", BottomNameUpdate: "Haqeeqat Khwab", ArtistName: "Aartist Name Could not Found" },
+    { SongsImageUpdateMain: "Hamari-Adhuri-Kahani-Title-Track.png", SongsFilePathUpdate: "Hamari-Adhuri-Kahani-Title-Track(PagalWorldl).mp3", SongsNameUpdate: "Hamari Adhur", BottomNameUpdate: "Adhuri Kahani", ArtistName: "Aartist Name Could not Found" },
+    { SongsImageUpdateMain: "Tere Mast Mast Do Nain Dabangg 128 Kbps.png", SongsFilePathUpdate: "Tere Mast Mast Do Nain Dabangg 128 Kbps.mp3", SongsNameUpdate: "Tere Mast ", BottomNameUpdate: "Mast Do Nain", ArtistName: "Sajid-Wajid,shreya Ghoshal, Rahat Fateh Ali Khan" },
     // English songs added for the users
-    { SongsImageUpdateMain: "imgaes/Let-Me-Down-Slowly.png", SongsFilePathUpdate: "dukan images/Let-Me-Down-Slowly(PagalWorldl).mp3", SongsNameUpdate: "Let Me Down", BottomNameUpdate: "Let Me Down Slowly", ArtistName: "Artist Not Found" },
-    { SongsImageUpdateMain: "imgaes/Unstoppable Sia 128 Kbps.png", SongsFilePathUpdate: "dukan images/Unstoppable Sia 128 Kbps.mp3", SongsNameUpdate: "Unstoppable", BottomNameUpdate: "Unstoppable", ArtistName: "Sia" },
-    { SongsImageUpdateMain: "imgaes/Shape-of-You.png", SongsFilePathUpdate: "dukan images/Shape-of-You-(Lofi)(PagalWorldl).mp3", SongsNameUpdate: "Shape of you", BottomNameUpdate: "Shape of you", ArtistName: "Artist Not Found" },
-    { SongsImageUpdateMain: "imgaes/Unholy-(Slowed-and-Reverb).png", SongsFilePathUpdate: "dukan images/Unholy-(Slowed-and-Reverb)(PagalWorldl).mp3", SongsNameUpdate: "Unsoly Slowed", BottomNameUpdate: "", ArtistName: "Artist Not Found" },
-    { SongsImageUpdateMain: "imgaes/Senorita---Camila-Cabello(PagalWorldl).png", SongsFilePathUpdate: "dukan images/Senorita---Camila-Cabello(PagalWorldl).mp3", SongsNameUpdate: "Senorita", BottomNameUpdate: "Senorita camila cabrllo", ArtistName: "Artist Not Found" },
-    { SongsImageUpdateMain: "imgaes/baila conmingo.png", SongsFilePathUpdate: "dukan images/baila conmingo.mp3", SongsNameUpdate: "Baila conmingo", BottomNameUpdate: "Baila conmingo", ArtistName: "Satena siomez, Ravaw Alijandro" },
-    { SongsImageUpdateMain: "imgaes/electric.png", SongsFilePathUpdate: "dukan images/electric.mp3", SongsNameUpdate: "Electric", BottomNameUpdate: "Electric", ArtistName: "Katy perry" },
-    { SongsImageUpdateMain: "imgaes/lil mama see.png", SongsFilePathUpdate: "dukan images/lil mama see.mp3", SongsNameUpdate: "lil mama ", BottomNameUpdate: "lil mama see", ArtistName: "Road runner" },
-    { SongsImageUpdateMain: "imgaes/Money Heist - Soundtrack (My Life is Going On) - Cecilia Krull (Free Fire Song)(KolkataRemix.Com).png", SongsFilePathUpdate: "dukan images/Money Heist - Soundtrack (My Life is Going On) - Cecilia Krull (Free Fire Song)(KolkataRemix.Com).mp3", SongsNameUpdate: "My life", BottomNameUpdate: "is going on", ArtistName: "Artist Not Found" },
-    { SongsImageUpdateMain: "imgaes/Safari(PagalWorld).png", SongsFilePathUpdate: "dukan images/Safari(PagalWorld).mp3", SongsNameUpdate: "Sfari", BottomNameUpdate: "Sfari", ArtistName: "Artist Not Found" },
-    { SongsImageUpdateMain: "imgaes/Christina_Aguilera_-_Loyal_Brave_True_Mulan__CeeNaija.com_.png", SongsFilePathUpdate: "dukan images/Christina_Aguilera_-_Loyal_Brave_True_Mulan__CeeNaija.com_.mp3", SongsNameUpdate: "Christina_Aguilera_", BottomNameUpdate: "Loyal Brave True", ArtistName: "Christina_Aguilera_" },
-    { SongsImageUpdateMain: "imgaes/Bella Ciao(PagalWorld.com.pe).png", SongsFilePathUpdate: "dukan images/Bella Ciao(PagalWorld.com.pe).mp3", SongsNameUpdate: "Bella Ciao", BottomNameUpdate: "Bella Ciao", ArtistName: "I am sorry i could not found Yuor Artist Name" },
-    { SongsImageUpdateMain: "imgaes/Evanescence---Bring-Me-To-Life(musicdownload.cc).png", SongsFilePathUpdate: "dukan images/Evanescence---Bring-Me-To-Life(musicdownload.cc).mp3", SongsNameUpdate: "Evanescence", BottomNameUpdate: " Bring Me To Life", ArtistName: "Evanescence" },
-    { SongsImageUpdateMain: "imgaes/gameOfThorons.png", SongsFilePathUpdate: "dukan images/187434340.mp3", SongsNameUpdate: "GameOfThrones", BottomNameUpdate: "High in the hall", ArtistName: "The Hp Team Creaters" },
-    { SongsImageUpdateMain: "imgaes/Believer(PagalWorld).png", SongsFilePathUpdate: "dukan images/Believer(PagalWorld).mp3", SongsNameUpdate: "Believer", BottomNameUpdate: "Believer", ArtistName: "Artist Not Found" },
-    { SongsImageUpdateMain: "imgaes/Arya Startk.png", SongsFilePathUpdate: "dukan images/mzaf_9109643995848464483.plus.aac.p.m4a", SongsNameUpdate: "Short Song", BottomNameUpdate: "Short Song", ArtistName: "Aartist Name Could not Found" },
+    { SongsImageUpdateMain: "Let-Me-Down-Slowly.png", SongsFilePathUpdate: "Let-Me-Down-Slowly(PagalWorldl).mp3", SongsNameUpdate: "Let Me Down", BottomNameUpdate: "Let Me Down Slowly", ArtistName: "Artist Not Found" },
+    { SongsImageUpdateMain: "Unstoppable Sia 128 Kbps.png", SongsFilePathUpdate: "Unstoppable Sia 128 Kbps.mp3", SongsNameUpdate: "Unstoppable", BottomNameUpdate: "Unstoppable", ArtistName: "Sia" },
+    { SongsImageUpdateMain: "Shape-of-You.png", SongsFilePathUpdate: "Shape-of-You-(Lofi)(PagalWorldl).mp3", SongsNameUpdate: "Shape of you", BottomNameUpdate: "Shape of you", ArtistName: "Artist Not Found" },
+    { SongsImageUpdateMain: "Unholy-(Slowed-and-Reverb).png", SongsFilePathUpdate: "Unholy-(Slowed-and-Reverb)(PagalWorldl).mp3", SongsNameUpdate: "Unsoly Slowed", BottomNameUpdate: "", ArtistName: "Artist Not Found" },
+    { SongsImageUpdateMain: "Senorita---Camila-Cabello(PagalWorldl).png", SongsFilePathUpdate: "Senorita---Camila-Cabello(PagalWorldl).mp3", SongsNameUpdate: "Senorita", BottomNameUpdate: "Senorita camila cabrllo", ArtistName: "Artist Not Found" },
+    { SongsImageUpdateMain: "baila conmingo.png", SongsFilePathUpdate: "baila conmingo.mp3", SongsNameUpdate: "Baila conmingo", BottomNameUpdate: "Baila conmingo", ArtistName: "Satena siomez, Ravaw Alijandro" },
+    { SongsImageUpdateMain: "electric.png", SongsFilePathUpdate: "electric.mp3", SongsNameUpdate: "Electric", BottomNameUpdate: "Electric", ArtistName: "Katy perry" },
+    { SongsImageUpdateMain: "lil mama see.png", SongsFilePathUpdate: "lil mama see.mp3", SongsNameUpdate: "lil mama ", BottomNameUpdate: "lil mama see", ArtistName: "Road runner" },
+    { SongsImageUpdateMain: "Money Heist - Soundtrack (My Life is Going On) - Cecilia Krull (Free Fire Song)(KolkataRemix.Com).png", SongsFilePathUpdate: "Money Heist - Soundtrack (My Life is Going On) - Cecilia Krull (Free Fire Song)(KolkataRemix.Com).mp3", SongsNameUpdate: "My life", BottomNameUpdate: "is going on", ArtistName: "Artist Not Found" },
+    { SongsImageUpdateMain: "Safari(PagalWorld).png", SongsFilePathUpdate: "Safari(PagalWorld).mp3", SongsNameUpdate: "Sfari", BottomNameUpdate: "Sfari", ArtistName: "Artist Not Found" },
+    { SongsImageUpdateMain: "Christina_Aguilera_-_Loyal_Brave_True_Mulan__CeeNaija.com_.png", SongsFilePathUpdate: "Christina_Aguilera_-_Loyal_Brave_True_Mulan__CeeNaija.com_.mp3", SongsNameUpdate: "Christina_Aguilera_", BottomNameUpdate: "Loyal Brave True", ArtistName: "Christina_Aguilera_" },
+    { SongsImageUpdateMain: "Bella Ciao(PagalWorld.com.pe).png", SongsFilePathUpdate: "Bella Ciao(PagalWorld.com.pe).mp3", SongsNameUpdate: "Bella Ciao", BottomNameUpdate: "Bella Ciao", ArtistName: "I am sorry i could not found Yuor Artist Name" },
+    { SongsImageUpdateMain: "Evanescence---Bring-Me-To-Life(musicdownload.cc).png", SongsFilePathUpdate: "Evanescence---Bring-Me-To-Life(musicdownload.cc).mp3", SongsNameUpdate: "Evanescence", BottomNameUpdate: " Bring Me To Life", ArtistName: "Evanescence" },
+    { SongsImageUpdateMain: "gameOfThorons.png", SongsFilePathUpdate: "187434340.mp3", SongsNameUpdate: "GameOfThrones", BottomNameUpdate: "High in the hall", ArtistName: "The Hp Team Creaters" },
+    { SongsImageUpdateMain: "Believer(PagalWorld).png", SongsFilePathUpdate: "Believer(PagalWorld).mp3", SongsNameUpdate: "Believer", BottomNameUpdate: "Believer", ArtistName: "Artist Not Found" },
+    { SongsImageUpdateMain: "Arya Startk.png", SongsFilePathUpdate: "mzaf_9109643995848464483.plus.aac.p.m4a", SongsNameUpdate: "Short Song", BottomNameUpdate: "Short Song", ArtistName: "Aartist Name Could not Found" },
 
 ]
 
@@ -2132,10 +2132,29 @@ let body = document.querySelector('main')
 let infoSongs = document.querySelector('.infoSongs');
 let contetnaboutit = document.querySelector('.contetnaboutit');
 
+const ForWardPlayerMina = document.getElementById("ForWardPlayerMina");
+console.log(ForWardPlayerMina)
+let nextSongsPlay = "Yes";
+ForWardPlayerMina.addEventListener('click', (en) => {
+    if(nextSongsPlay == "Yes") {
+        console.log("Yes less than 0")
+        console.log(SongsImageAndSongsAndArtistNmaeAndSongsNameWithNewUpdate.SongsFilePath = "lw")
+        console.log(MinaAudioForTheHomePage.src = SongsImageAndSongsAndArtistNmaeAndSongsNameWithNewUpdate[0].SongsFilePathUpdate)
+        MinaAudioForTheHomePage.play()
+        console.log(MinaAudioForTheHomePage)
+        nextSongsPlay = "No"
+    }else {
+        
+        console.log("No less than 0")
+        nextSongsPlay = "Yes"
+
+        
+    }
+})
 
 
 
-let MinaAudioForTheHomePage = new Audio("dukan images/Jai-Ho-(Slumdog-Millionaire)(PagalWorlld.Com).mp3");
+let MinaAudioForTheHomePage = new Audio("Jai-Ho-(Slumdog-Millionaire)(PagalWorlld.Com).mp3");
 
 playersAdditional.forEach((New, pq) => {
     New.addEventListener('click', () => {
@@ -2309,18 +2328,19 @@ FooterImageOfSong.addEventListener('click', () => {
 })
 
 
+
 // This is more button of container of programing for this is significant
 const AllConatinerOfMore = document.querySelectorAll('#AllConatinerOfMore');
-let sonsgsPLyaer = new Audio('dukan images/Aisi Deewangi Deewana 128 Kbps.mp3')
+let sonsgsPLyaer = new Audio('Aisi Deewangi Deewana 128 Kbps.mp3')
 let SongsAndImageAndContentAndSongs = [
-    { SongsImage: "imgaes/Aisi Deewangi Deewana 128 Kbps.png", SongsFilePath: "dukan images/Aisi Deewangi Deewana 128 Kbps.mp3", SongsName: "Aisi Deewangi Deewana", ArtistName: "Kumar Sanu" },
-    { SongsImage: "imgaes/Dard E Disco Om Shanti Om 128 Kbps.png", SongsFilePath: "dukan images/Dard E Disco Om Shanti Om 128 Kbps.mp3", SongsName: "Dard E Disco Om Shanti Om ", ArtistName: "Sukhwinder visal" },
-    { SongsImage: "imgaes/Bada Dukh Dena Ram Lakhan 128 Kbps.png", SongsFilePath: "dukan images/Bada Dukh Dena Ram Lakhan 128 Kbps.mp3", SongsName: "Bada Dukh Dena Ram Lakhan", ArtistName: "Anuradha Paudwal" },
-    { SongsImage: "imgaes/Chaiyya Chaiyya Dil Se 128 Kbps.png", SongsFilePath: "dukan images/Chaiyya Chaiyya Dil Se 128 Kbps.mp3", SongsName: "Chaiyya Chaiyya Dil Se", ArtistName: "Sukhwinder Singh " },
-    { SongsImage: "imgaes/Aye Khuda Murder 2 128 Kbps.png", SongsFilePath: "dukan images/Aye Khuda Murder 2 128 Kbps.mp3", SongsName: "Aye Khuda Murder", ArtistName: "Mithoon, Kshtij, Saim Bhat" },
-    { SongsImage: "imgaes/Teri Umeed Tera Intezar Deewana 128 Kbp.png", SongsFilePath: "dukan images/Teri Umeed Tera Intezar Deewana 128 Kbps.mp3", SongsName: "Teri Umeed Tera Intezar Deewana", ArtistName: "Alka vs Sanu" },
-    { SongsImage: "imgaes/Tum Mere Ho Udit Narayan 128 Kbps.png", SongsFilePath: "dukan images/Tum Mere Ho Udit Narayan 128 Kbps.mp3", SongsName: "Tum Mere Ho Udit Narayan", ArtistName: "Udit Naraya" },
-    { SongsImage: "imgaes/Main Duniya Bhula Doonga Aashiqui 128 Kbps.png", SongsFilePath: "dukan images/Main Duniya Bhula Doonga Aashiqui 128 Kbps.mp3", SongsName: "Main Duniya Bhula Doonga Aashiqui", ArtistName: "Anuradha vs Sanu" },
+    { SongsImage: "Aisi Deewangi Deewana 128 Kbps.png", SongsFilePath: "Aisi Deewangi Deewana 128 Kbps.mp3", SongsName: "Aisi Deewangi Deewana", ArtistName: "Kumar Sanu" },
+    { SongsImage: "Dard E Disco Om Shanti Om 128 Kbps.png", SongsFilePath: "Dard E Disco Om Shanti Om 128 Kbps.mp3", SongsName: "Dard E Disco Om Shanti Om ", ArtistName: "Sukhwinder visal" },
+    { SongsImage: "Bada Dukh Dena Ram Lakhan 128 Kbps.png", SongsFilePath: "Bada Dukh Dena Ram Lakhan 128 Kbps.mp3", SongsName: "Bada Dukh Dena Ram Lakhan", ArtistName: "Anuradha Paudwal" },
+    { SongsImage: "Chaiyya Chaiyya Dil Se 128 Kbps.png", SongsFilePath: "Chaiyya Chaiyya Dil Se 128 Kbps.mp3", SongsName: "Chaiyya Chaiyya Dil Se", ArtistName: "Sukhwinder Singh " },
+    { SongsImage: "Aye Khuda Murder 2 128 Kbps.png", SongsFilePath: "Aye Khuda Murder 2 128 Kbps.mp3", SongsName: "Aye Khuda Murder", ArtistName: "Mithoon, Kshtij, Saim Bhat" },
+    { SongsImage: "Teri Umeed Tera Intezar Deewana 128 Kbp.png", SongsFilePath: "Teri Umeed Tera Intezar Deewana 128 Kbps.mp3", SongsName: "Teri Umeed Tera Intezar Deewana", ArtistName: "Alka vs Sanu" },
+    { SongsImage: "Tum Mere Ho Udit Narayan 128 Kbps.png", SongsFilePath: "Tum Mere Ho Udit Narayan 128 Kbps.mp3", SongsName: "Tum Mere Ho Udit Narayan", ArtistName: "Udit Naraya" },
+    { SongsImage: "Main Duniya Bhula Doonga Aashiqui 128 Kbps.png", SongsFilePath: "Main Duniya Bhula Doonga Aashiqui 128 Kbps.mp3", SongsName: "Main Duniya Bhula Doonga Aashiqui", ArtistName: "Anuradha vs Sanu" },
 ]
 const SongsNmaeInMore = Array.from(document.querySelectorAll('.SongsNmaeInMore'));
 const playCircleOnly = document.querySelector('.playCircleOnly ')
