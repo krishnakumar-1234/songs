@@ -2056,7 +2056,7 @@ let SongsImageAndSongsAndArtistNmaeAndSongsNameWithNewUpdate = [
     { SongsImageUpdateMain: "Dard E Disco Om Shanti Om 128 Kbps.png", SongsFilePathUpdate: "Dard E Disco Om Shanti Om 128 Kbps.mp3", SongsNameUpdate: "Dard E Disco ", BottomNameUpdate: "Dard E Disco Om Shanti", ArtistName: "Sukhwinder Singh, Marinne, Nisha, Caralisa Monteiro" },
     { SongsImageUpdateMain: "Bada Dukh Dena Ram Lakhan 128 Kbps.png", SongsFilePathUpdate: "Bada Dukh Dena Ram Lakhan 128 Kbps.mp3", SongsNameUpdate: "Ram Lakhan", BottomNameUpdate: "Bada Dukh Dena Ram", ArtistName: "Laxmikant- Pyrelal, Lata Mangeshkar" },
     { SongsImageUpdateMain: "Mujhe Tere Jaise Raaz 128 Kbps.png", SongsFilePathUpdate: "Mujhe Tere Jaise Raaz 128 Kbps.mp3", SongsNameUpdate: "Raaz", BottomNameUpdate: "Mujhe Tere Jaise Raaz", ArtistName: "Udit Naraan, Sarika Kapoor" },
-    { SongsImageUpdateMain: "Anarkali Disco Chali Housefull 2 128 Kbps.png", SongsFilePathUpdate: "Anarkali Disco Chali Housefull 2 128 Kbps.mp3", SongsNameUpdate: "Housefull 2", BottomNameUpdate: "narkali Disco Chali", ArtistName: "Sajid-Wajid, Mamta Sharma, Sukhwinder Singh" },
+    { SongsImageUpdateMain: "Anarkali Disco Chali Housefull 2 128 Kbps.png", SongsFilePathUpdate: "Anarkali Disco Chali Housefull 2 128 Kbps.mp3", SongsNameUpdate: "Housefull 2", BottomNameUpdate: "Anarkali Disco Chali", ArtistName: "Sajid-Wajid, Mamta Sharma, Sukhwinder Singh" },
     { SongsImageUpdateMain: "Chaiyya Chaiyya Dil Se 128 Kbps.png", SongsFilePathUpdate: "Chaiyya Chaiyya Dil Se 128 Kbps.mp3", SongsNameUpdate: "Dil Se", BottomNameUpdate: "Chaiyya Chaiyya", ArtistName: "Sukhwinder singh, Sapna Aswasthi" },
     { SongsImageUpdateMain: "Aye Khuda Murder 2 128 Kbps.png", SongsFilePathUpdate: "Aye Khuda Murder 2 128 Kbps.mp3", SongsNameUpdate: "Aye Khuda ", BottomNameUpdate: "Aye Khuda Murder", ArtistName: "Mithoon, Kahitij Tarey, Saim Bhat" },
     { SongsImageUpdateMain: "Teri Umeed Tera Intezar Deewana 128 Kbp.png", SongsFilePathUpdate: "Teri Umeed Tera Intezar Deewana 128 Kbps.mp3", SongsNameUpdate: "Deewana", BottomNameUpdate: "Teri Umeed Tera Intezar", ArtistName: "Nadeep -shravan, Sadhana Sargam, Kumar Sanu" },
@@ -2133,24 +2133,7 @@ let infoSongs = document.querySelector('.infoSongs');
 let contetnaboutit = document.querySelector('.contetnaboutit');
 
 const ForWardPlayerMina = document.getElementById("ForWardPlayerMina");
-console.log(ForWardPlayerMina)
-let nextSongsPlay = "Yes";
-ForWardPlayerMina.addEventListener('click', (en) => {
-    if(nextSongsPlay == "Yes") {
-        console.log("Yes less than 0")
-        console.log(SongsImageAndSongsAndArtistNmaeAndSongsNameWithNewUpdate.SongsFilePath = "lw")
-        console.log(MinaAudioForTheHomePage.src = SongsImageAndSongsAndArtistNmaeAndSongsNameWithNewUpdate[0].SongsFilePathUpdate)
-        MinaAudioForTheHomePage.play()
-        console.log(MinaAudioForTheHomePage)
-        nextSongsPlay = "No"
-    }else {
-        
-        console.log("No less than 0")
-        nextSongsPlay = "Yes"
 
-        
-    }
-})
 
 
 
@@ -2202,7 +2185,7 @@ SongsImage.forEach((ImageForMian, T) => {
         FooterImageOfSong.src = SongsImageAndSongsAndArtistNmaeAndSongsNameWithNewUpdate[T].SongsImageUpdateMain;
         WhichsongsIsPlyedNow.innerText = SongsImageAndSongsAndArtistNmaeAndSongsNameWithNewUpdate[T].SongsNameUpdate;
         WhoisArtistOfSongs.innerText = `(${SongsImageAndSongsAndArtistNmaeAndSongsNameWithNewUpdate[T].ArtistName}) ❤️`;
-        titleFab.innerHTML = `${SongsImageAndSongsAndArtistNmaeAndSongsNameWithNewUpdate[T].SongsNameUpdate} ArtistName = ${SongsImageAndSongsAndArtistNmaeAndSongsNameWithNewUpdate[T].ArtistName} ❤️`;
+        titleFab.innerHTML = `${SongsImageAndSongsAndArtistNmaeAndSongsNameWithNewUpdate[T].BottomNameUpdate} ArtistName = ${SongsImageAndSongsAndArtistNmaeAndSongsNameWithNewUpdate[T].ArtistName} ❤️`;
     })
 
 });
@@ -2329,64 +2312,78 @@ FooterImageOfSong.addEventListener('click', () => {
 
 
 
+
 // This is more button of container of programing for this is significant
-const AllConatinerOfMore = document.querySelectorAll('#AllConatinerOfMore');
-let sonsgsPLyaer = new Audio('Aisi Deewangi Deewana 128 Kbps.mp3')
-let SongsAndImageAndContentAndSongs = [
-    { SongsImage: "Aisi Deewangi Deewana 128 Kbps.png", SongsFilePath: "Aisi Deewangi Deewana 128 Kbps.mp3", SongsName: "Aisi Deewangi Deewana", ArtistName: "Kumar Sanu" },
-    { SongsImage: "Dard E Disco Om Shanti Om 128 Kbps.png", SongsFilePath: "Dard E Disco Om Shanti Om 128 Kbps.mp3", SongsName: "Dard E Disco Om Shanti Om ", ArtistName: "Sukhwinder visal" },
-    { SongsImage: "Bada Dukh Dena Ram Lakhan 128 Kbps.png", SongsFilePath: "Bada Dukh Dena Ram Lakhan 128 Kbps.mp3", SongsName: "Bada Dukh Dena Ram Lakhan", ArtistName: "Anuradha Paudwal" },
-    { SongsImage: "Chaiyya Chaiyya Dil Se 128 Kbps.png", SongsFilePath: "Chaiyya Chaiyya Dil Se 128 Kbps.mp3", SongsName: "Chaiyya Chaiyya Dil Se", ArtistName: "Sukhwinder Singh " },
-    { SongsImage: "Aye Khuda Murder 2 128 Kbps.png", SongsFilePath: "Aye Khuda Murder 2 128 Kbps.mp3", SongsName: "Aye Khuda Murder", ArtistName: "Mithoon, Kshtij, Saim Bhat" },
-    { SongsImage: "Teri Umeed Tera Intezar Deewana 128 Kbp.png", SongsFilePath: "Teri Umeed Tera Intezar Deewana 128 Kbps.mp3", SongsName: "Teri Umeed Tera Intezar Deewana", ArtistName: "Alka vs Sanu" },
-    { SongsImage: "Tum Mere Ho Udit Narayan 128 Kbps.png", SongsFilePath: "Tum Mere Ho Udit Narayan 128 Kbps.mp3", SongsName: "Tum Mere Ho Udit Narayan", ArtistName: "Udit Naraya" },
-    { SongsImage: "Main Duniya Bhula Doonga Aashiqui 128 Kbps.png", SongsFilePath: "Main Duniya Bhula Doonga Aashiqui 128 Kbps.mp3", SongsName: "Main Duniya Bhula Doonga Aashiqui", ArtistName: "Anuradha vs Sanu" },
-]
+// let sonsgsPLyaer = new Audio('Aisi Deewangi Deewana 128 Kbps.mp3')
+// let SongsAndImageAndContentAndSongs = [
+    //     { SongsImage: "Aisi Deewangi Deewana 128 Kbps.png", SongsFilePath: "Aisi Deewangi Deewana 128 Kbps.mp3", SongsName: "Aisi Deewangi Deewana", ArtistName: "Kumar Sanu" },
+    //     { SongsImage: "Dard E Disco Om Shanti Om 128 Kbps.png", SongsFilePath: "Dard E Disco Om Shanti Om 128 Kbps.mp3", SongsName: "Dard E Disco Om Shanti Om ", ArtistName: "Sukhwinder visal" },
+    //     { SongsImage: "Bada Dukh Dena Ram Lakhan 128 Kbps.png", SongsFilePath: "Bada Dukh Dena Ram Lakhan 128 Kbps.mp3", SongsName: "Bada Dukh Dena Ram Lakhan", ArtistName: "Anuradha Paudwal" },
+    //     { SongsImage: "Chaiyya Chaiyya Dil Se 128 Kbps.png", SongsFilePath: "Chaiyya Chaiyya Dil Se 128 Kbps.mp3", SongsName: "Chaiyya Chaiyya Dil Se", ArtistName: "Sukhwinder Singh " },
+    //     { SongsImage: "Aye Khuda Murder 2 128 Kbps.png", SongsFilePath: "Aye Khuda Murder 2 128 Kbps.mp3", SongsName: "Aye Khuda Murder", ArtistName: "Mithoon, Kshtij, Saim Bhat" },
+    //     { SongsImage: "Teri Umeed Tera Intezar Deewana 128 Kbp.png", SongsFilePath: "Teri Umeed Tera Intezar Deewana 128 Kbps.mp3", SongsName: "Teri Umeed Tera Intezar Deewana", ArtistName: "Alka vs Sanu" },
+    //     { SongsImage: "Tum Mere Ho Udit Narayan 128 Kbps.png", SongsFilePath: "Tum Mere Ho Udit Narayan 128 Kbps.mp3", SongsName: "Tum Mere Ho Udit Narayan", ArtistName: "Udit Naraya" },
+    //     { SongsImage: "Main Duniya Bhula Doonga Aashiqui 128 Kbps.png", SongsFilePath: "Main Duniya Bhula Doonga Aashiqui 128 Kbps.mp3", SongsName: "Main Duniya Bhula Doonga Aashiqui", ArtistName: "Anuradha vs Sanu" },
+    const AllConatinerOfMore = document.querySelectorAll('#AllConatinerOfMore');
+// ]
 const SongsNmaeInMore = Array.from(document.querySelectorAll('.SongsNmaeInMore'));
 const playCircleOnly = document.querySelector('.playCircleOnly ')
 const HeadingImageINMore = document.getElementById('HeadingImageINMore');
 const WhichSngsisPlaying = document.getElementById('WhichSngsisPlaying');
 const ArtistNameINheading = document.getElementById('ArtistNameINheading');
 AllConatinerOfMore.forEach((electric, i) => {
-    electric.getElementsByClassName("imageOfSongsContainer")[0].style.backgroundImage = `url('${SongsAndImageAndContentAndSongs[i].SongsImage}')`
-    electric.getElementsByClassName("SongsNmaeInMore")[0].innerHTML = SongsAndImageAndContentAndSongs[i].SongsName;
-    electric.getElementsByClassName("ArtistNameInMore")[0].innerHTML = SongsAndImageAndContentAndSongs[i].ArtistName;
+    electric.getElementsByClassName("imageOfSongsContainer")[0].style.backgroundImage = `url('${SongsImageAndSongsAndArtistNmaeAndSongsNameWithNewUpdate[i].SongsImageUpdateMain}')`
+    electric.getElementsByClassName("SongsNmaeInMore")[0].innerHTML = SongsImageAndSongsAndArtistNmaeAndSongsNameWithNewUpdate[i].ArtistName;
+    electric.getElementsByClassName("ArtistNameInMore")[0].innerHTML = SongsImageAndSongsAndArtistNmaeAndSongsNameWithNewUpdate[i].BottomNameUpdate;
 
     electric.addEventListener('click', () => {
-        let io = SongsAndImageAndContentAndSongs[i].SongsFilePath;
-        sonsgsPLyaer.src = io;
-        sonsgsPLyaer.play()
-        playCircleOnly.style.backgroundImage = "url('newspotify/pause-solid.svg')"
+        let io = SongsImageAndSongsAndArtistNmaeAndSongsNameWithNewUpdate[i].SongsFilePathUpdate;
+        MinaAudioForTheHomePage.src = io;
+        MinaAudioForTheHomePage.play()
+        playCircleOnlyMain.classList.remove("playCircleOnlyMain")
+        playCircleOnlyMain.classList.add("pauseCircleOnlyMain")
 
-        HeadingImageINMore.src = SongsAndImageAndContentAndSongs[i].SongsImage
-        WhichSngsisPlaying.innerHTML = SongsAndImageAndContentAndSongs[i].SongsName;
-        ArtistNameINheading.innerHTML = `(Artist Name) ${SongsAndImageAndContentAndSongs[i].ArtistName}`
+        HeadingImageINMore.src = SongsImageAndSongsAndArtistNmaeAndSongsNameWithNewUpdate[i].SongsImageUpdateMain
+        WhichSngsisPlaying.innerHTML = SongsImageAndSongsAndArtistNmaeAndSongsNameWithNewUpdate[i].SongsNameUpdate;
+        ArtistNameINheading.innerHTML = `(Artist Name) ${SongsImageAndSongsAndArtistNmaeAndSongsNameWithNewUpdate[i].ArtistName}`
+
+        FooterImageOfSong.src = SongsImageAndSongsAndArtistNmaeAndSongsNameWithNewUpdate[i].SongsImageUpdateMain;
+        WhichsongsIsPlyedNow.innerText = SongsImageAndSongsAndArtistNmaeAndSongsNameWithNewUpdate[i].SongsNameUpdate;
+        WhoisArtistOfSongs.innerText = `(${SongsImageAndSongsAndArtistNmaeAndSongsNameWithNewUpdate[i].ArtistName}) ❤️`;
+        titleFab.innerHTML = `${SongsImageAndSongsAndArtistNmaeAndSongsNameWithNewUpdate[i].SongsNameUpdate} ArtistName = ${SongsImageAndSongsAndArtistNmaeAndSongsNameWithNewUpdate[i].ArtistName} ❤️`;
 
     })
-})
-playCircleOnly.addEventListener('click', () => {
-
-    if (sonsgsPLyaer.paused || sonsgsPLyaer.currentTime <= 0) {
-        sonsgsPLyaer.play()
-        playCircleOnly.style.backgroundImage = "url('newspotify/pause-solid.svg')"
-    } else {
-        sonsgsPLyaer.pause()
-        playCircleOnly.style.backgroundImage = "url('newspotify/play-solid.svg')"
-    }
 
 })
 
-const timeStap = document.getElementById('range');
-sonsgsPLyaer.addEventListener('timeupdate', () => {
 
-    console.log('timeupdate')
-    progress = parseInt((sonsgsPLyaer.currentTime / sonsgsPLyaer.duration) * 100);
-    timeStap.value = progress
-})
 
-range.addEventListener('change', () => {
-    sonsgsPLyaer.currentTime = range.value * sonsgsPLyaer.duration / 100;
-})
+
+// playCircleOnly.addEventListener('click', () => {
+
+//     if (sonsgsPLyaer.paused || sonsgsPLyaer.currentTime <= 0) {
+//         sonsgsPLyaer.play()
+//         playCircleOnly.style.backgroundImage = "url('newspotify/pause-solid.svg')"
+//     } else {
+//         sonsgsPLyaer.pause()
+//         playCircleOnly.style.backgroundImage = "url('newspotify/play-solid.svg')"
+//     }
+
+// })
+
+
+
+// const timeStap = document.getElementById('range');
+// sonsgsPLyaer.addEventListener('timeupdate', () => {
+
+//     console.log('timeupdate')
+//     progress = parseInt((sonsgsPLyaer.currentTime / sonsgsPLyaer.duration) * 100);
+//     timeStap.value = progress
+// })
+
+// range.addEventListener('change', () => {
+//     sonsgsPLyaer.currentTime = range.value * sonsgsPLyaer.duration / 100;
+// })
 
 
 function FollowPage() {
@@ -2418,6 +2415,7 @@ function FollowPage() {
 
     })
 } FollowPage()
+
 
 
 
