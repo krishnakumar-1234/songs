@@ -73,23 +73,41 @@ let SongsImageAndSongsAndArtistNmaeAndSongsNameWithNewUpdate = [
     { SongsImageUpdateMain: "Jiyaa-Laage-Naa(PaglaSongs).png", SongsFilePathUpdate: "Jiyaa-Laage-Naa(PaglaSongs).mp3", SongsNameUpdate: "Jiyaa-Laage", BottomNameUpdate: "jiyaa-Laage-Naa", ArtistName: "Mona Batt", DurationOfSounsds: "1:50" },
     { SongsImageUpdateMain: "Main-Dil-Ko-Samjha-Lunga(PaglaSongs).png", SongsFilePathUpdate: "Main-Dil-Ko-Samjha-Lunga(PaglaSongs).mp3", SongsNameUpdate: "Main-Dil-Ko", BottomNameUpdate: "Main-Dil-Ko", ArtistName: "Shreya Ghoshal, Vishal Mishra", DurationOfSounsds: "1:50" },
     { SongsImageUpdateMain: "Meri Ho Ja Sachet Tandon 128 Kbps.png", SongsFilePathUpdate: "Meri Ho Ja Sachet Tandon 128 Kbps.mp3", SongsNameUpdate: "Meri Ho Ja", BottomNameUpdate: "Meri Ho Ja Sachet Tandon", ArtistName: "Sechet Tandon, Parampara Tandon, ", DurationOfSounsds: "1:50" },
-    { SongsImageUpdateMain: "Mohabbat Dil Ka Sakoon_192(Ghantalele.com).png", SongsFilePathUpdate: "Dil Hai Tumhaara Alka Yagnik 128 Kbps.mp3", SongsNameUpdate: "Dil Hai", BottomNameUpdate: "Dil Hai Tumhaara", ArtistName: "Alka Yagnik", DurationOfSounsds: "1:50" },
-    { SongsImageUpdateMain: "Chahun Main Ya Naa Aashiqui 2 128 Kbps.png", SongsFilePathUpdate: "Chahun Main Ya Naa Aashiqui 2 128 Kbps.mp3", SongsNameUpdate: "Chahun Main Ya", BottomNameUpdate: "Chahun Main Ya..", ArtistName: "Palak Muchhal, Arijit Singh", DurationOfSounsds: "1:50" },
+    { SongsImageUpdateMain: "Mohabbat Dil Ka Sakoon_192(Ghantalele.com).png", SongsFilePathUpdate: "Dil Hai Tumhaara Alka Yagnik 128 Kbps.mp3", SongsNameUpdate: "Dil Hai", BottomNameUpdate: "Dil Hai Tumhaara", ArtistName: "Alka Yagnik", DurationOfSounsds: "1:50" },    
     { SongsImageUpdateMain: "O Sahiba O Sahiba Dil Hai Tumhaara 128 Kbps.png", SongsFilePathUpdate: "O Sahiba O Sahiba Dil Hai Tumhaara 128 Kbps.mp3", SongsNameUpdate: "O Sahiba O ", BottomNameUpdate: "O Sahiba O Sahiba", ArtistName: "Kavita krishnamurthy, Sounu Nigam", DurationOfSounsds: "1:50" },
-    { SongsImageUpdateMain: "Sunn Raha Hai Male Aashiqui 2 128 Kbps.png", SongsFilePathUpdate: "Sunn Raha Hai Male Aashiqui 2 128 Kbps.mp3", SongsNameUpdate: "Sunn Raha Hai", BottomNameUpdate: "Sunn Raha Hai", ArtistName: "Ankita tiwari", DurationOfSounsds: "1:50" },
     { SongsImageUpdateMain: "Wo Ladki Jo Baadshah 128 Kbps.png", SongsFilePathUpdate: "Wo Ladki Jo Baadshah 128 Kbps.mp3", SongsNameUpdate: "Wo Ladki Jo", BottomNameUpdate: "Wo Ladki Jo sabse", ArtistName: "Anu malik, Abhijeet", DurationOfSounsds: "1:50" },
-    { SongsImageUpdateMain: "Tum Hi Ho Aashiqui 2 128 Kbps.png", SongsFilePathUpdate: "Tum Hi Ho Aashiqui 2 128 Kbps.mp3", SongsNameUpdate: "Tum Hi Ho", BottomNameUpdate: "Tum Hi Ho", ArtistName: "Arijiy singh", DurationOfSounsds: "1:50" },
     { SongsImageUpdateMain: "Badshah O Badshah Baadshah 128 Kbps.png", SongsFilePathUpdate: "Badshah O Badshah Baadshah 128 Kbps.mp3", SongsNameUpdate: "Badshah O  ", BottomNameUpdate: "Badshah O Badshah ", ArtistName: "Anu malik , abhijeet", DurationOfSounsds: "1:50" },
     { SongsImageUpdateMain: "Kitna Haseen Chehra Dilwale 128 Kbps.png", SongsFilePathUpdate: "Kitna Haseen Chehra Dilwale 128 Kbps.mp3", SongsNameUpdate: "Kitna Haseen ", BottomNameUpdate: "Kitna Haseen Chehra", ArtistName: "Kumar sanu", DurationOfSounsds: "1:50" },
     { SongsImageUpdateMain: "Aakhir Tumhein Aana Hai Yalgaar 128 Kbps.png", SongsFilePathUpdate: "Aakhir Tumhein Aana Hai Yalgaar 128 Kbps.mp3", SongsNameUpdate: "Aakhir Tumhein", BottomNameUpdate: "Aakhir Tumhein Aana Hai", ArtistName: "Udit Narayan, Spna Mukherjee", DurationOfSounsds: "1:50" },
-    { SongsImageUpdateMain: "Aisa Deewana Dil Maange More 128 Kbps.png", SongsFilePathUpdate: "Aisa Deewana Dil Maange More 128 Kbps.mp3", SongsNameUpdate: "Aisa Deewana", BottomNameUpdate: "Aisa Deewana Dil", ArtistName: "Souu Nigam, Alka Yagnik", DurationOfSounsds: "1:50" },
     { SongsImageUpdateMain: "Do Pal Veer Zaara 128 Kbps.png", SongsFilePathUpdate: "Do Pal Veer Zaara 128 Kbps.mp3", SongsNameUpdate: "Do Pal", BottomNameUpdate: "Do Pal", ArtistName: "Sonu Nigam, Lata Mangeshkar, Mohan, javed akhtar", DurationOfSounsds: "1:50" },
     { SongsImageUpdateMain: "Yeh Sheher Hai Raaz 128 Kbps.png", SongsFilePathUpdate: "Yeh Sheher Hai Raaz 128 Kbps.mp3", SongsNameUpdate: "Yeh Sheher", BottomNameUpdate: "Yeh Sheher Hai", ArtistName: "Suzzan, Jolly Mukherjee, Bali Brahmbhatt", DurationOfSounsds: "1:50" },
-    { SongsImageUpdateMain: "Aafreen Tera Chehra Red The Dark Side 128 Kbps.png", SongsFilePathUpdate: "Aafreen Tera Chehra Red The Dark Side 128 Kbps.mp3", SongsNameUpdate: "Aafreen Tera ", BottomNameUpdate: "Aafreen Tera Chehra", ArtistName: "Himesh Resmmiya", DurationOfSounsds: "1:50" },
-    { SongsImageUpdateMain: "Main Jahaan Rahoon Namastey London 128 Kbps.png", SongsFilePathUpdate: "Main Jahaan Rahoon Namastey London 128 Kbps.mp3", SongsNameUpdate: "Main Jahaan ", BottomNameUpdate: "Main Jahaan Rahoon", ArtistName: "Rahat fateh ali khan, Krishna Beura", DurationOfSounsds: "1:50" },
+    { SongsImageUpdateMain: "Aankhein Khuli Mohabbatein 128 Kbps.png", SongsFilePathUpdate: "Aankhein Khuli Mohabbatein 128 Kbps.mp3", SongsNameUpdate: "Aankhein Khuli", BottomNameUpdate: "Aankhein Khuli", ArtistName: "Lata mangeshkar, Udit Narayan, Jatin-Lalit, Anand Bakshi", DurationOfSounsds: "1:50" },
+    { SongsImageUpdateMain: "Aisa Deewana Dil Maange More 128 Kbps.png", SongsFilePathUpdate: "Aisa Deewana Dil Maange More 128 Kbps.mp3", SongsNameUpdate: "Aisa Deewana", BottomNameUpdate: "Aisa Deewana Dil", ArtistName: "Souu Nigam, Alka Yagnik", DurationOfSounsds: "1:50" },
+    { SongsImageUpdateMain: "Chahun Main Ya Naa Aashiqui 2 128 Kbps.png", SongsFilePathUpdate: "Chahun Main Ya Naa Aashiqui 2 128 Kbps.mp3", SongsNameUpdate: "Chahun Main Ya", BottomNameUpdate: "Chahun Main Ya..", ArtistName: "Palak Muchhal, Arijit Singh", DurationOfSounsds: "1:50" },
+    { SongsImageUpdateMain: "Sunn Raha Hai Male Aashiqui 2 128 Kbps.png", SongsFilePathUpdate: "Sunn Raha Hai Male Aashiqui 2 128 Kbps.mp3", SongsNameUpdate: "Sunn Raha Hai", BottomNameUpdate: "Sunn Raha Hai", ArtistName: "Ankita tiwari", DurationOfSounsds: "1:50" },
+    { SongsImageUpdateMain: "Tum Hi Ho Aashiqui 2 128 Kbps.png", SongsFilePathUpdate: "Tum Hi Ho Aashiqui 2 128 Kbps.mp3", SongsNameUpdate: "Tum Hi Ho", BottomNameUpdate: "Tum Hi Ho", ArtistName: "Arijiy singh", DurationOfSounsds: "1:50" },
+    { SongsImageUpdateMain: "Chahun Main Ya Naa Aashiqui 2 128 Kbps.png", SongsFilePathUpdate: "Milne Hai Mujhse Aayi Aashiqui 2 128 Kbps.mp3", SongsNameUpdate: "Milne Hai Mujhse", BottomNameUpdate: "Milne Hai Mujhse Aayi ", ArtistName: "Arijit Singh", DurationOfSounsds: "1:50" },
+    { SongsImageUpdateMain: "Aashiq Banaya Aapne Himesh Reshammiya 128 Kbps.png", SongsFilePathUpdate: "Aashiq Banaya Aapne Himesh Reshammiya 128 Kbps.mp3", SongsNameUpdate: "Aashiq Banaya", BottomNameUpdate: "Aashiq Banaya Aapne", ArtistName: "Himesh Resmmeya", DurationOfSounsds: "1:50" },
+    { SongsImageUpdateMain: "Samjho Na - Remix.png", SongsFilePathUpdate: "Samjho Na - Remix.mp3", SongsNameUpdate: "Samjho Na", BottomNameUpdate: "Samjho Na", ArtistName: "Himesh Resmmeya", DurationOfSounsds: "1:50" },
+    { SongsImageUpdateMain: "Naam Hai Tera.png", SongsFilePathUpdate: "Naam Hai Tera.mp3", SongsNameUpdate: "Naam Hai Tera", BottomNameUpdate: "Naam Hai Tera", ArtistName: "Himesh Resmmeya", DurationOfSounsds: "1:50" },
+    { SongsImageUpdateMain: "Jhalak Dikhla Ja Aksar 128 Kbps.png", SongsFilePathUpdate: "Jhalak Dikhla Ja Aksar 128 Kbps.mp3", SongsNameUpdate: "Jhalak Dikhla Ja", BottomNameUpdate: "Jhalak Dikhla Ja", ArtistName: "Himesh Resmmeya", DurationOfSounsds: "1:50" },
     { SongsImageUpdateMain: "Aashiqui Mein Teri - Remix By Akbar Sami (36 China Town) - (Raag.Fm).png", SongsFilePathUpdate: "Aashiqui Mein Teri - Remix By Akbar Sami (36 China Town) - (Raag.Fm).mp3", SongsNameUpdate: "Aashiqui Mein Teri", BottomNameUpdate: "Aashiqui Mein Teri", ArtistName: "Himesh Resmmeya, sunidhi chauhan", DurationOfSounsds: "1:50" },
     { SongsImageUpdateMain: "Terre Pyaar Mein - (Raag.Fm).png", SongsFilePathUpdate: "Terre Pyaar Mein - (Raag.Fm).mp3", SongsNameUpdate: "Terre Pyaar Mein", BottomNameUpdate: "Terre Pyaar Mein", ArtistName: "Himesh Resmmeya ", DurationOfSounsds: "1:50" },
+    { SongsImageUpdateMain: "Aafreen Tera Chehra Red The Dark Side 128 Kbps.png", SongsFilePathUpdate: "Aafreen Tera Chehra Red The Dark Side 128 Kbps.mp3", SongsNameUpdate: "Aafreen Tera ", BottomNameUpdate: "Aafreen Tera Chehra", ArtistName: "Himesh Resmmiya", DurationOfSounsds: "1:50" },
+    { SongsImageUpdateMain: "Main Jahaan Rahoon Namastey London 128 Kbps.png", SongsFilePathUpdate: "Main Jahaan Rahoon Namastey London 128 Kbps.mp3", SongsNameUpdate: "Main Jahaan ", BottomNameUpdate: "Main Jahaan Rahoon", ArtistName: "Rahat fateh ali khan, Krishna Beura", DurationOfSounsds: "1:50" },
+    { SongsImageUpdateMain: "Zara Sa (From Jannat).png", SongsFilePathUpdate: "Zara Sa (From Jannat).mp3", SongsNameUpdate: "Zara Sa", BottomNameUpdate: "Zara Sa", ArtistName: "Kk sir", DurationOfSounsds: "1:50" },
     { SongsImageUpdateMain: "Piya Ji Ke Sanng - (Raag.Fm).png", SongsFilePathUpdate: "Piya Ji Ke Sanng - (Raag.Fm).mp3", SongsNameUpdate: "Piya Ji Ke ", BottomNameUpdate: "Piya Ji Ke Sanng", ArtistName: "Himesh Resmmeya, Arunita Kanjilal", DurationOfSounsds: "1:50" },
+    { SongsImageUpdateMain: "Ya Ali.png", SongsFilePathUpdate: "Ya Ali.mp3", SongsNameUpdate: "Ya Ali", BottomNameUpdate: "Ya Ali", ArtistName: "Artist is not found", DurationOfSounsds: "1:50" },
+    { SongsImageUpdateMain: "In-Husn-Ke-Jalwo-Ne-Mera-Hosh-Uda-Dala(PagalWorld).png", SongsFilePathUpdate: "In-Husn-Ke-Jalwo-Ne-Mera-Hosh-Uda-Dala(PagalWorld).mp3", SongsNameUpdate: "In Husn Ke", BottomNameUpdate: "In Husn Ke Jalwo", ArtistName: "Wynk Music", DurationOfSounsds: "1:50" },
+    { SongsImageUpdateMain: "Sanam Teri Kasam Ankit Tiwari 128 Kbps.png", SongsFilePathUpdate: "Sanam Teri Kasam Ankit Tiwari 128 Kbps.mp3", SongsNameUpdate: "Sanam Teri ", BottomNameUpdate: "Sanam Teri Kasam", ArtistName: "Ankit Tiwari, Palak Muchhal", DurationOfSounsds: "1:50" },
+    { SongsImageUpdateMain: "Sanam Teri Kasam Ankit Tiwari 128 Kbps.png", SongsFilePathUpdate: "Bewajah Sanam Teri Kasam 128 Kbps.mp3", SongsNameUpdate: "Bewajah Sanam", BottomNameUpdate: "Bewajah Sanam Teri", ArtistName: "Himesh Resmmeya", DurationOfSounsds: "1:50" },
+    { SongsImageUpdateMain: "Sanam Teri Kasam Ankit Tiwari 128 Kbps.png", SongsFilePathUpdate: "Kheech Meri Photo Sanam Teri Kasam 128 Kbps.mp3", SongsNameUpdate: "Kheech Meri", BottomNameUpdate: "Kheech Meri Photo ", ArtistName: "Neeti mohan Akash, Dharshan, Himesh Resmmeya", DurationOfSounsds: "1:50" },
+
+    { SongsImageUpdateMain: "threeisnosongs.svg", SongsFilePathUpdate: "Main Jahaan Rahoon Namastey London 128 Kbps.mp3", SongsNameUpdate: "Main Jahaan ", BottomNameUpdate: "Main Jahaan Rahoon", ArtistName: "Rahat fateh ali khan, Krishna Beura", DurationOfSounsds: "1:50" },
+    { SongsImageUpdateMain: "threeisnosongs.svg", SongsFilePathUpdate: "Aashiqui Mein Teri - Remix By Akbar Sami (36 China Town) - (Raag.Fm).mp3", SongsNameUpdate: "Aashiqui Mein Teri", BottomNameUpdate: "Aashiqui Mein Teri", ArtistName: "Himesh Resmmeya, sunidhi chauhan", DurationOfSounsds: "1:50" },
+    { SongsImageUpdateMain: "threeisnosongs.svg", SongsFilePathUpdate: "Terre Pyaar Mein - (Raag.Fm).mp3", SongsNameUpdate: "Terre Pyaar Mein", BottomNameUpdate: "Terre Pyaar Mein", ArtistName: "Himesh Resmmeya ", DurationOfSounsds: "1:50" },
+    { SongsImageUpdateMain: "threeisnosongs.svg", SongsFilePathUpdate: "Piya Ji Ke Sanng - (Raag.Fm).mp3", SongsNameUpdate: "Piya Ji Ke ", BottomNameUpdate: "Piya Ji Ke Sanng", ArtistName: "Himesh Resmmeya, Arunita Kanjilal", DurationOfSounsds: "1:50" },
+
 
     NewSongsToSloveingBugTOSongAndNameImageArtustNameAndSongsname = [
         { SongsImageUpdateMainInOtherWay: "Teri-Yaadon-Se---Salman-Ali(PaglaSongs).png", SongsFilePathUpdate: "Teri-Yaadon-Se---Salman-Ali(PaglaSongs).mp3", SongsNameUpdate: "Teri-Yaadon", BottomNameUpdate: "Teri-Yaadon-Se", ArtistName: "Salman-Ali" },
@@ -519,92 +537,6 @@ over.addEventListener('click', () => {
 
 })
 
-
-const Search = document.getElementById('Search');
-const back = document.getElementById('back');
-const searchhome = document.getElementById('searchhome');
-const whole = document.getElementById('const')
-Search.addEventListener('click', () => {
-    console.log("This is serchbar")
-
-    searchhome.style.display = 'block';
-    whole.style.display = 'none'
-})
-back.addEventListener('click', () => {
-    console.log("This is serchbar off")
-    searchhome.style.display = 'none';
-    whole.style.display = 'block'
-
-})
-const iconSearch = document.getElementById('iconSearch');
-iconSearch.addEventListener('click', () => {
-    searchhome.style.display = 'block';
-    whole.style.display = 'none'
-
-    // searchhome.style.display = 'none';
-})
-
-// This is listdelelting
-const listDelelte = document.getElementById('listDelelte');
-const itemin_one = document.getElementById('itemin_one');
-listDelelte.addEventListener('click', () => {
-    itemin_one.style.display = 'none'
-})
-
-const listDelelte1 = document.getElementById('listDelelte1');
-const itemin_two = document.getElementById('itemin_two');
-listDelelte1.addEventListener('click', () => {
-    itemin_two.style.display = 'none'
-})
-
-const listDelelte3 = document.getElementById('listDelelte3');
-const itemin_three = document.getElementById('itemin_three');
-listDelelte3.addEventListener('click', () => {
-    itemin_three.style.display = 'none'
-})
-const listDelelte4 = document.getElementById('listDelelte4');
-const itemin_four = document.getElementById('itemin_four');
-listDelelte4.addEventListener('click', () => {
-    itemin_four.style.display = 'none'
-})
-
-const listDelelte5 = document.getElementById('listDelelte5');
-const itemin_five = document.getElementById('itemin_five');
-listDelelte5.addEventListener('click', () => {
-    itemin_five.style.display = 'none'
-})
-
-const listDelelte6 = document.getElementById('listDelelte6');
-const itemin_six = document.getElementById('itemin_six');
-listDelelte6.addEventListener('click', () => {
-    itemin_six.style.display = 'none'
-})
-
-const listDelelte7 = document.getElementById('listDelelte7');
-const itemin_seven = document.getElementById('itemin_seven');
-listDelelte7.addEventListener('click', () => {
-    itemin_seven.style.display = 'none'
-})
-
-const listDelelte8 = document.getElementById('listDelelte8');
-const itemin_eight = document.getElementById('itemin_eight');
-listDelelte8.addEventListener('click', () => {
-    itemin_eight.style.display = 'none'
-})
-const listDelelte9 = document.getElementById('listDelelte9');
-const itemin_nine = document.getElementById('itemin_nine');
-listDelelte9.addEventListener('click', () => {
-    itemin_nine.style.display = 'none'
-    empty.style.display = 'block'
-})
-
-
-
-
-
-
-
-
 const imgHiro1 = document.getElementById('imgHiro1');
 const imgHiro2 = document.getElementById('imgHiro2');
 const imgHiro3 = document.getElementById('imgHiro3');
@@ -695,4 +627,34 @@ FomrForUser.addEventListener("submit",  (e) => {
     }
     UserNumber.value = ""
 localStorage.setItem("name", UserNumber);
+})
+
+
+
+// This is search songs page of programing 
+const searchhome = document.querySelector("#searchhome")
+console.log(searchhome)
+const ListImageInSearchResult = document.querySelectorAll(".ListImageInSearchResult");
+const ListContentForInSearchPage = document.querySelectorAll(".ListContentForInSearchPage");
+const ArtistNameInSearchPage = document.querySelectorAll(".ArtistNameInSearchPage");
+
+ListContentForInSearchPage.forEach((ListContentForInSearchPage, x) => {
+    ListContentForInSearchPage.innerHTML =  SongsImageAndSongsAndArtistNmaeAndSongsNameWithNewUpdate[x].BottomNameUpdate
+})
+ArtistNameInSearchPage.forEach((ArtistNameInSearchPage, x) => {
+    ArtistNameInSearchPage.innerHTML =SongsImageAndSongsAndArtistNmaeAndSongsNameWithNewUpdate[x].ArtistName
+})
+ListImageInSearchResult.forEach((ListImageInSearchResult, x) => {
+    ListImageInSearchResult.src = SongsImageAndSongsAndArtistNmaeAndSongsNameWithNewUpdate[x].SongsImageUpdateMain
+})
+
+const searchHome = document.getElementById("searchHome");
+const Search = document.getElementById("Search");
+const back = document.getElementById("back");
+Search.addEventListener("click", ()=> {
+    searchHome.style.display = "flex";
+})
+back.addEventListener("click", () => {
+    searchHome.style.display = "none";
+
 })
