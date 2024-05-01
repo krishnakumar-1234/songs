@@ -302,6 +302,7 @@ body {
     display: flex;
     justify-content: space-between;
 
+
 }
 
 .title h1 {
@@ -312,7 +313,7 @@ body {
 .title p {
     width: 60px;
     height: 25px;
-    margin-right: 100px;
+    margin-right: 10px;
     color: red;
     display: flex;
     align-items: center;
@@ -325,7 +326,7 @@ body {
 @media (max-width: 1225px) {
     .title p {
         margin-right: 10px;
-        background-image:linear-gradient(rgb(211, 110, 110), rgb(212, 82, 82), rgb(192, 69, 69));
+        background-image: linear-gradient(rgb(211, 110, 110), rgb(212, 82, 82), rgb(192, 69, 69));
 
         color: white;
 
@@ -335,7 +336,7 @@ body {
 .title p:hover {
     color: white;
     cursor: pointer;
-    background-image:linear-gradient(rgb(211, 110, 110), rgb(212, 82, 82), rgb(192, 69, 69));
+    background-image: linear-gradient(rgb(211, 110, 110), rgb(212, 82, 82), rgb(192, 69, 69));
 }
 
 /* The end of heading of all songs of title tell user */
@@ -495,7 +496,7 @@ body {
     height: 126.22px;
     border-radius: 6pt;
     background-size: cover;
-    background-image: url(Unstoppable\ Sia\ 128\ Kbps.png);
+    background-image: url(imgaes/Unstoppable\ Sia\ 128\ Kbps.png);
 
 }
 
@@ -850,35 +851,47 @@ body {
     width: 100%;
     height: 100%;
     z-index: 1000;
-    position: absolute;
+    display: none;
+    position: fixed;
+    overflow: scroll;
     background-color: black;
     animation-name: searchhome;
-    display: none;
     animation-duration: 0.50s;
     animation-iteration-count: calc(1);
 }
 
+.innerSearchHomePage {
+    width: 100%;
+    display: flex;
+    margin-top: 73px;
+    justify-content: center;
+
+
+}
+
 @keyframes searchhome {
     0% {
-        height: 0;
-        background-color: wheat;
+        opacity: 0;
     }
 
     100% {
-        height: 100%;
+        opacity: 1;
     }
 
 }
 
 .heading_in {
+    top: 0;
     width: 100%;
     height: 70px;
     display: flex;
     position: fixed;
-    top: 0;
     justify-content: center;
     align-items: center;
-    background-color: #000000;
+    background-color: #072831;
+    animation-name: searchhome;
+    animation-duration: 0.50s;
+    animation-iteration-count: calc(1);
 
 }
 
@@ -892,18 +905,21 @@ body {
     justify-content: center;
 
 
-
 }
 
 #back {
-    width: 45px;
-    height: 45px;
+    width: 60px;
+    height: 40px;
+    padding: 5px;
     display: flex;
-    border-radius: 100%;
+    border-radius: 5px;
     align-items: center;
-    padding-left: 2%;
     justify-content: center;
+    transition-duration: 0.20s;
+}
 
+#back p {
+    margin-bottom: 5.25px;
 }
 
 #back:hover {
@@ -916,25 +932,25 @@ body {
     align-items: center;
     justify-content: safe;
 
-
 }
 
 .search_inputin svg {
-    left: 50px;
-    width: var(--svg-size);
+    left: 45px;
     position: relative;
+    width: var(--svg-size);
 }
 
 .search_inputin input {
-    width: 80%;
+    width: 89%;
     height: 42px;
     font-size: 1em;
     color: white;
-    font-style: italic;
     padding-left: 5%;
+    outline-width: 0;
     border-radius: 2px;
     transition-duration: 0.50s;
-    border: 2px solid rgb(47, 47, 47);
+    border: 1px solid white;
+    border-radius: 100px;
     background-color: var(--background);
 
 }
@@ -947,95 +963,150 @@ body {
 
 .search_inputin input:focus {
     width: 90%;
+
 }
 
-/* This is output of title */
-.title {
+.UserOutpustSongs {
     width: 100%;
-    height: fit-content;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+
+
 }
 
-.title h1 {
-    padding-left: 3%;
+#SearchListSonsgContainer {
+    width: 95%;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+
 }
 
-/* The end output of title */
-
-
-/* This is uotput of songs itme and ist content */
-.outputitems {
+#SearchListSonsgContainer li {
     width: 100%;
+    height: 80px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 10px;
+    border-bottom: 2px solid #072831;
+
+
+}
+
+
+
+.imageListAndContentListInSearchPage {
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+
+.imageAndContentForTheListInSearchPage {
+    width: 80%;
+    display: flex;
+    align-items: center;
+
+}
+
+/*  */
+.imageListContainerDiv {
+    width: 10%;
+    display: flex;
+    align-items: center;
+
+
+
+}
+
+.imageListContainerDiv img {
+    width: 75px;
+    height: 75px;
+    border-radius: 100px;
+}
+
+/*  */
+.ArtistNameAndSongsNameInSearchPage {
+    width: 90%;
     display: flex;
     height: fit-content;
     flex-direction: column;
-    justify-content: center;
-    justify-content: space-evenly;
+
+
 }
 
-.itemin_one {
-    width: 95%;
+.ArtistNameAndSongsNameInSearchPage p {
+    width: 100%;
+
+
+}
+
+.ListContentForInSearchPage {
+    font-size: 1.50em;
+
+}
+
+.ArtistNameInSearchPage {
+    color: gray;
+    margin-top: 6px;
+
+}
+
+.DeleteListSongsIndexC {
+    width: 20%;
     display: flex;
-    margin: 0 auto;
-    align-items: center;
-    height: fit-content;
-    margin-top: 20px;
+    align-items: end;
+    padding-right: 10px;
+    justify-content: end;
+
+}
+
+.DeleteListSongsIndexC button {
+    width: 45px;
+    height: 45px;
+    border: none;
+    color: white;
+    font-size: 2em;
     cursor: pointer;
-    padding-bottom: 5px;
-    border-bottom: 2px double #21252d;
-}
-
-
-.element1 {
-    width: fit-content;
-    text-align: start;
-
-}
-
-.element1 img {
-    width: 80px;
-    height: 80px;
-    margin-right: 20px;
+    font-weight: lighter;
     border-radius: 100px;
-
+    background-color: transparent;
 }
 
-.element2 {
-    width: 80%;
-    font-size: 1.20em;
-    display: flex;
-    justify-content: space-between;
-    /* background-color: red; */
-    align-items: center;
-    font-family: Arial, Helvetica, sans-serif;
-
+.DeleteListSongsIndexC button:hover {
+    background-color: rgba(128, 128, 128, 0.301);
 }
 
-#animation {
-    display: none;
-    float: right;
-    width: 30px;
+@media (max-width: 800px) {
+    .imageListContainerDiv {
+        width: 30%;
+    }
+
+    .ArtistNameAndSongsNameInSearchPage {
+        width: 70%;
+    }
 }
 
-.element3 {
-    width: 10%;
-    text-align: end;
-}
+@media (max-width: 500px) {
+    .ListContentForInSearchPage {
+        font-size: 18px;
 
-.element3 strong {
-    font-size: 2.50em;
-    cursor: pointer;
-    padding-right: 5%;
+    }
 
-}
+    .DeleteListSongsIndexC button {
+        background-color: rgba(128, 128, 128, 0.301);
 
-.empty {
-    top: 50%;
-    left: 30%;
-    right: 30%;
-    color: #252525;
-    position: fixed;
-    display: none;
-    font-family: sans-serif;
+    }
+
+    #SearchListSonsgContainer li {
+        width: 98%;
+    }
 }
 
 /* The end output of songs items */
@@ -1435,7 +1506,8 @@ body {
 .bottomContainerToPlayingSongs {
     position: fixed;
     height: 70px;
-    background-color: #21252d;
+    /* background-color: #21252d; */
+    background-color: #072831;
     right: 0;
     bottom: 0;
     display: flex;
@@ -1443,6 +1515,7 @@ body {
     flex-direction: column;
     align-items: center;
     width: 100%;
+    z-index: 1000;
     padding-bottom: 10px;
 }
 
@@ -1450,6 +1523,9 @@ body {
     width: 90%;
     cursor: pointer;
     margin-top: 20px;
+
+    filter: invert(10);
+    accent-color: #9b00ff;
 }
 
 .threeMaterPlayer {
@@ -1503,6 +1579,8 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url(play-solid.svg);
+
+
 }
 
 .pauseCircleOnlyMain {
@@ -1747,46 +1825,76 @@ input[type="submit"] {
         height: 400px;
     }
 }
+
 @keyframes ANMTIONl {
     0% {
         opacity: 0;
     }
+
     100% {
         opacity: 1;
     }
 }
+
 @media (max-width: 800px) {
     .LoginPageContainerSecond {
         width: 90%;
         flex-direction: column;
     }
+
     .ImageForLoginPage {
         width: 100%;
     }
+
     .ImageForLoginPage img {
         border-top-right-radius: 8px;
         border-bottom-left-radius: 0;
     }
+
     .FormForLoginPageConatainerv {
         width: 100%;
         height: 400px;
         background-color: rebeccapurple;
     }
+
     .FormForLoginPageConatainer form {
         width: 100%;
         justify-content: space-evenly;
         flex-direction: row;
 
     }
+
     .FormForLoginPageConatainer form label {
         width: 100%;
 
     }
+
     input[type="submit"] {
         top: 0px;
-        left:0px;
+        left: 0px;
     }
 }
 
 /* The end Login page of styling from here */
 
+
+/* For Webkit browsers (e.g., Chrome, Safari) */
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #000;
+    /* Dark color for the thumb */
+    border-radius: 0px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #000;
+    /* Dark color for the track */
+}
+
+/* For Firefox */
+scrollbar-color: #000 #000;
+/* Dark color for the thumb and track in Firefox */
