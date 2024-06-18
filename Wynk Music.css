@@ -212,70 +212,6 @@ body {
 /* The ned of improtant if heading */
 
 
-/* This is hiro of styling css */
-.hero {
-    width: 100%;
-    text-align: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    height: fit-content;
-    display: flex;
-    align-items: center;
-
-    justify-content: space-evenly;
-
-
-}
-
-@media (max-width: 600px) {
-    .hero {
-        margin-top: 100px;
-    }
-}
-
-.hiro_images {
-    width: 95%;
-    background-color: transparent;
-    display: flex;
-    justify-content: center;
-    overflow: scroll;
-}
-
-.hiro_images img {
-    height: 50%;
-    border: 2px outset white;
-    width: 70%;
-    animation-name: AnimationHiro1;
-    animation-duration: 1s;
-    animation-iteration-count: calc(1);
-    margin-left: 20px;
-    border-radius: 10px;
-
-}
-
-@keyframes AnimationHiro1 {
-    0% {
-        transform: translate(1100px);
-    }
-
-    100% {
-        transform: translate(0);
-    }
-
-}
-
-@keyframes AnimationHiro2 {
-    0% {
-        transform: translate(0px);
-    }
-
-    100% {
-        transform: translate(-1100px);
-    }
-
-}
-
-/* The ned of hiro of styling css */
 
 
 
@@ -362,6 +298,25 @@ body {
 
 }
 
+.songs_continer::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+    border-radius: 100px;
+}
+
+.songs_continer::-webkit-scrollbar-thumb {
+    background-color: #56c03e;
+    /* Dark color for the thumb */
+    border-radius: 10px;
+}
+
+.songs_continer::-webkit-scrollbar-track {
+    background-color: #000000;
+    /* Dark color for the track */
+}
+
+
+
 .songs_rel {
     margin-left: 10px;
     height: fit-content;
@@ -446,6 +401,24 @@ body {
 
 }
 
+.artist_n_c_i::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+    border-radius: 100px;
+}
+
+.artist_n_c_i::-webkit-scrollbar-thumb {
+    background-color: rgb(153, 255, 0);
+    /* Dark color for the thumb */
+    border-radius: 10px;
+}
+
+.artist_n_c_i::-webkit-scrollbar-track {
+    background-color: #000000;
+    /* Dark color for the track */
+}
+
+
 .artist_rel {
     cursor: pointer;
     margin-left: 10px;
@@ -496,7 +469,7 @@ body {
     height: 126.22px;
     border-radius: 6pt;
     background-size: cover;
-    background-image: url(imgaes/Unstoppable\ Sia\ 128\ Kbps.png);
+    background-image: url(Unstoppable\ Sia\ 128\ Kbps.png);
 
 }
 
@@ -860,6 +833,23 @@ body {
     animation-iteration-count: calc(1);
 }
 
+.searchhome::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+    border-radius: 100px;
+}
+
+.searchhome::-webkit-scrollbar-thumb {
+    background-color: greenyellow;
+    /* Dark color for the thumb */
+    border-radius: 10px;
+}
+
+.searchhome::-webkit-scrollbar-track {
+    background-color: #000000;
+    /* Dark color for the track */
+}
+
 .innerSearchHomePage {
     width: 100%;
     display: flex;
@@ -1004,6 +994,9 @@ body {
     width: 100%;
     display: flex;
     align-items: center;
+    cursor: pointer;
+    border-bottom: 2px solid #072831;
+
 
 }
 
@@ -1515,7 +1508,7 @@ body {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    z-index: 1000;
+    z-index: 10000;
     padding-bottom: 10px;
 }
 
@@ -1880,21 +1873,77 @@ input[type="submit"] {
 
 /* For Webkit browsers (e.g., Chrome, Safari) */
 ::-webkit-scrollbar {
-    width: 0px;
-    height: 0px;
+    width: 8px;
+    height: 2px;
+    border-radius: 100px;
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #000;
+    background-color: greenyellow;
     /* Dark color for the thumb */
-    border-radius: 0px;
+    border-radius: 10px;
 }
 
 ::-webkit-scrollbar-track {
-    background-color: #000;
+    background-color: #000000;
     /* Dark color for the track */
 }
 
-/* For Firefox */
-scrollbar-color: #000 #000;
-/* Dark color for the thumb and track in Firefox */
+.sliderContainer {
+    width: 98%;
+    height: 40vh;
+    display: flex;
+    padding: 4px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.slider-container {
+    position: relative;
+    width: 80%;
+    max-width: 900px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.slider {
+    display: flex;
+    transition: transform 1s ease-in-out;
+}
+
+.slide {
+    min-width: 100%;
+    transition: transform 1s ease-in-out;
+}
+
+.slide img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.prev,
+.next {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+    padding: 0.5rem;
+    border-radius: 50%;
+    user-select: none;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
