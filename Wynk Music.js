@@ -1,45 +1,47 @@
 // This is adding addtional songs for the users with new javascript version or upadting things thing from the today
 let SongsImageAndSongsAndArtistNmaeAndSongsNameWithNewUpdate = [
-    { SongsImageUpdateMain: "Aisi Deewangi Deewana 128 Kbps.png", SongsFilePathUpdate: "Aisi Deewangi Deewana 128 Kbps.mp3", SongsNameUpdate: "Aisi Deewangi.", BottomNameUpdate: "Aisi Deewangi Dekhi nahi", ArtistName: "Nadeep-Shravan, Alka Yganik, Vinod Rathod", DurationOfSounsds: "1:50" },
-    { SongsImageUpdateMain: "Dard E Disco Om Shanti Om 128 Kbps.png", SongsFilePathUpdate: "Dard E Disco Om Shanti Om 128 Kbps.mp3", SongsNameUpdate: "Dard E Disco ", BottomNameUpdate: "Dard E Disco Om Shanti", ArtistName: "Sukhwinder Singh, Marinne, Nisha, Caralisa Monteiro", DurationOfSounsds: "1:50" },
+    { SongsImageUpdateMain: "AisiDeewangi.png", SongsFilePathUpdate: "Aisi Deewangi Deewana 128 Kbps.mp3", SongsNameUpdate: "Aisi Deewangi.", BottomNameUpdate: "Aisi Deewangi Dekhi nahi", ArtistName: "Nadeep-Shravan, Alka Yganik, Vinod Rathod", DurationOfSounsds: "1:50" },
+    { SongsImageUpdateMain: "Teri Umeed Tera Intezar Deewana 128 Kbp.png", SongsFilePathUpdate: "Teri Umeed Tera Intezar Deewana 128 Kbps.mp3", SongsNameUpdate: "Teri Umeed Tera i..", BottomNameUpdate: "Teri Umeed Tera Intezar", ArtistName: "Nadeep -shravan, Sadhana Sargam, Kumar Sanu", DurationOfSounsds: "1:50" }, 
+    { SongsImageUpdateMain: "Sochenge Tumhe Pyar Deewana 128 Kbps.png", SongsFilePathUpdate: "Sochenge Tumhe Pyar Deewana 128 Kbps.mp3", SongsNameUpdate: "Deewana Sanu", BottomNameUpdate: "Sochenge Tumhe", ArtistName: "Nadeep-Shravan, Kumar Sanu", DurationOfSounsds: "1:50" },
+    { SongsImageUpdateMain: "Chaiyya Chaiyya Dil Se 128 Kbps.png", SongsFilePathUpdate: "Chaiyya Chaiyya Dil Se 128 Kbps.mp3", SongsNameUpdate: "Chaiyya Chaiyya", BottomNameUpdate: "Chaiyya Chaiyya", ArtistName: "Sukhwinder singh, Sapna Aswasthi", DurationOfSounsds: "1:50" },
+    { SongsImageUpdateMain: "Baazigar O Baazigar Kumar Sanu 128 Kbps.png", SongsFilePathUpdate: "Baazigar O Baazigar Kumar Sanu 128 Kbps.mp3", SongsNameUpdate: "Kumar Sanu", BottomNameUpdate: "Baazigar O", ArtistName: "Kumar Sanu, Alka Yagnik", DurationOfSounsds: "1:50" },
+    { SongsImageUpdateMain: "Tu-Dharti-Pe-Chahe-Jahan(PagalWorlld.Com).png", SongsFilePathUpdate: "Tu-Dharti-Pe-Chahe-Jahan(PagalWorlld.Com).mp3", SongsNameUpdate: "Kumar Sanu", BottomNameUpdate: "Tu Dharti Pe", ArtistName: "Kumar Sanou, Alka Yagnik", DurationOfSounsds: "1:50" },
+    { SongsImageUpdateMain: "Ye Kaali Kaali Aankhen Baazigar 128 Kbps.png", SongsFilePathUpdate: "Ye Kaali Kaali Aankhen Baazigar 128 Kbps.mp3", SongsNameUpdate: "Ye Kaali Kaali", BottomNameUpdate: "Aankhen", ArtistName: "Kumar Sanu, Anu Malik", DurationOfSounsds: "1:50" },
+    { SongsImageUpdateMain: "Mile Jo Tere Naina Do Aankhen Barah Hath 128 Kbps.png", SongsFilePathUpdate: "Mile Jo Tere Naina Do Aankhen Barah Hath 128 Kbps.mp3", SongsNameUpdate: "Mile Jo Tere", BottomNameUpdate: "Naina Do Aankhen Barah", ArtistName: "Hey I am sorry I cannot find artist name", DurationOfSounsds: "1:50" },
+    { SongsImageUpdateMain: "Wo-Mil-Gaya-Jiski-Hame-Kabse-Talash-Thi(PagalWorldl).png", SongsFilePathUpdate: "Wo-Mil-Gaya-Jiski-Hame-Kabse-Talash-Thi(PagalWorldl).mp3", SongsNameUpdate: "Wo Mil Gaya", BottomNameUpdate: "Jiski Hame", ArtistName: "could not Found it", DurationOfSounsds: "1:50" },
+    { SongsImageUpdateMain: "Tera Naam Liya Ram Lakhan 128 Kbps.png", SongsFilePathUpdate: "Tera Naam Liya Ram Lakhan 128 Kbps.mp3", SongsNameUpdate: "Ram Lakhan", BottomNameUpdate: "Tera Naam Liya", ArtistName: "Anuradha Paudwal, Mahar Udhas", DurationOfSounsds: "1:50" },
+    { SongsImageUpdateMain: "Aankh-Hai-Bhari-Bhari(PagalWorldl).png", SongsFilePathUpdate: "Aankh-Hai-Bhari-Bhari(PagalWorldl).mp3", SongsNameUpdate: "Kumar Sanu", BottomNameUpdate: "Aankh Hai Bhari", ArtistName: "Kumar Sanu", DurationOfSounsds: "1:50" },
     { SongsImageUpdateMain: "Bada Dukh Dena Ram Lakhan 128 Kbps.png", SongsFilePathUpdate: "Bada Dukh Dena Ram Lakhan 128 Kbps.mp3", SongsNameUpdate: "Ram Lakhan", BottomNameUpdate: "Bada Dukh Dena Ram", ArtistName: "Laxmikant- Pyrelal, Lata Mangeshkar", DurationOfSounsds: "1:50" },
     { SongsImageUpdateMain: "Mujhe Tere Jaise Raaz 128 Kbps.png", SongsFilePathUpdate: "Mujhe Tere Jaise Raaz 128 Kbps.mp3", SongsNameUpdate: "Raaz", BottomNameUpdate: "Mujhe Tere Jaise Raaz", ArtistName: "Udit Naraan, Sarika Kapoor", DurationOfSounsds: "1:50" },
-    { SongsImageUpdateMain: "Anarkali Disco Chali Housefull 2 128 Kbps.png", SongsFilePathUpdate: "Anarkali Disco Chali Housefull 2 128 Kbps.mp3", SongsNameUpdate: "Housefull 2", BottomNameUpdate: "Anarkali Disco Chali", ArtistName: "Sajid-Wajid, Mamta Sharma, Sukhwinder Singh", DurationOfSounsds: "1:50" },
-    { SongsImageUpdateMain: "Chaiyya Chaiyya Dil Se 128 Kbps.png", SongsFilePathUpdate: "Chaiyya Chaiyya Dil Se 128 Kbps.mp3", SongsNameUpdate: "Dil Se", BottomNameUpdate: "Chaiyya Chaiyya", ArtistName: "Sukhwinder singh, Sapna Aswasthi", DurationOfSounsds: "1:50" },
-    { SongsImageUpdateMain: "Aye Khuda Murder 2 128 Kbps.png", SongsFilePathUpdate: "Aye Khuda Murder 2 128 Kbps.mp3", SongsNameUpdate: "Aye Khuda ", BottomNameUpdate: "Aye Khuda Murder", ArtistName: "Mithoon, Kahitij Tarey, Saim Bhat", DurationOfSounsds: "1:50" },
-    { SongsImageUpdateMain: "Teri Umeed Tera Intezar Deewana 128 Kbp.png", SongsFilePathUpdate: "Teri Umeed Tera Intezar Deewana 128 Kbps.mp3", SongsNameUpdate: "Deewana", BottomNameUpdate: "Teri Umeed Tera Intezar", ArtistName: "Nadeep -shravan, Sadhana Sargam, Kumar Sanu", DurationOfSounsds: "1:50" },
     { SongsImageUpdateMain: "Tum Mere Ho Udit Narayan 128 Kbps.png", SongsFilePathUpdate: "Tum Mere Ho Udit Narayan 128 Kbps.mp3", SongsNameUpdate: "Udit Narayan", BottomNameUpdate: "Tum Mere Ho", ArtistName: "Udit Narayan, Anupama Deshpande", DurationOfSounsds: "1:50" },
-    { SongsImageUpdateMain: "Main Duniya Bhula Doonga Aashiqui 128 Kbps.png", SongsFilePathUpdate: "Main Duniya Bhula Doonga Aashiqui 128 Kbps.mp3", SongsNameUpdate: "Main Duniya", BottomNameUpdate: "Main Duniya Bhula", ArtistName: "Anuradha Paudwal, Kumar Sanu", DurationOfSounsds: "1:50" },
-    { SongsImageUpdateMain: "Wajah Tum Ho 1 Mithoon 128 Kbps.png", SongsFilePathUpdate: "Wajah Tum Ho 1 Mithoon 128 Kbps.mp3", SongsNameUpdate: "Wajah Tum Ho", BottomNameUpdate: "Wajah Tum Ho", ArtistName: "Mithoon", DurationOfSounsds: "1:50" },
-    { SongsImageUpdateMain: "Sultan Sukhwinder Singh 128 Kbps.png", SongsFilePathUpdate: "Sultan Sukhwinder Singh 128 Kbps.mp3", SongsNameUpdate: "Sukhwinder", BottomNameUpdate: "Sultan Sukhwinder", ArtistName: "Sukhwinder singh, Shadab Faridi, Irshad Kamil", DurationOfSounsds: "1:50" },
     { SongsImageUpdateMain: "Seene Pe Naseeb 1997 128 Kbps.png", SongsFilePathUpdate: "Seene Pe Naseeb 1997 128 Kbps.mp3", SongsNameUpdate: "Seene Pe", BottomNameUpdate: "Seene Pe Naseeb", ArtistName: " Kavita Krishnamurthy, Udit Narayan", DurationOfSounsds: "1:50" },
+    { SongsImageUpdateMain: "Kisi-Din-Banoongi-Main(PagalWorlld.Com).png", SongsFilePathUpdate: "Kisi-Din-Banoongi-Main(PagalWorlld.Com).mp3", SongsNameUpdate: "Kisi Din", BottomNameUpdate: "Banoongi-Main", ArtistName: "Akla Ygnik, kumar Sanu", DurationOfSounsds: "1:50" },
+    { SongsImageUpdateMain: "saat samundar paar.png", SongsFilePathUpdate: "saat samundar.mp3", SongsNameUpdate: "saat samundar", BottomNameUpdate: "saat samundar paar", ArtistName: "Vrious Artist", DurationOfSounsds: "1:50" },
+    { SongsImageUpdateMain: "Main Duniya Bhula Doonga Aashiqui 128 Kbps.png", SongsFilePathUpdate: "Main Duniya Bhula Doonga Aashiqui 128 Kbps.mp3", SongsNameUpdate: "Main Duniya", BottomNameUpdate: "Main Duniya Bhula", ArtistName: "Anuradha Paudwal, Kumar Sanu", DurationOfSounsds: "1:50" },
+    { SongsImageUpdateMain: "Shikwa Nahin Kisi Se Naseeb 1997 128 Kbps.png", SongsFilePathUpdate: "Shikwa Nahin Kisi Se Naseeb 1997 128 Kbps.mp3", SongsNameUpdate: "Shikwa Nahin", BottomNameUpdate: "Kisi Se", ArtistName: "Kumar Snou", DurationOfSounsds: "1:50" },
+    
+    // DJ Songs
+    { SongsImageUpdateMain: "Kiya Kiya Welcome 128 Kbps.png", SongsFilePathUpdate: "Kiya Kiya Welcome 128 Kbps.mp3", SongsNameUpdate: "Welcome", BottomNameUpdate: "Kiya Kiya", ArtistName: "Anand Raj Anand, Shweta Pandit ", DurationOfSounsds: "1:50" },
+    { SongsImageUpdateMain: "Teri Baaton Mein Aisa Uljha Jiya(PagalWorld.com.cm).png", SongsFilePathUpdate: "Teri Baaton Mein Aisa Uljha Jiya(PagalWorld.com.cm).mp3", SongsNameUpdate: "Teri Baaton Mein", BottomNameUpdate: "Aisa Uljha Jiya", ArtistName: "Raghav Kaur", DurationOfSounsds: "1:50" },
+    { SongsImageUpdateMain: "Lonely Khiladi 786 128 Kbps.png", SongsFilePathUpdate: "Lonely Khiladi 786 128 Kbps.mp3", SongsNameUpdate: "Lonely Khiladi", BottomNameUpdate: "Khiladi 786", ArtistName: "Himesh Reshmmiya, Yo Yo Honey Singh, Hamikalyer", DurationOfSounsds: "1:50" },
+    { SongsImageUpdateMain: "Anarkali Disco Chali Housefull 2 128 Kbps.png", SongsFilePathUpdate: "Anarkali Disco Chali Housefull 2 128 Kbps.mp3", SongsNameUpdate: "Housefull 2", BottomNameUpdate: "Anarkali Disco Chali", ArtistName: "Sajid-Wajid, Mamta Sharma, Sukhwinder Singh", DurationOfSounsds: "1:50" },
+    { SongsImageUpdateMain: "Aye Khuda Murder 2 128 Kbps.png", SongsFilePathUpdate: "Aye Khuda Murder 2 128 Kbps.mp3", SongsNameUpdate: "Aye Khuda ", BottomNameUpdate: "Aye Khuda Murder", ArtistName: "Mithoon, Kahitij Tarey, Saim Bhat", DurationOfSounsds: "1:50" },
+    { SongsImageUpdateMain: "Aaja-Mujhe-Leja-Teri-Dulhan-Banake(PaglaSongs).png", SongsFilePathUpdate: "Aaja-Mujhe-Leja-Teri-Dulhan-Banake(PaglaSongs).mp3", SongsNameUpdate: "Aaja Mujhe Leja", BottomNameUpdate: "Teri-Dulhan Banake", ArtistName: "Sunidhi Chauhan", DurationOfSounsds: "1:50" },
+    { SongsImageUpdateMain: "Tu-Hi-Haqeeqat-Khwab-Tu(PagalWorldl).png", SongsFilePathUpdate: "Tu-Hi-Haqeeqat-Khwab-Tu(PagalWorldl).mp3", SongsNameUpdate: "Tu Hi", BottomNameUpdate: "Haqeeqat Khwab", ArtistName: "Aartist Name Could not Found", DurationOfSounsds: "1:50" },
+    { SongsImageUpdateMain: "Galat Baat Hai-(PagalWorld).png", SongsFilePathUpdate: "Galat Baat Hai-(PagalWorld).mp3", SongsNameUpdate: "Galat Baat", BottomNameUpdate: "Galat Baat Hai", ArtistName: "Javed Ali, Neeti Mohan", DurationOfSounsds: "1:50" },
+    { SongsImageUpdateMain: "Hamne Tumko Dil Ye De Diya Gunaah 128 Kbps.png", SongsFilePathUpdate: "Hamne Tumko Dil Ye De Diya Gunaah 128 Kbps.mp3", SongsNameUpdate: "Hamne Tumko ", BottomNameUpdate: " Ye De Diya Gunaah", ArtistName: "Anand Raj Anand, Alka Yagnik, Bubul Supriyo", DurationOfSounsds: "1:50" },
+    { SongsImageUpdateMain: "Ooh La La_192(Ghantalele.com).png", SongsFilePathUpdate: "Ooh La La_192(Ghantalele.com).mp3", SongsNameUpdate: "The Dirty", BottomNameUpdate: "Ooh La La", ArtistName: "Shreya Ghoshal, Bappi Lahiri", DurationOfSounsds: "1:50" },
+    { SongsImageUpdateMain: "Janam Janam Dilwale 128 Kbps.png", SongsFilePathUpdate: "Janam Janam Dilwale 128 Kbps.mp3", SongsNameUpdate: "Dilwale", BottomNameUpdate: "Janam Janam Dilwale", ArtistName: "Arijit Singh, Antara Mitra", DurationOfSounsds: "1:50" },
+    { SongsImageUpdateMain: "Dil-De-Diya-Hai(PaglaSongs).png", SongsFilePathUpdate: "Dil-De-Diya-Hai(PaglaSongs).mp3", SongsNameUpdate: "Dil-De-Diya-Hai", BottomNameUpdate: "Dil-De-Diya-Ha", ArtistName: "Not Found", DurationOfSounsds: "1:50" },
     { SongsImageUpdateMain: "Get Ready To Fight [128 Kbps]-(Pagalworld.gay).png", SongsFilePathUpdate: "Get Ready To Fight [128 Kbps]-(Pagalworld.gay).mp3", SongsNameUpdate: "Get Ready", BottomNameUpdate: " To Fight", ArtistName: "Benny Dayal, Sidharth Basrur", DurationOfSounsds: "1:50" },
     { SongsImageUpdateMain: "Chak Lein De Chandni Chowk To China 128 Kbps.png", SongsFilePathUpdate: "Chak Lein De Chandni Chowk To China 128 Kbps.mp3", SongsNameUpdate: "Chandni Chowk", BottomNameUpdate: "Chak Lein De", ArtistName: "Kalash Kher", DurationOfSounsds: "1:50" },
-    { SongsImageUpdateMain: "Baazigar O Baazigar Kumar Sanu 128 Kbps.png", SongsFilePathUpdate: "Baazigar O Baazigar Kumar Sanu 128 Kbps.mp3", SongsNameUpdate: "Kumar Sanu", BottomNameUpdate: "Baazigar O", ArtistName: "Kumar Sanu, Alka Yagnik", DurationOfSounsds: "1:50" },
-    { SongsImageUpdateMain: "Tera Naam Liya Ram Lakhan 128 Kbps.png", SongsFilePathUpdate: "Tera Naam Liya Ram Lakhan 128 Kbps.mp3", SongsNameUpdate: "Ram Lakhan", BottomNameUpdate: "Tera Naam Liya", ArtistName: "Anuradha Paudwal, Mahar Udhas", DurationOfSounsds: "1:50" },
-    { SongsImageUpdateMain: "Teri Baaton Mein Aisa Uljha Jiya(PagalWorld.com.cm).png", SongsFilePathUpdate: "Teri Baaton Mein Aisa Uljha Jiya(PagalWorld.com.cm).mp3", SongsNameUpdate: "Teri Baaton Mein", BottomNameUpdate: "Aisa Uljha Jiya", ArtistName: "Raghav Kaur", DurationOfSounsds: "1:50" },
     { SongsImageUpdateMain: "Senorita Zindagi Na Milegi Dobara 128 Kbps.png", SongsFilePathUpdate: "Senorita Zindagi Na Milegi Dobara 128 Kbps.mp3", SongsNameUpdate: "Senorita Zindagi ", BottomNameUpdate: "Na Milegi Dobara", ArtistName: "Shankar-Ehsaan-Loy, Farhan Anktar, Harthik Roshna, Abhay Deol, ", DurationOfSounsds: "1:50" },
-    { SongsImageUpdateMain: "Dil-De-Diya-Hai(PaglaSongs).png", SongsFilePathUpdate: "Dil-De-Diya-Hai(PaglaSongs).mp3", SongsNameUpdate: "Dil-De-Diya-Hai", BottomNameUpdate: "Dil-De-Diya-Ha", ArtistName: "Not Found", DurationOfSounsds: "1:50" },
-    { SongsImageUpdateMain: "Wo-Mil-Gaya-Jiski-Hame-Kabse-Talash-Thi(PagalWorldl).png", SongsFilePathUpdate: "Wo-Mil-Gaya-Jiski-Hame-Kabse-Talash-Thi(PagalWorldl).mp3", SongsNameUpdate: "Wo Mil Gaya", BottomNameUpdate: "Jiski Hame", ArtistName: "could not Found it", DurationOfSounsds: "1:50" },
     { SongsImageUpdateMain: "Jai-Ho-(Slumdog-Millionaire)(PagalWorlld.Com).png", SongsFilePathUpdate: "Jai-Ho-(Slumdog-Millionaire)(PagalWorlld.Com).mp3", SongsNameUpdate: "Sukhwinder", BottomNameUpdate: "Jai-Ho", ArtistName: "Sukhwinder Singh", DurationOfSounsds: "1:50" },
-    { SongsImageUpdateMain: "Aankh-Hai-Bhari-Bhari(PagalWorldl).png", SongsFilePathUpdate: "Aankh-Hai-Bhari-Bhari(PagalWorldl).mp3", SongsNameUpdate: "Kumar Sanu", BottomNameUpdate: "Aankh Hai Bhari", ArtistName: "Kumar Sanu", DurationOfSounsds: "1:50" },
-    { SongsImageUpdateMain: "Tu-Dharti-Pe-Chahe-Jahan(PagalWorlld.Com).png", SongsFilePathUpdate: "Tu-Dharti-Pe-Chahe-Jahan(PagalWorlld.Com).mp3", SongsNameUpdate: "Kumar Sanu", BottomNameUpdate: "Tu Dharti Pe", ArtistName: "Kumar Sanou, Alka Yagnik", DurationOfSounsds: "1:50" },
-    { SongsImageUpdateMain: "Sochenge Tumhe Pyar Deewana 128 Kbps.png", SongsFilePathUpdate: "Sochenge Tumhe Pyar Deewana 128 Kbps.mp3", SongsNameUpdate: "Deewana Sanu", BottomNameUpdate: "Sochenge Tumhe", ArtistName: "Nadeep-Shravan, Kumar Sanu", DurationOfSounsds: "1:50" },
     { SongsImageUpdateMain: "Ramta Jogi Taal 128 Kbps.png", SongsFilePathUpdate: "Ramta Jogi Taal 128 Kbps.mp3", SongsNameUpdate: "Sukhwinder", BottomNameUpdate: "Ramta Jogi Taal", ArtistName: "Alka Yagnik, Sukhwinder Singh", DurationOfSounsds: "1:50" },
-    { SongsImageUpdateMain: "Kisi-Din-Banoongi-Main(PagalWorlld.Com).png", SongsFilePathUpdate: "Kisi-Din-Banoongi-Main(PagalWorlld.Com).mp3", SongsNameUpdate: "Kisi Din", BottomNameUpdate: "Banoongi-Main", ArtistName: "Akla Ygnik, kumar Sanu", DurationOfSounsds: "1:50" },
-    { SongsImageUpdateMain: "Aaja-Mujhe-Leja-Teri-Dulhan-Banake(PaglaSongs).png", SongsFilePathUpdate: "Aaja-Mujhe-Leja-Teri-Dulhan-Banake(PaglaSongs).mp3", SongsNameUpdate: "Aaja Mujhe Leja", BottomNameUpdate: "Teri-Dulhan Banake", ArtistName: "Sunidhi Chauhan", DurationOfSounsds: "1:50" },
-    { SongsImageUpdateMain: "saat samundar paar.png", SongsFilePathUpdate: "saat samundar.mp3", SongsNameUpdate: "saat samundar", BottomNameUpdate: "saat samundar paar", ArtistName: "Vrious Artist", DurationOfSounsds: "1:50" },
-    { SongsImageUpdateMain: "Lonely Khiladi 786 128 Kbps.png", SongsFilePathUpdate: "Lonely Khiladi 786 128 Kbps.mp3", SongsNameUpdate: "Lonely Khiladi", BottomNameUpdate: "Khiladi 786", ArtistName: "Himesh Reshmmiya, Yo Yo Honey Singh, Hamikalyer", DurationOfSounsds: "1:50" },
-    { SongsImageUpdateMain: "Kiya Kiya Welcome 128 Kbps.png", SongsFilePathUpdate: "Kiya Kiya Welcome 128 Kbps.mp3", SongsNameUpdate: "Welcome", BottomNameUpdate: "Kiya Kiya", ArtistName: "Anand Raj Anand, Shweta Pandit ", DurationOfSounsds: "1:50" },
-    { SongsImageUpdateMain: "Janam Janam Dilwale 128 Kbps.png", SongsFilePathUpdate: "Janam Janam Dilwale 128 Kbps.mp3", SongsNameUpdate: "Dilwale", BottomNameUpdate: "Janam Janam Dilwale", ArtistName: "Arijit Singh, Antara Mitra", DurationOfSounsds: "1:50" },
-    { SongsImageUpdateMain: "Hamne Tumko Dil Ye De Diya Gunaah 128 Kbps.png", SongsFilePathUpdate: "Hamne Tumko Dil Ye De Diya Gunaah 128 Kbps.mp3", SongsNameUpdate: "Hamne Tumko ", BottomNameUpdate: " Ye De Diya Gunaah", ArtistName: "Anand Raj Anand, Alka Yagnik, Bubul Supriyo", DurationOfSounsds: "1:50" },
-    { SongsImageUpdateMain: "Galat Baat Hai-(PagalWorld).png", SongsFilePathUpdate: "Galat Baat Hai-(PagalWorld).mp3", SongsNameUpdate: "Galat Baat", BottomNameUpdate: "Galat Baat Hai", ArtistName: "Javed Ali, Neeti Mohan", DurationOfSounsds: "1:50" },
-    { SongsImageUpdateMain: "Ye Kaali Kaali Aankhen Baazigar 128 Kbps.png", SongsFilePathUpdate: "Ye Kaali Kaali Aankhen Baazigar 128 Kbps.mp3", SongsNameUpdate: "Ye Kaali Kaali", BottomNameUpdate: "Aankhen", ArtistName: "Kumar Sanu, Anu Malik", DurationOfSounsds: "1:50" },
-    { SongsImageUpdateMain: "Shikwa Nahin Kisi Se Naseeb 1997 128 Kbps.png", SongsFilePathUpdate: "Shikwa Nahin Kisi Se Naseeb 1997 128 Kbps.mp3", SongsNameUpdate: "Shikwa Nahin", BottomNameUpdate: "Kisi Se", ArtistName: "Kumar Snou", DurationOfSounsds: "1:50" },
-    { SongsImageUpdateMain: "Ooh La La_192(Ghantalele.com).png", SongsFilePathUpdate: "Ooh La La_192(Ghantalele.com).mp3", SongsNameUpdate: "The Dirty", BottomNameUpdate: "Ooh La La", ArtistName: "Shreya Ghoshal, Bappi Lahiri", DurationOfSounsds: "1:50" },
-    { SongsImageUpdateMain: "Tu-Hi-Haqeeqat-Khwab-Tu(PagalWorldl).png", SongsFilePathUpdate: "Tu-Hi-Haqeeqat-Khwab-Tu(PagalWorldl).mp3", SongsNameUpdate: "Tu Hi", BottomNameUpdate: "Haqeeqat Khwab", ArtistName: "Aartist Name Could not Found", DurationOfSounsds: "1:50" },
+    { SongsImageUpdateMain: "Sultan Sukhwinder Singh 128 Kbps.png", SongsFilePathUpdate: "Sultan Sukhwinder Singh 128 Kbps.mp3", SongsNameUpdate: "Sukhwinder", BottomNameUpdate: "Sultan Sukhwinder", ArtistName: "Sukhwinder singh, Shadab Faridi, Irshad Kamil", DurationOfSounsds: "1:50" },
+    { SongsImageUpdateMain: "Dard E Disco Om Shanti Om 128 Kbps.png", SongsFilePathUpdate: "Dard E Disco Om Shanti Om 128 Kbps.mp3", SongsNameUpdate: "Dard E Disco ", BottomNameUpdate: "Dard E Disco Om Shanti", ArtistName: "Sukhwinder Singh, Marinne, Nisha, Caralisa Monteiro", DurationOfSounsds: "1:50" },
+    { SongsImageUpdateMain: "Wajah Tum Ho 1 Mithoon 128 Kbps.png", SongsFilePathUpdate: "Wajah Tum Ho 1 Mithoon 128 Kbps.mp3", SongsNameUpdate: "Wajah Tum Ho", BottomNameUpdate: "Wajah Tum Ho", ArtistName: "Mithoon", DurationOfSounsds: "1:50" },
     { SongsImageUpdateMain: "Hamari-Adhuri-Kahani-Title-Track.png", SongsFilePathUpdate: "Hamari-Adhuri-Kahani-Title-Track(PagalWorldl).mp3", SongsNameUpdate: "Hamari Adhur", BottomNameUpdate: "Adhuri Kahani", ArtistName: "Aartist Name Could not Found", DurationOfSounsds: "1:50" },
-    { SongsImageUpdateMain: "Mile Jo Tere Naina Do Aankhen Barah Hath 128 Kbps.png", SongsFilePathUpdate: "Mile Jo Tere Naina Do Aankhen Barah Hath 128 Kbps.mp3", SongsNameUpdate: "Mile Jo Tere", BottomNameUpdate: "Naina Do Aankhen Barah", ArtistName: "Hey I am sorry I cannot find artist name", DurationOfSounsds: "1:50" },
     // English songs added for the users
     { SongsImageUpdateMain: "Let-Me-Down-Slowly.png", SongsFilePathUpdate: "Let-Me-Down-Slowly(PagalWorldl).mp3", SongsNameUpdate: "Let Me Down", BottomNameUpdate: "Let Me Down Slowly", ArtistName: "Artist Not Found", DurationOfSounsds: "1:50" },
     { SongsImageUpdateMain: "Unstoppable Sia 128 Kbps.png", SongsFilePathUpdate: "Unstoppable Sia 128 Kbps.mp3", SongsNameUpdate: "Unstoppable", BottomNameUpdate: "Unstoppable", ArtistName: "Sia", DurationOfSounsds: "1:50" },
@@ -57,6 +59,7 @@ let SongsImageAndSongsAndArtistNmaeAndSongsNameWithNewUpdate = [
     { SongsImageUpdateMain: "gameOfThorons.png", SongsFilePathUpdate: "187434340.mp3", SongsNameUpdate: "GameOfThrones", BottomNameUpdate: "High in the hall", ArtistName: "The Hp Team Creaters", DurationOfSounsds: "1:50" },
     { SongsImageUpdateMain: "Believer(PagalWorld).png", SongsFilePathUpdate: "Believer(PagalWorld).mp3", SongsNameUpdate: "Believer", BottomNameUpdate: "Believer", ArtistName: "Artist Not Found", DurationOfSounsds: "1:50" },
     { SongsImageUpdateMain: "Arya Startk.png", SongsFilePathUpdate: "The_Cranberries_-_Zombie_(ColdMP3.com).mp3", SongsNameUpdate: "Cranberries Zombie", BottomNameUpdate: "In Your Head", ArtistName: "Aartist Name Could not Found", DurationOfSounsds: "1:50" },
+   
     // This is more songs added now or you can say upadate top songs in arraY forom
     { SongsImageUpdateMain: "Saree Ke Fall Sa R... Rajkumar 128 Kbps.png", SongsFilePathUpdate: "Saree Ke Fall Sa R... Rajkumar 128 Kbps.mp3", SongsNameUpdate: "Saree Ke ", BottomNameUpdate: "Saree Ke Fall Sa R...", ArtistName: "Antra Mitra, Nakash Nziz", DurationOfSounsds: "1:50" },
     { SongsImageUpdateMain: "Tere Mast Mast Do Nain Dabangg 128 Kbps.png", SongsFilePathUpdate: "Tere Mast Mast Do Nain Dabangg 128 Kbps.mp3", SongsNameUpdate: "Tere Mast", BottomNameUpdate: "Tere Mast Mast Do Nain", ArtistName: "Sajd wajid, Sherya Ghoshla, Rahte fathe ali kahn", DurationOfSounsds: "1:50" },
@@ -83,6 +86,7 @@ let SongsImageAndSongsAndArtistNmaeAndSongsNameWithNewUpdate = [
     { SongsImageUpdateMain: "Yeh Sheher Hai Raaz 128 Kbps.png", SongsFilePathUpdate: "Yeh Sheher Hai Raaz 128 Kbps.mp3", SongsNameUpdate: "Yeh Sheher", BottomNameUpdate: "Yeh Sheher Hai", ArtistName: "Suzzan, Jolly Mukherjee, Bali Brahmbhatt", DurationOfSounsds: "1:50" },
     { SongsImageUpdateMain: "Aankhein Khuli Mohabbatein 128 Kbps.png", SongsFilePathUpdate: "Aankhein Khuli Mohabbatein 128 Kbps.mp3", SongsNameUpdate: "Aankhein Khuli", BottomNameUpdate: "Aankhein Khuli", ArtistName: "Lata mangeshkar, Udit Narayan, Jatin-Lalit, Anand Bakshi", DurationOfSounsds: "1:50" },
     { SongsImageUpdateMain: "Aisa Deewana Dil Maange More 128 Kbps.png", SongsFilePathUpdate: "Aisa Deewana Dil Maange More 128 Kbps.mp3", SongsNameUpdate: "Aisa Deewana", BottomNameUpdate: "Aisa Deewana Dil", ArtistName: "Souu Nigam, Alka Yagnik", DurationOfSounsds: "1:50" },
+   
     { SongsImageUpdateMain: "Chahun Main Ya Naa Aashiqui 2 128 Kbps.png", SongsFilePathUpdate: "Chahun Main Ya Naa Aashiqui 2 128 Kbps.mp3", SongsNameUpdate: "Chahun Main Ya", BottomNameUpdate: "Chahun Main Ya..", ArtistName: "Palak Muchhal, Arijit Singh", DurationOfSounsds: "1:50" },
     { SongsImageUpdateMain: "Sunn Raha Hai Male Aashiqui 2 128 Kbps.png", SongsFilePathUpdate: "Sunn Raha Hai Male Aashiqui 2 128 Kbps.mp3", SongsNameUpdate: "Sunn Raha Hai", BottomNameUpdate: "Sunn Raha Hai", ArtistName: "Ankita tiwari", DurationOfSounsds: "1:50" },
     { SongsImageUpdateMain: "Tum Hi Ho Aashiqui 2 128 Kbps.png", SongsFilePathUpdate: "Tum Hi Ho Aashiqui 2 128 Kbps.mp3", SongsNameUpdate: "Tum Hi Ho", BottomNameUpdate: "Tum Hi Ho", ArtistName: "Arijiy singh", DurationOfSounsds: "1:50" },
@@ -91,23 +95,42 @@ let SongsImageAndSongsAndArtistNmaeAndSongsNameWithNewUpdate = [
     { SongsImageUpdateMain: "Samjho Na - Remix.png", SongsFilePathUpdate: "Samjho Na - Remix.mp3", SongsNameUpdate: "Samjho Na", BottomNameUpdate: "Samjho Na", ArtistName: "Himesh Resmmeya", DurationOfSounsds: "1:50" },
     { SongsImageUpdateMain: "Naam Hai Tera.png", SongsFilePathUpdate: "Naam Hai Tera.mp3", SongsNameUpdate: "Naam Hai Tera", BottomNameUpdate: "Naam Hai Tera", ArtistName: "Himesh Resmmeya", DurationOfSounsds: "1:50" },
     { SongsImageUpdateMain: "Jhalak Dikhla Ja Aksar 128 Kbps.png", SongsFilePathUpdate: "Jhalak Dikhla Ja Aksar 128 Kbps.mp3", SongsNameUpdate: "Jhalak Dikhla Ja", BottomNameUpdate: "Jhalak Dikhla Ja", ArtistName: "Himesh Resmmeya", DurationOfSounsds: "1:50" },
+    { SongsImageUpdateMain: "Ek Haseena Thi Karzzzz 128 Kbps.png", SongsFilePathUpdate: "Ek Haseena Thi Karzzzz 128 Kbps.mp3", SongsNameUpdate: "Ek Haseena Thi", BottomNameUpdate: "Ek Haseena Thi Karzzzz", ArtistName: "Himesh reshmmeya Shreya Ghoshal", DurationOfSounsds: "1:50" },
+    { SongsImageUpdateMain: "Dil Tu Hi Bataa Krrish 3 128 Kbps.png", SongsFilePathUpdate: "Dil Tu Hi Bataa Krrish 3 128 Kbps.mp3", SongsNameUpdate: "Dil Tu Hi Bataa", BottomNameUpdate: "Dil Tu Hi Bataa", ArtistName: "Rajesh Roshan Alish Chinai Zubeen Garg", DurationOfSounsds: "1:50" },
     { SongsImageUpdateMain: "Aashiqui Mein Teri - Remix By Akbar Sami (36 China Town) - (Raag.Fm).png", SongsFilePathUpdate: "Aashiqui Mein Teri - Remix By Akbar Sami (36 China Town) - (Raag.Fm).mp3", SongsNameUpdate: "Aashiqui Mein Teri", BottomNameUpdate: "Aashiqui Mein Teri", ArtistName: "Himesh Resmmeya, sunidhi chauhan", DurationOfSounsds: "1:50" },
     { SongsImageUpdateMain: "Terre Pyaar Mein - (Raag.Fm).png", SongsFilePathUpdate: "Terre Pyaar Mein - (Raag.Fm).mp3", SongsNameUpdate: "Terre Pyaar Mein", BottomNameUpdate: "Terre Pyaar Mein", ArtistName: "Himesh Resmmeya ", DurationOfSounsds: "1:50" },
     { SongsImageUpdateMain: "Aafreen Tera Chehra Red The Dark Side 128 Kbps.png", SongsFilePathUpdate: "Aafreen Tera Chehra Red The Dark Side 128 Kbps.mp3", SongsNameUpdate: "Aafreen Tera ", BottomNameUpdate: "Aafreen Tera Chehra", ArtistName: "Himesh Resmmiya", DurationOfSounsds: "1:50" },
     { SongsImageUpdateMain: "Main Jahaan Rahoon Namastey London 128 Kbps.png", SongsFilePathUpdate: "Main Jahaan Rahoon Namastey London 128 Kbps.mp3", SongsNameUpdate: "Main Jahaan ", BottomNameUpdate: "Main Jahaan Rahoon", ArtistName: "Rahat fateh ali khan, Krishna Beura", DurationOfSounsds: "1:50" },
-    { SongsImageUpdateMain: "Zara Sa (From Jannat).png", SongsFilePathUpdate: "Zara Sa (From Jannat).mp3", SongsNameUpdate: "Zara Sa", BottomNameUpdate: "Zara Sa", ArtistName: "Kk sir", DurationOfSounsds: "1:50" },
-    { SongsImageUpdateMain: "Piya Ji Ke Sanng - (Raag.Fm).png", SongsFilePathUpdate: "Piya Ji Ke Sanng - (Raag.Fm).mp3", SongsNameUpdate: "Piya Ji Ke ", BottomNameUpdate: "Piya Ji Ke Sanng", ArtistName: "Himesh Resmmeya, Arunita Kanjilal", DurationOfSounsds: "1:50" },
+    { SongsImageUpdateMain: "Zara Sa (From Jannat).png", SongsFilePathUpdate: "Zara Sa (From Jannat).mp3", SongsNameUpdate: "Zara Sa dil me", BottomNameUpdate: "Zara Sa", ArtistName: "Kk sir", DurationOfSounsds: "1:50" },
     { SongsImageUpdateMain: "Ya Ali.png", SongsFilePathUpdate: "Ya Ali.mp3", SongsNameUpdate: "Ya Ali", BottomNameUpdate: "Ya Ali", ArtistName: "Artist is not found", DurationOfSounsds: "1:50" },
     { SongsImageUpdateMain: "In-Husn-Ke-Jalwo-Ne-Mera-Hosh-Uda-Dala(PagalWorld).png", SongsFilePathUpdate: "In-Husn-Ke-Jalwo-Ne-Mera-Hosh-Uda-Dala(PagalWorld).mp3", SongsNameUpdate: "In Husn Ke", BottomNameUpdate: "In Husn Ke Jalwo", ArtistName: "Wynk Music", DurationOfSounsds: "1:50" },
     { SongsImageUpdateMain: "Sanam Teri Kasam Ankit Tiwari 128 Kbps.png", SongsFilePathUpdate: "Sanam Teri Kasam Ankit Tiwari 128 Kbps.mp3", SongsNameUpdate: "Sanam Teri ", BottomNameUpdate: "Sanam Teri Kasam", ArtistName: "Ankit Tiwari, Palak Muchhal", DurationOfSounsds: "1:50" },
     { SongsImageUpdateMain: "Sanam Teri Kasam Ankit Tiwari 128 Kbps.png", SongsFilePathUpdate: "Bewajah Sanam Teri Kasam 128 Kbps.mp3", SongsNameUpdate: "Bewajah Sanam", BottomNameUpdate: "Bewajah Sanam Teri", ArtistName: "Himesh Resmmeya", DurationOfSounsds: "1:50" },
     { SongsImageUpdateMain: "Sanam Teri Kasam Ankit Tiwari 128 Kbps.png", SongsFilePathUpdate: "Kheech Meri Photo Sanam Teri Kasam 128 Kbps.mp3", SongsNameUpdate: "Kheech Meri", BottomNameUpdate: "Kheech Meri Photo ", ArtistName: "Neeti mohan Akash, Dharshan, Himesh Resmmeya", DurationOfSounsds: "1:50" },
+    { SongsImageUpdateMain: "Piya Ji Ke Sanng - (Raag.Fm).png", SongsFilePathUpdate: "Piya Ji Ke Sanng - (Raag.Fm).mp3", SongsNameUpdate: "Piya Ji Ke ", BottomNameUpdate: "Piya Ji Ke Sanng", ArtistName: "Himesh Resmmeya, Arunita Kanjilal", DurationOfSounsds: "1:50" },
+    { SongsImageUpdateMain: "Tu Mere Dil Ka Hero Bana Hai-(PagalSongs.Com.IN).png", SongsFilePathUpdate: "Tu Mere Dil Ka Hero Bana Hai-(PagalSongs.Com.IN).mp3", SongsNameUpdate: "Tu Mere Dil", BottomNameUpdate: "Tu Mere Dil Ka", ArtistName: "Sunidhi chauhan", DurationOfSounsds: "1:50" },
+    { SongsImageUpdateMain: "Jai-Ho-(Slumdog-Millionaire)(PagalWorlld.Com).png", SongsFilePathUpdate: "Chand Chhupa Badal Mein.mp3", SongsNameUpdate: "Chand Chhupa", BottomNameUpdate: "Chand Chhupa Badal Mein", ArtistName: "Udit Narayan Alika Yagnik", DurationOfSounsds: "1:50" },
 
-    { SongsImageUpdateMain: "threeisnosongs.svg", SongsFilePathUpdate: "Main Jahaan Rahoon Namastey London 128 Kbps.mp3", SongsNameUpdate: "Main Jahaan ", BottomNameUpdate: "Main Jahaan Rahoon", ArtistName: "Rahat fateh ali khan, Krishna Beura", DurationOfSounsds: "1:50" },
-    { SongsImageUpdateMain: "threeisnosongs.svg", SongsFilePathUpdate: "Aashiqui Mein Teri - Remix By Akbar Sami (36 China Town) - (Raag.Fm).mp3", SongsNameUpdate: "Aashiqui Mein Teri", BottomNameUpdate: "Aashiqui Mein Teri", ArtistName: "Himesh Resmmeya, sunidhi chauhan", DurationOfSounsds: "1:50" },
-    { SongsImageUpdateMain: "threeisnosongs.svg", SongsFilePathUpdate: "Terre Pyaar Mein - (Raag.Fm).mp3", SongsNameUpdate: "Terre Pyaar Mein", BottomNameUpdate: "Terre Pyaar Mein", ArtistName: "Himesh Resmmeya ", DurationOfSounsds: "1:50" },
-    { SongsImageUpdateMain: "threeisnosongs.svg", SongsFilePathUpdate: "Piya Ji Ke Sanng - (Raag.Fm).mp3", SongsNameUpdate: "Piya Ji Ke ", BottomNameUpdate: "Piya Ji Ke Sanng", ArtistName: "Himesh Resmmeya, Arunita Kanjilal", DurationOfSounsds: "1:50" },
 
+
+    { SongsImageUpdateMain: "Dil-Mera-Dekho(PaglaSongs).png", SongsFilePathUpdate: "Dil-Mera-Dekho(PaglaSongs).mp3", SongsNameUpdate: "Dil-Mera-Dekho", BottomNameUpdate: "Dil-Mera-Dekho", ArtistName: "Arijit Singh", DurationOfSounsds: "1:50" },
+    { SongsImageUpdateMain: "Phir Bhi Tumko Chahunga (Arijit Singh) 320Kbps.png", SongsFilePathUpdate: "Phir Bhi Tumko Chahunga (Arijit Singh) 320Kbps.mp3", SongsNameUpdate: "Phir Bhi Tumko", BottomNameUpdate: "Phir Bhi Tumko", ArtistName: "Arijit Singh", DurationOfSounsds: "1:50" },
+    { SongsImageUpdateMain: "Tumse Milke Dilka Haal.png", SongsFilePathUpdate: "Tumse Milke Dilka Haal.mp3", SongsNameUpdate: "Tumse Milke", BottomNameUpdate: "Tumse Milke", ArtistName: "Sonu Nigam", DurationOfSounsds: "1:50" },
+    { SongsImageUpdateMain: "Uska-Hi-Banana(PaglaSongs).png", SongsFilePathUpdate: "Uska-Hi-Banana(PaglaSongs).mp3", SongsNameUpdate: "Usk Hi Banana", BottomNameUpdate: "Usk Hi Banana", ArtistName: "Artist not found", DurationOfSounsds: "1:50" },
+    { SongsImageUpdateMain: "Manike.png", SongsFilePathUpdate: "Manike.mp3", SongsNameUpdate: "Manike", BottomNameUpdate: "Manike", ArtistName: "Yohani", DurationOfSounsds: "1:50" },
+    { SongsImageUpdateMain: "Chura Ke Dil Mera Main Khiladi Tu Anari 128 Kbps.png", SongsFilePathUpdate: "Chura Ke Dil Mera (1).mp3", SongsNameUpdate: "Chura Ke Dil", BottomNameUpdate: "Chura Ke Dil Mera", ArtistName: "Anu malik Alka Yagnik Kumar sanu", DurationOfSounsds: "1:50" },
+    { SongsImageUpdateMain: "O Mere Dil Ke Chain Mere Jeevan Saathi 128 Kbps.png", SongsFilePathUpdate: "O Mere Dil Ke Chain Mere Jeevan Saathi 128 Kbps.mp3", SongsNameUpdate: "O Mere Dil Ke", BottomNameUpdate: "O Mere Dil Ke", ArtistName: "Kishore kumar", DurationOfSounsds: "1:50" },
+    { SongsImageUpdateMain: "128-Mere Mehboob Qayamat Hogi - Mr. X In Bombay 128 Kbps.png", SongsFilePathUpdate: "128-Mere Mehboob Qayamat Hogi - Mr. X In Bombay 128 Kbps.mp3", SongsNameUpdate: "Mehboob Qayamat", BottomNameUpdate: "Mehboob Qayamat Hogi", ArtistName: "kishore kumar", DurationOfSounsds: "1:50" },
+    { SongsImageUpdateMain: "Kisi Ki Muskurahaton Se Anari 128 Kbps.png", SongsFilePathUpdate: "Kisi Ki Muskurahaton Se Anari 128 Kbps.mp3", SongsNameUpdate: "Kisi Ki m..", BottomNameUpdate: "Kisi Ki Muskurahaton", ArtistName: "Shnakar jaikishan", DurationOfSounsds: "1:50" },
+    { SongsImageUpdateMain: "Bachna Ae Hasinon Lo Main Aa Gaya - (Raag.Fm).png", SongsFilePathUpdate: "Bachna Ae Hasinon Lo Main Aa Gaya - (Raag.Fm).mp3", SongsNameUpdate: "Bachna Ae Hasinon", BottomNameUpdate: "Bachna Ae Hasinon", ArtistName: "kishore kumar", DurationOfSounsds: "1:50" },
+    { SongsImageUpdateMain: "Chahoonga Main Tujhe_192(Ghantalele.com).png", SongsFilePathUpdate: "Chahoonga Main Tujhe_192(Ghantalele.com).mp3", SongsNameUpdate: "Chahoonga Main", BottomNameUpdate: "Chahoonga Main", ArtistName: "Mohammed Rafi", DurationOfSounsds: "1:50" },
+    { SongsImageUpdateMain: "Aaja Aaja_192(Ghantalele.com).png", SongsFilePathUpdate: "Aaja Aaja_192(Ghantalele.com).mp3", SongsNameUpdate: "Aaja Aaja", BottomNameUpdate: "Aaja Aaja", ArtistName: "Udit Narayn Alka Yagnik", DurationOfSounsds: "1:50" },
+    
+    { SongsImageUpdateMain: "Saiyaara Ek Tha Tiger 128 Kbps.png", SongsFilePathUpdate: "Saiyaara Ek Tha Tiger 128 Kbps.mp3", SongsNameUpdate: "Saiyaara Ek", BottomNameUpdate: "Saiyaara Ek Tha", ArtistName: "mohit chauhan, Tarannum mallika, sohil sen , kausar munir", DurationOfSounsds: "1:50" },
+    { SongsImageUpdateMain: "Aaj Phir Hate Story 2 128 Kbps.png", SongsFilePathUpdate: "Aaj Phir Hate Story 2 128 Kbps.mp3", SongsNameUpdate: "Aaj Phir", BottomNameUpdate: "Aaj Phir", ArtistName: "Arko, Laxmikant-Pyarelal, Arijit Singh, Samira Koppikar ", DurationOfSounsds: "1:50" },
+    { SongsImageUpdateMain: "Yaar Naa Miley (From Kick).png", SongsFilePathUpdate: "Yaar Naa Miley (From Kick).mp3", SongsNameUpdate: "Yaar Naa Miley ", BottomNameUpdate: "Yaar Naa Miley ", ArtistName: "Honey Singh", DurationOfSounsds: "1:50" },
+    { SongsImageUpdateMain: "Rab-Na-Kare-Ke-Ye-Zindagi(PaglaSongs).png", SongsFilePathUpdate: "Rab-Na-Kare-Ke-Ye-Zindagi(PaglaSongs).mp3", SongsNameUpdate: "Rab Na Kare", BottomNameUpdate: "Rab Na Kare ki", ArtistName: "Artist is not found", DurationOfSounsds: "1:50" },
+  
 
     NewSongsToSloveingBugTOSongAndNameImageArtustNameAndSongsname = [
         { SongsImageUpdateMainInOtherWay: "Teri-Yaadon-Se---Salman-Ali(PaglaSongs).png", SongsFilePathUpdate: "Teri-Yaadon-Se---Salman-Ali(PaglaSongs).mp3", SongsNameUpdate: "Teri-Yaadon", BottomNameUpdate: "Teri-Yaadon-Se", ArtistName: "Salman-Ali" },
@@ -145,7 +168,7 @@ const ForWardPlayerMina = document.getElementById("ForWardPlayerMina");
 
 
 
-let MinaAudioForTheHomePage = new Audio("Jai-Ho-(Slumdog-Millionaire)(PagalWorlld.Com).mp3");
+let MinaAudioForTheHomePage = new Audio("3.mp3");
 
 let songsIndex = 0;
 const playNextSong = () => {
@@ -404,7 +427,7 @@ function animtionforFullVeiw() {
     FooterImageOfSong.style.height = "350px";
 
     WhichsongsIsPlyedNow.style.animationName = "textanimation";
-    WhichsongsIsPlyedNow.style.animationDuration = "6s";
+    WhichsongsIsPlyedNow.style.animationDuration = "10s";
     WhichsongsIsPlyedNow.style.animationIterationCount = "infinite";
 
 
@@ -537,47 +560,6 @@ over.addEventListener('click', () => {
 
 })
 
-const imgHiro1 = document.getElementById('imgHiro1');
-const imgHiro2 = document.getElementById('imgHiro2');
-const imgHiro3 = document.getElementById('imgHiro3');
-const imgHiro4 = document.getElementById('imgHiro4');
-imgHiro1.style.display = 'none'
-imgHiro2.style.display = 'none'
-imgHiro3.style.display = 'none'
-imgHiro4.style.display = 'none'
-setTimeout(() => {
-    imgHiro1.style.display = 'block'
-
-}, 0);
-setTimeout(() => {
-    imgHiro1.style.animationName = 'AnimationHiro2'
-
-}, 4000);
-setTimeout(() => {
-    imgHiro1.style.animationName = 'AnimationHiro2'
-    imgHiro1.style.display = 'none'
-    imgHiro2.style.display = 'block'
-
-}, 5010);
-setTimeout(() => {
-    imgHiro2.style.animationName = 'AnimationHiro2'
-
-
-}, 14000);
-setTimeout(() => {
-    imgHiro2.style.display = 'none'
-    imgHiro3.style.display = 'block'
-
-}, 15010);
-setTimeout(() => {
-    imgHiro3.style.animationName = 'AnimationHiro2'
-
-
-}, 28000);
-setTimeout(() => {
-    imgHiro3.style.display = 'none'
-    imgHiro4.style.display = 'block'
-}, 29010);
 
 
 // This is moreItmebtn of javscript here 
@@ -658,3 +640,88 @@ back.addEventListener("click", () => {
     searchHome.style.display = "none";
 
 })
+
+
+document.getElementById('Searchin').addEventListener('input', function() {
+    let query = this.value;
+    if (query.length > 2) { // Start searching after 3 characters
+        fetch(`https://itunes.apple.com/search?term=${encodeURIComponent(query)}&limit=10`)
+            .then(response => response.json())
+            .then(data => displayResults(data.results))
+            .catch(error => console.error('Error fetching data:', error));
+    }
+});
+
+function displayResults(songs) {
+    const container = document.getElementById('SearchListSongsContainer');
+    container.innerHTML = ''; // Clear previous results
+
+    songs.forEach(song => {
+        const li = document.createElement('li');
+        li.innerHTML = `
+            <div class="imageListAndContentListInSearchPage">
+                <div class='imageAndContentForTheListInSearchPage'>
+                    <div class='imageListContainerDiv'> 
+                        <img class='ListImageInSearchResult' src="${song.artworkUrl100}" alt="listimage">
+                    </div>
+                    <div class='ArtistNameAndSongsNameInSearchPage'>
+                        <p class='ListContentForInSearchPage'>${song.trackName}</p>
+                        <p class='ArtistNameInSearchPage'>${song.artistName}</p>
+                    </div>
+                </div>
+                <div class='DeleteListSongsIndexC'>
+                    <button class='DeleteListSonsg'>&times;</button>
+                </div>
+            </div>
+        `;
+        li.querySelector('.imageAndContentForTheListInSearchPage').addEventListener('click', () => {
+            // playSong(song);
+            MinaAudioForTheHomePage.src = song.previewUrl;
+            MinaAudioForTheHomePage.play()
+            WhichsongsIsPlyedNow.innerHTML = song.trackName;
+            WhoisArtistOfSongs.innerHTML = song.artistName;
+            FooterImageOfSong.src = song.artworkUrl100;
+            titleFab.innerHTML = song.trackName;
+             playCircleOnlyMain.classList.remove("playCircleOnlyMain")
+            playCircleOnlyMain.classList.add("pauseCircleOnlyMain")
+
+
+        });
+        li.querySelector('.DeleteListSonsg').addEventListener('click', () => {
+            li.remove();
+        });
+        container.appendChild(li);
+    });
+}
+
+
+let currentSlide = 0;
+const slides = document.querySelectorAll('.slide');
+const totalSlides = slides.length;
+
+const nextSlide = () => {
+    slides[currentSlide].classList.remove('active');
+    currentSlide = (currentSlide + 1) % totalSlides;
+    slides[currentSlide].classList.add('active');
+    updateSliderPosition();
+};
+
+const prevSlide = () => {
+    slides[currentSlide].classList.remove('active');
+    currentSlide = (currentSlide - 1 + totalSlides) % totalSlides;
+    slides[currentSlide].classList.add('active');
+    updateSliderPosition();
+};
+
+const updateSliderPosition = () => {
+    const slider = document.querySelector('.slider');
+    slider.style.transform = `translateX(-${currentSlide * 100}%)`;
+};
+
+const startAutoSlide = () => {
+    setInterval(nextSlide, 4000); // Change slide every 4 seconds
+};
+
+document.addEventListener('DOMContentLoaded', () => {
+    startAutoSlide();
+});
