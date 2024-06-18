@@ -6,7 +6,7 @@
     <meta name="description" content="This is Wynnk Music made for the people to listing for free without adds">
     <title id="titleFab">Wynk Music</title>
     <link rel="stylesheet" href="Wynk Music.css">
-    <link rel="icon" sizes="192x192" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSccwIt4amo1Dif4ox1HL5iRo5_4WgXKw5hE81drGg8jg&s" type="image/svg+xml"/>
+    <link rel="icon" sizes="192x192"  href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSccwIt4amo1Dif4ox1HL5iRo5_4WgXKw5hE81drGg8jg&s" type="image/svg+xml"/>
 </head>
 <body>
     <main id="const">
@@ -16,9 +16,9 @@
             <strong id="username">Wynk Music</strong>
         </div>
         <div class="searching">
-            <div class="search_input">
+            <div class="search_input" id="Search">
                 <svg id="iconSearch" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M10.875 18.75C15.2242 18.75 18.75 15.2242 18.75 10.875C18.75 6.52576 15.2242 3 10.875 3C6.52576 3 3 6.52576 3 10.875C3 15.2242 6.52576 18.75 10.875 18.75Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M16.4434 16.4434L20.9997 20.9997" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
-                    <input type="search" placeholder="Search Songs" id="Search">
+                    <input type="search" placeholder="Search Songs">
             </div>
             <div class="Subscription">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"><g clip-path="url(#clip0_1943_5431)"><rect x="4.125" y="3" width="15.75" height="18" rx="2" stroke="currentColor" stroke-width="1.5"></rect><path d="M9 16.1738H15" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path><g clip-path="url(#clip1_1943_5431)"><path d="M12.3372 13.2729L10.176 10.5687L10.1885 10.0328C11.2028 10.1027 11.9914 9.99537 12.1748 9.03592L10.0136 9.02351L10.3634 8.43772L12.0874 8.46254C11.8247 7.9166 11.1023 7.84931 9.97607 7.8894L10.3634 7.31602L14.0239 7.31055L13.6616 7.87679H12.6496C12.8346 8.07203 12.97 8.29667 12.9745 8.48742L14.0239 8.47496L13.6616 9.03574L12.962 9.0482C12.8527 9.88472 12.0842 10.38 11.113 10.4938L13.2887 13.2722L12.3373 13.2727V13.2727L12.3372 13.2729Z" fill="currentColor" stroke="currentColor" stroke-width="0.00236424"></path></g></g><defs><clipPath id="clip0_1943_5431"><rect width="24" height="24" fill="white"></rect></clipPath><clipPath id="clip1_1943_5431"><rect width="4.05064" height="5.97455" fill="white" transform="translate(9.97461 7.30078)"></rect></clipPath></defs></svg>
@@ -48,12 +48,26 @@
             <a href="#">Podcast</a>
         </div>
     </div>
-    <div class="hero">
-        <div class="hiro_images" id="hiro_images">
-                <img id="imgHiro1"  src="image7.webp" alt="imgaes">
-                <img id="imgHiro2"  src="image8.webp" alt="imgaes">
-                <img id="imgHiro3"  src="image9.webp" alt="imgaes">
-                <img id="imgHiro4"  src="image10.webp" alt="imgaes">
+    <div class="sliderContainer">
+        <div class="slider-container">
+            <div class="slider">
+                <div class="slide active">
+                    <img  src="image7.webp" alt="imgaes">
+    
+                </div>
+                <div class="slide">
+                    <img   src="image8.webp" alt="imgaes">
+    
+                </div>
+                <div class="slide">
+                    <img   src="image9.webp" alt="imgaes">
+                </div>
+                <div class="slide">
+                    <img   src="image10.webp" alt="imgaes">
+                </div>
+            </div>
+            <button class="prev" onclick="prevSlide()">&#10094;</button>
+            <button class="next" onclick="nextSlide()">&#10095;</button>
         </div>
     </div>
     <!-- This is additional sonsg added now time to update now thing ting fomr thr htmland javascritp and css -->
@@ -1427,12 +1441,231 @@
                 </div>
             </div>
     </div>
+    <div class="Recently_Played">
+        <div class="title_container">
+            <div class="title">
+                <h1>Super Hits Songs</h1>
+                <p>More</p>
+            </div>
+        </div>
+        <div class="items_of_songs">
+            <div class="songs_continer">
+                <div class="songs_rel">
+                    <div class="song" id="SongsImage">
+                        <div class="container_icons">
+                            <div id="playersAdditional" class="playcircle">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="song_title">
+                        <strong id="HeadingNameAndSongsName">Teri Yaadon-Se</strong>
+                        <p id="NameforSongsName">Salman-Ali - Teri Yaadon</p>
+                    </div>
+                </div>
+                <div class="songs_rel">
+                    <div class="song" id="SongsImage">
+                        <div class="container_icons">
+                            <div id="playersAdditional" class="playcircle">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="song_title">
+                        <strong id="HeadingNameAndSongsName">Main-Dil-Ko</strong>
+                        <p id="NameforSongsName">-Main Dil Ko Samjha</p>
+                    </div>
+                </div>
+                <div class="songs_rel">
+                    <div class="song" id="SongsImage">
+                        <div class="container_icons">
+                            <div id="playersAdditional" class="playcircle">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="song_title">
+                        <strong id="HeadingNameAndSongsName">Piya Dream Girl</strong>
+                        <p id="NameforSongsName">Piya Dream Girl</p>
+                    </div>
+                </div>
+                <div class="songs_rel">
+                    <div class="song" id="SongsImage">
+                        <div class="container_icons">
+                            <div id="playersAdditional" class="playcircle">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="song_title">
+                        <strong id="HeadingNameAndSongsName">riskyja</strong>
+                        <p id="NameforSongsName">riskyja (spotify)</p>
+                    </div>
+                </div>
+                <div class="songs_rel">
+                    <div class="song" id="SongsImage">
+                        <div class="container_icons">
+                            <div id="playersAdditional" class="playcircle">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="song_title">
+                        <strong id="HeadingNameAndSongsName">Jiyaa Laage Naa</strong>
+                        <p id="NameforSongsName">Jiyaa-Laage-Naa</p>
+                    </div>
+                </div>
+                <div class="songs_rel">
+                    <div class="song" id="SongsImage">
+                        <div class="container_icons">
+                            <div id="playersAdditional" class="playcircle">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="song_title">
+                        <strong id="HeadingNameAndSongsName">Dil Hai Tumhaara</strong>
+                        <p id="NameforSongsName">Alka Yagnik - Dil Hai</p>
+                    </div>
+                </div>
+                <div class="songs_rel">
+                    <div class="song" id="SongsImage">
+                        <div class="container_icons">
+                            <div id="playersAdditional" class="playcircle">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="song_title">
+                        <strong id="HeadingNameAndSongsName">Kisise Tum</strong>
+                        <p id="NameforSongsName">Pyar Karo Andaaz</p>
+                    </div>
+                </div>
+                <div class="songs_rel">
+                    <div class="song" id="SongsImage">
+                        <div class="container_icons">
+                            <div id="playersAdditional" class="playcircle">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="song_title">
+                        <strong id="HeadingNameAndSongsName">Ae Dil Hai </strong>
+                        <p id="NameforSongsName">Ae Dil Hai Mushkil</p>
+                    </div>
+                </div>
+                <div class="songs_rel">
+                    <div class="song" id="SongsImage">
+                        <div class="container_icons">
+                            <div id="playersAdditional" class="playcircle">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="song_title">
+                        <strong id="HeadingNameAndSongsName">Teri Yaadon-Se</strong>
+                        <p id="NameforSongsName">Salman-Ali - Teri Yaadon</p>
+                    </div>
+                </div>
+                <div class="songs_rel">
+                    <div class="song" id="SongsImage">
+                        <div class="container_icons">
+                            <div id="playersAdditional" class="playcircle">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="song_title">
+                        <strong id="HeadingNameAndSongsName">Main-Dil-Ko</strong>
+                        <p id="NameforSongsName">-Main Dil Ko Samjha</p>
+                    </div>
+                </div>
+                <div class="songs_rel">
+                    <div class="song" id="SongsImage">
+                        <div class="container_icons">
+                            <div id="playersAdditional" class="playcircle">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="song_title">
+                        <strong id="HeadingNameAndSongsName">Piya Dream Girl</strong>
+                        <p id="NameforSongsName">Piya Dream Girl</p>
+                    </div>
+                </div>
+                <div class="songs_rel">
+                    <div class="song" id="SongsImage">
+                        <div class="container_icons">
+                            <div id="playersAdditional" class="playcircle">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="song_title">
+                        <strong id="HeadingNameAndSongsName">riskyja</strong>
+                        <p id="NameforSongsName">riskyja (spotify)</p>
+                    </div>
+                </div>
+                <div class="songs_rel">
+                    <div class="song" id="SongsImage">
+                        <div class="container_icons">
+                            <div id="playersAdditional" class="playcircle">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="song_title">
+                        <strong id="HeadingNameAndSongsName">Jiyaa Laage Naa</strong>
+                        <p id="NameforSongsName">Jiyaa-Laage-Naa</p>
+                    </div>
+                </div>
+                <div class="songs_rel">
+                    <div class="song" id="SongsImage">
+                        <div class="container_icons">
+                            <div id="playersAdditional" class="playcircle">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="song_title">
+                        <strong id="HeadingNameAndSongsName">Dil Hai Tumhaara</strong>
+                        <p id="NameforSongsName">Alka Yagnik - Dil Hai</p>
+                    </div>
+                </div>
+                <div class="songs_rel">
+                    <div class="song" id="SongsImage">
+                        <div class="container_icons">
+                            <div id="playersAdditional" class="playcircle">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="song_title">
+                        <strong id="HeadingNameAndSongsName">Kisise Tum</strong>
+                        <p id="NameforSongsName">Pyar Karo Andaaz</p>
+                    </div>
+                </div>
+                <div class="songs_rel">
+                    <div class="song" id="SongsImage">
+                        <div class="container_icons">
+                            <div id="playersAdditional" class="playcircle">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="song_title">
+                        <strong id="HeadingNameAndSongsName">Ae Dil Hai </strong>
+                        <p id="NameforSongsName">Ae Dil Hai Mushkil</p>
+                    </div>
+                </div>
+            </div>
+    </div>
     <!-- The end songs added from here now -->
     <!-- Th eHimesh resmmeya songs Added -->
     <div class="Recently_Played">
         <div class="title_container">
             <div class="title">
-                <h1>The  Himesh Reshammiya</h1>
+                <h1>New songs and old songs added</h1>
                 <p>More</p>
             </div>
         </div>
@@ -1781,15 +2014,15 @@
             <div class="mainForMorePages">
                 <div class="leftbarMorePages">
                     <div class="artistAlbumContainer">
-                        <img id="HeadingImageINMore" src="imgaes/Unstoppable Sia 128 Kbps.png" alt="image">
+                        <img id="HeadingImageINMore" src="Unstoppable Sia 128 Kbps.png" alt="image">
                     </div>
                     <div class="moreArtistGetAccesses">
                         <strong class="HeadignMoroArtist">Featured Artists</strong>
                         <div class="artistOneGetIt">
-                            <img src="imgaes/Aap Ki Khatir Himesh Reshammiya 128 Kbps.png" alt="img"><strong>Artist name</strong>
+                            <img src="Aap Ki Khatir Himesh Reshammiya 128 Kbps.png" alt="img"><strong>Artist name</strong>
                         </div>
                         <div class="artistOneGetIt">
-                            <img src="imgaes/Aap Ki Khatir Himesh Reshammiya 128 Kbps.png" alt="img"><strong>Artist name</strong>
+                            <img src="Aap Ki Khatir Himesh Reshammiya 128 Kbps.png" alt="img"><strong>Artist name</strong>
                         </div>
                     </div>
                 </div>
@@ -1864,10 +2097,10 @@
                     <div class="ForWordPlayMain" id="ForWardPlayerMina"></div>
                 </div>
                 <div class="infoSongs">
-                    <img class="FooterImageOfSong" src="imgaes/Jai-Ho-(Slumdog-Millionaire)(PagalWorlld.Com).png" alt="">
+                    <img class="FooterImageOfSong" src="Jai-Ho-(Slumdog-Millionaire)(PagalWorlld.Com).png" alt="">
                     <div class="contetnaboutit">
-                        <strong id="WhichsongsIsPlyedNow">Jai Ho</strong>
-                        <strong id="WhoisArtistOfSongs">(Sukhwinder Singh)</strong>
+                        <strong id="WhichsongsIsPlyedNow">Power music</strong>
+                        <strong id="WhoisArtistOfSongs">Made by krishna</strong>
                     </div>
                 </div>
                 <div class="songsTimingToUsers">
@@ -1900,238 +2133,15 @@
                             <div id="back"><p>←</p></div>
                         </div>
                         <div class="search_inputin">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M10.875 18.75C15.2242 18.75 18.75 15.2242 18.75 10.875C18.75 6.52576 15.2242 3 10.875 3C6.52576 3 3 6.52576 3 10.875C3 15.2242 6.52576 18.75 10.875 18.75Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M16.4434 16.4434L20.9997 20.9997" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M10.875 18.75C15.2242 18.75 18.75 15.2242 10.875 3C6.52576 3 3 6.52576 3 10.875C3 15.2242 6.52576 18.75 10.875 18.75Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M16.4434 16.4434L20.9997 20.9997" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
                             <input type="search" placeholder="Search Songs" id="Searchin">
                         </div>
                     </div>
                     <div class="UserOutpustSongs">
                         <h2 style='width: 100%; padding: 8px;'>Your Output</h2>
-                        <ul id='SearchListSonsgContainer'>
-                            <li>
-                                <div class="imageListAndContentListInSearchPage">
-                                    <div class='imageAndContentForTheListInSearchPage'>
-                                        <div class='imageListContainerDiv'> 
-                                            <img class='ListImageInSearchResult' src="imgaes/Aafreen Tera Chehra Red The Dark Side 128 Kbps.png" alt="listimage">
-                                        </div>
-                                        <div class='ArtistNameAndSongsNameInSearchPage'>
-                                            <p class='ListContentForInSearchPage'>Aafreen Tera Chehra</p>
-                                            <p class='ArtistNameInSearchPage'>Himes Resmmeya</p>
-                                        </div>
-                                    </div>
-                                    <div class='DeleteListSongsIndexC'>
-                                        <button class='DeleteListSonsg'>&times;</button>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="imageListAndContentListInSearchPage">
-                                    <div class='imageAndContentForTheListInSearchPage'>
-                                        <div class='imageListContainerDiv'> 
-                                            <img class='ListImageInSearchResult' src="imgaes/Samjho Na - Remix.png" alt="listimage">
-                                        </div>
-                                        <div class='ArtistNameAndSongsNameInSearchPage'>
-                                            <p class='ListContentForInSearchPage'>Aafreen Tera Chehra</p>
-                                            <p class='ArtistNameInSearchPage'>Himes Resmmeya</p>
-                                        </div>
-                                    </div>
-                                    <div class='DeleteListSongsIndexC'>
-                                        <button class='DeleteListSonsg'>&times;</button>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="imageListAndContentListInSearchPage">
-                                    <div class='imageAndContentForTheListInSearchPage'>
-                                        <div class='imageListContainerDiv'> 
-                                            <img class='ListImageInSearchResult' src="imgaes/Jhalak Dikhla Ja Aksar 128 Kbps.png" alt="listimage">
-                                        </div>
-                                        <div class='ArtistNameAndSongsNameInSearchPage'>
-                                            <p class='ListContentForInSearchPage'>Aafreen Tera Chehra</p>
-                                            <p class='ArtistNameInSearchPage'>Himes Resmmeya</p>
-                                        </div>
-                                    </div>
-                                    <div class='DeleteListSongsIndexC'>
-                                        <button class='DeleteListSonsg'>&times;</button>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="imageListAndContentListInSearchPage">
-                                    <div class='imageAndContentForTheListInSearchPage'>
-                                        <div class='imageListContainerDiv'> 
-                                            <img class='ListImageInSearchResult' src="imgaes/Aashiq Banaya Aapne Himesh Reshammiya 128 Kbps.png" alt="listimage">
-                                        </div>
-                                        <div class='ArtistNameAndSongsNameInSearchPage'>
-                                            <p class='ListContentForInSearchPage'>Aafreen Tera Chehra</p>
-                                            <p class='ArtistNameInSearchPage'>Himes Resmmeya</p>
-                                        </div>
-                                    </div>
-                                    <div class='DeleteListSongsIndexC'>
-                                        <button class='DeleteListSonsg'>&times;</button>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="imageListAndContentListInSearchPage">
-                                    <div class='imageAndContentForTheListInSearchPage'>
-                                        <div class='imageListContainerDiv'> 
-                                            <img class='ListImageInSearchResult' src="imgaes/Sanam Teri Kasam Ankit Tiwari 128 Kbps.png" alt="listimage">
-                                        </div>
-                                        <div class='ArtistNameAndSongsNameInSearchPage'>
-                                            <p class='ListContentForInSearchPage'>Aafreen Tera Chehra</p>
-                                            <p class='ArtistNameInSearchPage'>Himes Resmmeya</p>
-                                        </div>
-                                    </div>
-                                    <div class='DeleteListSongsIndexC'>
-                                        <button class='DeleteListSonsg'>&times;</button>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="imageListAndContentListInSearchPage">
-                                    <div class='imageAndContentForTheListInSearchPage'>
-                                        <div class='imageListContainerDiv'> 
-                                            <img class='ListImageInSearchResult' src="imgaes/Sunn Raha Hai Male Aashiqui 2 128 Kbps.png" alt="listimage">
-                                        </div>
-                                        <div class='ArtistNameAndSongsNameInSearchPage'>
-                                            <p class='ListContentForInSearchPage'>Aafreen Tera Chehra</p>
-                                            <p class='ArtistNameInSearchPage'>Himes Resmmeya</p>
-                                        </div>
-                                    </div>
-                                    <div class='DeleteListSongsIndexC'>
-                                        <button class='DeleteListSonsg'>&times;</button>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="imageListAndContentListInSearchPage">
-                                    <div class='imageAndContentForTheListInSearchPage'>
-                                        <div class='imageListContainerDiv'> 
-                                            <img class='ListImageInSearchResult' src="imgaes/Aye Khuda Murder 2 128 Kbps.png" alt="listimage">
-                                        </div>
-                                        <div class='ArtistNameAndSongsNameInSearchPage'>
-                                            <p class='ListContentForInSearchPage'>Aafreen Tera Chehra</p>
-                                            <p class='ArtistNameInSearchPage'>Himes Resmmeya</p>
-                                        </div>
-                                    </div>
-                                    <div class='DeleteListSongsIndexC'>
-                                        <button class='DeleteListSonsg'>&times;</button>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="imageListAndContentListInSearchPage">
-                                    <div class='imageAndContentForTheListInSearchPage'>
-                                        <div class='imageListContainerDiv'> 
-                                            <img class='ListImageInSearchResult' src="imgaes/Terre Pyaar Mein - (Raag.Fm).png" alt="listimage">
-                                        </div>
-                                        <div class='ArtistNameAndSongsNameInSearchPage'>
-                                            <p class='ListContentForInSearchPage'>Aafreen Tera Chehra</p>
-                                            <p class='ArtistNameInSearchPage'>Himes Resmmeya</p>
-                                        </div>
-                                    </div>
-                                    <div class='DeleteListSongsIndexC'>
-                                        <button class='DeleteListSonsg'>&times;</button>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="imageListAndContentListInSearchPage">
-                                    <div class='imageAndContentForTheListInSearchPage'>
-                                        <div class='imageListContainerDiv'> 
-                                            <img class='ListImageInSearchResult' src="imgaes/Zara Sa (From Jannat).png" alt="listimage">
-                                        </div>
-                                        <div class='ArtistNameAndSongsNameInSearchPage'>
-                                            <p class='ListContentForInSearchPage'>Aafreen Tera Chehra</p>
-                                            <p class='ArtistNameInSearchPage'>Himes Resmmeya</p>
-                                        </div>
-                                    </div>
-                                    <div class='DeleteListSongsIndexC'>
-                                        <button class='DeleteListSonsg'>&times;</button>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="imageListAndContentListInSearchPage">
-                                    <div class='imageAndContentForTheListInSearchPage'>
-                                        <div class='imageListContainerDiv'> 
-                                            <img class='ListImageInSearchResult' src="imgaes/In-Husn-Ke-Jalwo-Ne-Mera-Hosh-Uda-Dala(PagalWorld).png" alt="listimage">
-                                        </div>
-                                        <div class='ArtistNameAndSongsNameInSearchPage'>
-                                            <p class='ListContentForInSearchPage'>Aafreen Tera Chehra</p>
-                                            <p class='ArtistNameInSearchPage'>Himes Resmmeya</p>
-                                        </div>
-                                    </div>
-                                    <div class='DeleteListSongsIndexC'>
-                                        <button class='DeleteListSonsg'>&times;</button>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="imageListAndContentListInSearchPage">
-                                    <div class='imageAndContentForTheListInSearchPage'>
-                                        <div class='imageListContainerDiv'> 
-                                            <img class='ListImageInSearchResult' src="imgaes/Ya Ali.png" alt="listimage">
-                                        </div>
-                                        <div class='ArtistNameAndSongsNameInSearchPage'>
-                                            <p class='ListContentForInSearchPage'>Aafreen Tera Chehra</p>
-                                            <p class='ArtistNameInSearchPage'>Himes Resmmeya</p>
-                                        </div>
-                                    </div>
-                                    <div class='DeleteListSongsIndexC'>
-                                        <button class='DeleteListSonsg'>&times;</button>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="imageListAndContentListInSearchPage">
-                                    <div class='imageAndContentForTheListInSearchPage'>
-                                        <div class='imageListContainerDiv'> 
-                                            <img class='ListImageInSearchResult' src="imgaes/Aashiqui Mein Teri - Remix By Akbar Sami (36 China Town) - (Raag.Fm).png" alt="listimage">
-                                        </div>
-                                        <div class='ArtistNameAndSongsNameInSearchPage'>
-                                            <p class='ListContentForInSearchPage'>Aafreen Tera Chehra</p>
-                                            <p class='ArtistNameInSearchPage'>Himes Resmmeya</p>
-                                        </div>
-                                    </div>
-                                    <div class='DeleteListSongsIndexC'>
-                                        <button class='DeleteListSonsg'>&times;</button>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="imageListAndContentListInSearchPage">
-                                    <div class='imageAndContentForTheListInSearchPage'>
-                                        <div class='imageListContainerDiv'> 
-                                            <img class='ListImageInSearchResult' src="imgaes/Do Pal Veer Zaara 128 Kbps.png" alt="listimage">
-                                        </div>
-                                        <div class='ArtistNameAndSongsNameInSearchPage'>
-                                            <p class='ListContentForInSearchPage'>Aafreen Tera Chehra</p>
-                                            <p class='ArtistNameInSearchPage'>Himes Resmmeya</p>
-                                        </div>
-                                    </div>
-                                    <div class='DeleteListSongsIndexC'>
-                                        <button class='DeleteListSonsg'>&times;</button>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="imageListAndContentListInSearchPage">
-                                    <div class='imageAndContentForTheListInSearchPage'>
-                                        <div class='imageListContainerDiv'> 
-                                            <img class='ListImageInSearchResult' src="imgaes/Ae-Dil-Hai-Mushkil-2.0---RCR(PagalWorldl).png" alt="listimage">
-                                        </div>
-                                        <div class='ArtistNameAndSongsNameInSearchPage'>
-                                            <p class='ListContentForInSearchPage'>Aafreen Tera Chehra</p>
-                                            <p class='ArtistNameInSearchPage'>Himes Resmmeya</p>
-                                        </div>
-                                    </div>
-                                    <div class='DeleteListSongsIndexC'>
-                                        <button class='DeleteListSonsg'>&times;</button>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
+                        <div id='SearchListSongsContainer'>
+                            <!-- Results will be inserted here -->
+                        </div>
                     </div>
                 </div>
             </div>
