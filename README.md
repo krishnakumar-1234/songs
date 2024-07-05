@@ -22,13 +22,15 @@ To run the Wynk Music Clone locally, follow these steps:
 
    ```bash
    git clone https://github.com/yourusername/wynk-music-clone.git
+   
 2. **Navigate to the project directory**
 
-```bash
 cd wynk-music-clone
 
 3. **Open the index.html file in your web browser**
-```bash
+
 Right-click on index.html -> Open with your preferred browser
 
 4. **Start enjoying music!**
+
+
