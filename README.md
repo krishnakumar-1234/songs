@@ -32,5 +32,5 @@ To run the Wynk Music Clone locally, follow these steps:
 4. **Open the index.html file in your web browser**
 
 
-  ```bash
-      Right-click on index.html -> Open with your preferred browser
+     ```bash
+         Right-click on index.html -> Open with your preferred browser
